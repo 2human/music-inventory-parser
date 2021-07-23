@@ -4,8 +4,6 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.poi.xwpf.usermodel.XWPFParagraph;
-
 import objects.Collections;
 import objects.SheetInfo;
 
@@ -89,71 +87,3 @@ public class ParseCollectionApp {
 	}
 	
 }
-
-
-//private boolean entryFound(XWPFParagraph paragraph) {		
-//	String parText = paragraph.getText();
-//	//check for various indicators of entries
-//	return hasCommonEntryIndicator(parText) || hasCrypticEntryIndicator(parText);
-//}	
-//
-//private boolean hasCommonEntryIndicator(String text) {
-//	return text.indexOf("MS. music entries:") != -1;
-//}
-//
-//private boolean hasCrypticEntryIndicator(String parText) {
-//	XWPFParagraph nextParagraph = paragraphList.get(curParIndex + 1);
-//	return (isProbableEntryIndicator(parText) && isProbableEntry(nextParagraph));
-//}
-//
-//private boolean isProbableEntryIndicator(String parText) {
-//	//check for various signs that indicate probable presence of entry indicator
-//	return (parText.indexOf("MS.") != -1 &&		//most common sign of entry indicator 
-//			(parText.indexOf("music") != -1 || parText.indexOf("entries") != -1) &&	//when both words present, is often sign of indicator
-//				parText.indexOf(":") != -1 &&			//colon is common sign of entry indicator
-//				parText.indexOf(":")  > parText.indexOf("MS.") &&	//colon occurs after MS. (this removes false positives)
-//				paragraphList.get(curParIndex + 1).getText().indexOf("MS.") == -1);	//next paragraph does not contain phrase (removes false positive)
-//}
-//
-//private boolean isProbableEntry(XWPFParagraph paragraph) {
-//	String parText = paragraph.getText();
-//	//melodic incipit detected after current paragraph
-//	return (hasMelodicIncipit(paragraph) || 
-//			(parText.indexOf(":") < 60 //early colon indicates likely entry
-//					&& parText.indexOf(":") >= 0));	//make sure -1 is not index
-//	
-//}
-//
-//private boolean hasMelodicIncipit(XWPFParagraph par) {	//loose application if isMelodicIncipit method to detect if paragraph contains incipit	
-//	String curEnt = par.getText();
-//		if(isMelodicIncipit(curEnt) && !hasCallNumber(par))
-//			return true;
-//	return false;
-//}
-//
-//public boolean isMelodicIncipit(String str) {	//check if current entry is melodic incipit, indicated by more than three digits
-//	int digitCount = 0,				//total digits in string
-//			maxConsecDigits = 0,	//most consecutive digits that occur in a row in given string
-//			curConsec = 0;
-//	
-//	if(str == null)
-//		return false;
-//	
-//	for(char c: str.toCharArray()) {	//check if each character is digit, and increment count if so			
-//		if(Character.isDigit(c)) {
-//			digitCount++;
-//			curConsec++;
-//		}
-//		
-//		else {
-//			if(curConsec > maxConsecDigits) {
-//				maxConsecDigits = curConsec;
-//				curConsec = 0;
-//			}
-//		}
-//		if(curConsec > maxConsecDigits) {
-//			maxConsecDigits = curConsec;
-//		}
-//	}
-//	return ((digitCount >=3 && (str.indexOf("|") != -1) || str.indexOf("-") != -1) || maxConsecDigits  > 4|| digitCount >= 8) ? true: false;
-//}

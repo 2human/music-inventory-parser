@@ -44,15 +44,16 @@ public class ParseCollection {
 	//tallies count of possible errors in entry parsing, as indicated by no melodic incipit being detected in melodic incipit field
 	public static int notIncipitCount = 0;
 		
-	private Pattern sourceNumberPattern = Pattern.compile("^[\\d]+[\\.]");	//determines if text begins with an indeterminate number of digits followed by period,
+	//determines if text begins with an indeterminate number of digits followed by period,
+	private Pattern sourceNumberPattern = Pattern.compile("^[\\d]+[\\.]");
 														//	which indicates source number
 	private Matcher sourceNumberMatcher;								//matcher for detecting pattern occurrence above 
 
 	private String collectionName;
 	private StringBuilder collectionDescription,
-					sourceDescription,
-					sourceAuthor,
-					sourceTitle;
+							sourceDescription,
+							sourceAuthor,
+							sourceTitle;
 	private Source source;
 	
 	//variables for creating rough entries
@@ -125,6 +126,7 @@ public class ParseCollection {
 			initializeParagraphVariables();					//prepare variables for parsing
 			if(sourceFound(paragraphObj)) {	//indicates end of last source and beginning of new source
 				try {
+					//TODO change to reccordAuthorTitleDescription, change others to same, and then create save source method
 					finalizePreviousSource();
 				} catch (Exception e) {
 					System.out.println("No previous source exists because this is first source found.");
@@ -137,7 +139,7 @@ public class ParseCollection {
 			else if(isInscription(paragraphObj)) {	
 				parseAndSaveInscription();
 			}			
-			else if(hasCallNumber(paragraphObj)) {	//TODO switch all to paragraph to alleviate confusion (parameter)
+			else if(hasCallNumber(paragraphObj)) {
 				parseAndSaveCallNumber();
 			}
 			else if(entryFound(paragraphObj)) {	
@@ -234,6 +236,7 @@ public class ParseCollection {
 	private String getParsedInscription() {
 		String inscription = paragraphText.substring(paragraphText.indexOf(":") + 2);	//inscription content starts after colon followed by space
 		while(inscriptionContinues()) {
+			//TODO consider initiating paragraph variables heres
 			inscription += "\n" + paragraphList.get(++curParIndex).getText();
 		}
 		return inscription;
@@ -268,57 +271,48 @@ public class ParseCollection {
 	}
 
 	private boolean entryFound(XWPFParagraph paragraph) {		
-		String paragraphText = paragraph.getText();
+		String parText = paragraph.getText();
 		//check for various indicators of entries
-		return hasCommonEntryIndicator(paragraphText) || //most common indicator of music entries
-		(paragraphText.indexOf("MS.") != -1 &&		//contains keyword 
-		(paragraphText.indexOf("music") != -1 || paragraphText.indexOf("entries") != -1) &&	//contains either keyword
-		paragraphText.indexOf(":") != -1 &&
-		paragraphText.indexOf(":")  > paragraphText.indexOf("MS.") &&	//coloN occurs after MS. this removes false positives
-		paragraphList.get(curParIndex + 1).getText().indexOf("MS.") == -1 &&	//indication of common false positive when MS. in next par		
-		//melodic incipit detected after current paragraph
-		(hasMelodicIncipit(paragraphList.get(curParIndex + 1)) || 
-				(paragraphList.get(curParIndex + 1).getText().indexOf(":") < 60 && paragraphList.get(curParIndex + 1).getText().indexOf(":") >= 0)));		
+		return hasCommonEntryIndicator(parText) || hasCrypticEntryIndicator(parText);
 	}	
-	
+
 	private boolean hasCommonEntryIndicator(String text) {
 		return text.indexOf("MS. music entries:") != -1;
 	}
-	
-	private boolean hasMelodicIncipit(XWPFParagraph par) {	//loose application if isMelodicIncipit method to detect if paragraph contains incipit	
-		String curEnt = par.getText();
-			if(isMelodicIncipit(curEnt) && !hasCallNumber(par))
-				return true;
-		return false;
+
+	private boolean hasCrypticEntryIndicator(String parText) {
+		if(isSecondToLastParagraph(curParIndex)) return false;
+		XWPFParagraph nextParagraph = paragraphList.get(curParIndex + 1);
+		return (isProbableEntryIndicator(parText) && isProbableEntry(nextParagraph));
 	}
 	
-	public boolean isMelodicIncipit(String str) {	//check if current entry is melodic incipit, indicated by more than three digits
-		int digitCount = 0,				//total digits in string
-				maxConsecDigits = 0,	//most consecutive digits that occur in a row in given string
-				curConsec = 0;
-		
-		if(str == null)
-			return false;
-		
-		for(char c: str.toCharArray()) {	//check if each character is digit, and increment count if so			
-			if(Character.isDigit(c)) {
-				digitCount++;
-				curConsec++;
-			}
-			
-			else {
-				if(curConsec > maxConsecDigits) {
-					maxConsecDigits = curConsec;
-					curConsec = 0;
-				}
-			}
-			if(curConsec > maxConsecDigits) {
-				maxConsecDigits = curConsec;
-			}
-		}
-		return ((digitCount >=3 && (str.indexOf("|") != -1) || str.indexOf("-") != -1) || maxConsecDigits  > 4|| digitCount >= 8) ? true: false;
+	private boolean isSecondToLastParagraph(int index) {
+		return index + 1 == paragraphList.size();	//next increment will equal size
 	}
 
+	private boolean isProbableEntryIndicator(String parText) {
+		//check for various signs that indicate probable presence of entry indicator
+		return (parText.indexOf("MS.") != -1 &&		//most common sign of entry indicator 
+				(parText.indexOf("music") != -1 || parText.indexOf("entries") != -1) &&	//when both words present, is often sign of indicator
+					parText.indexOf(":") != -1 &&			//colon is common sign of entry indicator
+					parText.indexOf(":")  > parText.indexOf("MS.") &&	//colon occurs after MS. (this removes false positives)
+					paragraphList.get(curParIndex + 1).getText().indexOf("MS.") == -1);	//next paragraph does not contain phrase (removes false positive)
+	}
+
+	private boolean isProbableEntry(XWPFParagraph paragraph) {
+		String parText = paragraph.getText();
+		//melodic incipit detected after current paragraph
+		return (hasMelodicIncipit(paragraph) || 
+				(parText.indexOf(":") < 60 //early colon indicates likely entry
+						&& parText.indexOf(":") >= 0));	//make sure -1 is not index
+		
+	}
+	
+	private boolean hasMelodicIncipit(XWPFParagraph par) {	//loose application if isMelodicIncipit method to detect if paragraph contains incipit	
+		String parText = par.getText();
+		return ParseEntry.isMelodicIncipit(parText) && !hasCallNumber(par);	//call numbers can be false indicator of melodic incipit
+	}
+	
 	//parse current section of entries
 	private void parseAndSaveSourceEntries() throws Exception{
 		constructRoughEntries();
@@ -329,10 +323,9 @@ public class ParseCollection {
 		curParIndex++;						//this will make erroneous text(entry indicator) be discarded
 		roughEntries = new RoughEntries();
 		initializeEntry();
-		//separate each entry into a text of its own in preparation for analysis
-		initializeParagraphVariables();
-		while(isEntry(paragraphObj)) {			
-			initializeEntryParagraph();
+		//separate each entry into a text of its own in preparation for analysis	
+		initializeEntryParagraph();
+		while(isEntry(paragraphObj)) {		
 			if(isNewEntry(paragraphText) && !isFirstSourceEntry(entryStrBuilder)) {
 				saveRoughEntry();
 				initializeEntry();	//for next iteration
@@ -341,7 +334,8 @@ public class ParseCollection {
 				entryIsSecular = false;
 			}			
 			entryStrBuilder.append(paragraphText);	//add current paragraph to current entry string						
-			curParIndex++;	
+			curParIndex++;		
+			initializeEntryParagraph();
 		}		
 		curParIndex--;		//decrement index because it will be incremented an extra time in higher-level loop
 		saveRoughEntry();	///last rough entry for source
@@ -359,11 +353,13 @@ public class ParseCollection {
 	}
 	
 	private void initializeEntryParagraph() {
-		paragraphObj = paragraphList.get(curParIndex);			//current XWPFparagraph
-		//format text
-		paragraphText = paragraphObj.getText()
-				.replaceAll(Character.toString((char)160),"")	//remove non-whitespace space
-				.replace("	", "");								//remove whitespace caused by tabbing
+		if(!endOfDocumentReached()) {
+			paragraphObj = paragraphList.get(curParIndex);			//current XWPFparagraph
+			//format text
+			paragraphText = paragraphObj.getText()
+					.replaceAll(Character.toString((char)160),"")	//remove non-whitespace space
+					.replace("	", "");								//remove whitespace caused by tabbing
+		}
 	}
 	
 	private boolean isNewEntry(String paragraphText) {
@@ -406,9 +402,7 @@ public class ParseCollection {
 	private void logParsePerformance() {
 		System.out.println("Total entries recorded: " + collection.getSources().getEntryCount());
 		System.out.println("Total not incipit: " + notIncipitCount);
-	}
-	
-	
+	}	
 	
 }
 	

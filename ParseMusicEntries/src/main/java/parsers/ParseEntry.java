@@ -9,10 +9,8 @@ import objects.Entry;
 public class ParseEntry {
 	
 	Entry entry;				//entry being parsed
-	
-	String tunePage;
 	String[] splitEntries,
-			titleCredit;
+			workingEntries;
 	
 	//default constructor
 	public ParseEntry(){		
@@ -20,63 +18,168 @@ public class ParseEntry {
 	
 	public ParseEntry(String entryStr, Entry entry){
 		//prepare data for entry array construction
-		tunePage = getTunePage(entryStr);		//pull tune page from entry string	
+		workingEntries = new String[7];
+		recordTunePage(entryStr);		//pull tune page from entry string	
 		entryStr = formatEntryStr(entryStr);			//format current entry, removing tunepage, whitespace and unwanted commas
 		splitEntries = entryStr.split(", ");	//split entry into fields using ", " as delimiter
-		titleCredit = parseTitleCredit(splitEntries[0]);	//get title and credit from first entry of split array, which
-		this.entry = entry;
-		
-		//parse entry		
-		
+		parseAndRecordTitleCredit();	//get title and credit from first entry of split array, which
+		this.entry = entry;		
+	}
+
+	//get tune page which is text that occurs before colon
+	private void recordTunePage(String entryStr) {
+		if(hasColon(entryStr)){
+			workingEntries[0] = textPrecedingColon(entryStr);	//text preceding colon is tune page
+		}
+		else {	//no colon means no tune page
+			workingEntries[0] = null;			
+		}	
+	}
+	
+	private boolean hasColon(String str) {
+		return str.indexOf(":") != -1;
+	}
+	
+	private String textPrecedingColon(String str) {
+		return str.substring(0, str.indexOf(":"));
+	}
+	
+	//format string of entry to format optimal for parsing
+	private String formatEntryStr(String entryStr) {
+		if(hasColon(entryStr)){	
+			entryStr = getTextProceedingColon(entryStr);	//remove tunepage from entry string, which occur before colon
+		}
+		return entryStr.replace(",”", "”,")		//put commas on outside of quotes
+				.replace(", so", "-*- so")			//remove common false delimiter and replace with temporary symbol
+				.replace(", but", "-*- but")		//remove common false delimiter and replace with temporary symbol
+				.replace(", by",  "-*- by")			//remove common false delimiter and replace with temporary symbol
+				.trim().replaceAll(" +", " ")		//trim extra spaces
+				.replace("i.e.,", "i.e.-*-")		//remove common false delimiter and replace with temporary symbol
+				.replace("solo:", "solo**&");		//remove common false delimiter and replace with temporary symbol
+	}
+	
+	private String getTextProceedingColon(String str) {
+		int indexAdjustment = 2;			//number of indices after colon to start after colon when there is space to trim whitespace
+		if(noSpaceAfterColon(str)) {
+			indexAdjustment--;				//start at character right after colon when there is no space
+		}
+		return str.substring(str.indexOf(":") + indexAdjustment, str.length());
+	}
+	
+	private boolean noSpaceAfterColon(String str) {
+		final int SPACE_CHARACTER_INT = 32;
+		return (int) str.charAt(str.indexOf(":") + 1) != SPACE_CHARACTER_INT;
+	}
+	
+	//return array containing [0]: tune title and [1]: tune author by parsing string containing title and author
+	public void parseAndRecordTitleCredit() {
+		String titleCreditStr = splitEntries[0],	//first index of split entries always contains titleCredit
+				title,
+				credit;
+		int creditIndex = getCreditIndex(titleCreditStr);	//start of credit text
+		//separate tune title and author into individual strings
+		if(creditFound(creditIndex)) {
+			//record title credit
+			title = getTitle(titleCreditStr, creditIndex);
+			credit = getCredit(titleCreditStr, creditIndex);
+			workingEntries[1] = getPolishedTitle(title);
+			workingEntries[2] = getPolishedCredit(credit);
+		} else{		
+			workingEntries[1] = titleCreditStr;	//if no credit present, record all of text as title
+		}		
+	}	
+	
+	private int getCreditIndex(String str) {
+		String[] creditIndicators = {"[by", "-by", " by ", "“By", "att."};	//strings that indicate presence of author
+		int index = -1;						//no matches by default
+		for(String indicator: creditIndicators) {	//check to see if any author indicators occur in text
+			if(creditIndicatorFound(str, indicator)) {
+				index = str.indexOf(indicator);		//record index of match
+			}
+		}
+		return index;		
+	}
+	
+	private boolean creditIndicatorFound(String str, String indicator) {
+		return str.indexOf(indicator) != -1;
+	}
+	
+	private boolean creditFound(int index) {
+		return index != -1; //-1 means no index was found
+	}
+	
+	private String getTitle(String str, int creditIndex) {	//get title after author index has been found
+		return str.substring(0, creditIndex);		//title ends at author index
+	}
+	
+	private String getCredit(String str, int creditIndex) {
+		return str.substring(creditIndex, str.length());
+	}
+
+	private String getPolishedTitle(String title) {
+		if(title != null) {
+			title = title.trim();								//trim whitespace
+			//add bracket to end of title if it starts with bracket but does not end with bracket
+			if(title.startsWith("[") && !title.endsWith("]"))	
+				title +=  "]";									
+		}
+		return title;
+	}
+
+	private String getPolishedCredit(String credit) {
+		if(credit != null) {
+			credit = credit.trim();				//remove whitespace
+			//add bracket to beginning of credit if there is unmatched bracket at end
+			if(credit.endsWith("]") && !credit.startsWith("[") && !credit.endsWith("[sic]"))
+				credit = "[" + credit;
+		}
+		return credit;
 	}
 
 	//sort  entry so that each piece of data is in its respective field
 	public void parseEntry() {	
-
-		String[] entryArr = new String[7];
-		entryArr[0] = tunePage;
-		entryArr[1] = titleCredit[0];
-		entryArr[2] = titleCredit[1];
-		int shifts = 0;				//amount of shifts that have been made to full array (left is negative, right positive)
+		int shifts = 0,			//number of times array fields are shifted, such as there being multipe values for same field in separate indices
+			index,				//current split entry index being analyzed
+			arrLimit,			//number of indices from split entries that will be added to temp entries before rest of 
+								//indices from split entries are dumped into text incipit index
+			indexDiscrepency;	//adjust difference between cur index being added from entries split and index of workingEntries 
+								//that current value is being placed. Starts at 2 because of tunepage 
+								//already being added and title/credit being in same index
 		
 		//convert split array to full array
-		for(int index = 1, arrLimit = 5, fullEntryAdjust = 2; index < splitEntries.length && index < arrLimit; index++) {
-			//index - index of entries split being added, arrLimit - when to end additions to entryArr. increased by from leftward shifts
-			//	if no shifts, extra indices will later be appended to text incipit index in entryArr
-			//fullEntryAdjust - adjust difference between cur index being added from entries split and index of entryArr 
-			//that current value is being placed. Starts at 2 because of tunepage already being added and title/credit being in same index
+		for(index = 1, arrLimit = 5, indexDiscrepency = 2; index < splitEntries.length && index < arrLimit; index++) {
 			
 			//if not first index (which is default vocal part index) and previous index was recorded as vocal part index
-			if(index > 1 && index + fullEntryAdjust == 4) {				
+			if(lastIndexWasVocalPart(index, indexDiscrepency)) {				
 				if(isVocalPart(splitEntries, index)) {	//checks to see if multiple vocal parts in split entry array
 					//method for combining multiple values for vocal part, represented in index 4
-					shifts--;					//record leftward shift of indices relative to entryArr for later operations
-					fullEntryAdjust--;			//record leftward shift for current for loop so that next index will be checked for vocal part
+					shifts--;					//record leftward shift of indices relative to workingEntries for later operations
+					indexDiscrepency--;			//record leftward shift for current for loop so that next index will be checked for vocal part
 					arrLimit++;					//increment limit of how high of index in entriesSplit will be added to fullEntries
-					entryArr[index + fullEntryAdjust] += " " + splitEntries[index];	//combine extra vocal part value 
+					workingEntries[index + indexDiscrepency] += " " + splitEntries[index];	//combine extra vocal part value 
 				}
 				else {
-					entryArr[index + fullEntryAdjust] = splitEntries[index];			//if no extra vocal part value detected, proceed as normal
+					workingEntries[index + indexDiscrepency] = splitEntries[index];			//if no extra vocal part value detected, proceed as normal
 				}
 			}
 			else {
-				entryArr[index + fullEntryAdjust] = splitEntries[index];		//add entry to entryArr
+				workingEntries[index + indexDiscrepency] = splitEntries[index];		//add entry to workingEntries
 			}
 		}
 		
 		//if no vocal part was entered and  tune key was placed vocal part field, shift cells right
-		if(entryArr[3] != null && entryArr[3].length() < 4 && entryArr[3].indexOf("TTB") == -1) {
-			shiftCellsRight(entryArr, 3);
+		if(workingEntries[3] != null && workingEntries[3].length() < 4 && workingEntries[3].indexOf("TTB") == -1) {
+			shiftCellsRight(workingEntries, 3);
 			shifts++;
 		}			
 		
 		//if melodic incipit index is empty or has data that is not melodic incipit, which will occur if
 		//there was no vocal part or key in entry string
-		if(entryArr[5] == null || !isMelodicIncipit(entryArr[5])) {
+		if(workingEntries[5] == null || !isMelodicIncipit(workingEntries[5])) {
 			//start at first position where melodic incipit could be, which is in vocal part index
 			for(int i = 3; i < 5; i++) {			
-				if(isMelodicIncipit(entryArr[i])){	//if melodic incipit is in current field
-					shiftCellsRight(entryArr, i);	//shift cells right
+				if(isMelodicIncipit(workingEntries[i])){	//if melodic incipit is in current field
+					shiftCellsRight(workingEntries, i);	//shift cells right
 					shifts++;						//account for shift for other operations
 				}	
 			}
@@ -84,135 +187,82 @@ public class ParseEntry {
 		
 		//if extra information was given for incipit field, as indicated by mm., add incipit to correct field
 		//by shifting left
-		if(entryArr[5] != null && entryArr[5].indexOf("mm.") != -1 && isMelodicIncipit(entryArr[6])) {
-			entryArr[5] += (", " + entryArr[6]);
-			entryArr[6] = null;
+		if(workingEntries[5] != null && workingEntries[5].indexOf("mm.") != -1 && isMelodicIncipit(workingEntries[6])) {
+			workingEntries[5] += (", " + workingEntries[6]);
+			workingEntries[6] = null;
 			shifts--;
 		}
 		
 
 		
 		//add all unrecorded entries that occur after melodic incipit to text field 
-		if(isMelodicIncipit(entryArr[5])) {
+		if(isMelodicIncipit(workingEntries[5])) {
 			for(int i = 5 - shifts; i < splitEntries.length; i++) {
-				entryArr[6] += (", " + splitEntries[i]);
+				workingEntries[6] += (", " + splitEntries[i]);
 			}
 		}
 		
 		//debugger to detect non-incipits in melodic incipit field
 		else {
 			for(int i = 5 - shifts; i < splitEntries.length; i++) {
-				entryArr[6] += (", " + splitEntries[i]);
+				workingEntries[6] += (", " + splitEntries[i]);
 			}
 
 		}		
 		
 		//replace commas and colons that were substituted in source document
-		for(int i = 0; i < entryArr.length; i++) {
-			if(entryArr[i] != null) {
+		for(int i = 0; i < workingEntries.length; i++) {
+			if(workingEntries[i] != null) {
 				//melodic incipits that contained commas had commas replaced by -*- 
 				//and colons replaced by **&
-				entryArr[i] = entryArr[i].replace("-*-", ",").replace("**&", ":");					
+				workingEntries[i] = workingEntries[i].replace("-*-", ",").replace("**&", ":");					
 			}
 		}
 		
-		if(!isMelodicIncipit(entryArr[5])) {
-			for(int i = 0; i < entryArr.length; i++) {
-//				System.out.println(fields[i] + ": " + entryArr[i]);
+		if(!isMelodicIncipit(workingEntries[5])) {
+			for(int i = 0; i < workingEntries.length; i++) {
+//				System.out.println(fields[i] + ": " + workingEntries[i]);
 			}
 			ParseCollection.notIncipitCount++;
-			System.out.println();
 		}
 		
-		setVariables(entryArr);
+		setVariables(workingEntries);
 
 	}	
-
-	//format string of entry to format optimal for parsing
-	private String formatEntryStr(String entryStr) {
-		int adj = 2;			//number of characters between colon and starting character of title
-								// there is a strange reason why some spaces are not being counted, and this adjusts for that
-		if(entryStr.indexOf(":") != -1){			//if entry includes page number, as indicated by ":"
-			if((int) entryStr.charAt(entryStr.indexOf(":") + 1) != 32) {
-				adj--;
-			}
 	
-			return entryStr.substring(entryStr.indexOf(":") + adj, entryStr.length())		//remove page number from current entry to analyze rest of text
-								.replace(",”", "”,")			//replace ," with ", so quotes are not put in next field
-								.replace(", so", "-*- so")			//remove false delimiter and replace with temporary symbol
-								.replace(", but", "-*- but")		// remove false delimiter and replace with temporary symbol
-								.replace(", by ", "-*- by ")		//remove false delimiter and replace with temporary symbol
-								.trim().replaceAll(" +", " ")	//trim extra spaces
-								.replace("i.e.,", "i.e.-*-")
-								.replace("solo:", "solo**&");
-		}
-		
-		else {										//if no page number, no need to remove page number
-			return entryStr.replace(",”", "”,")		//replace ," with ", so quotes are contained together
-					.replace(", so", "-*- so")			//remove false delimiter and replace with temporary symbol
-					.replace(", but", "-*- but")		//remove false delimiter and replace with temporary symbol
-					.replace(", by",  "-*- by")		//remove false delimiter and replace with temporary symbol
-					.trim().replaceAll(" +", " ")	//trim extra spaces
-					.replace("i.e.,", "i.e.-*-")
-					.replace("solo:", "solo**&");	
-		}
+	private boolean lastIndexWasVocalPart(int index, int indexDiscrepency) {
+		return index > 1 && index + indexDiscrepency == 4;
 	}
 
-	//return array containing [0]: tune title and [1]: tune author by parsing string containing title and author
-	public String[] parseTitleCredit(String str) {
-		
-		String[] titleCredit = new String[2];				//array that will contain title and author
-		String[] authorIndicators = {"[by", "-by", " by ", "“By", "att."};	//strings that indicate presence of author
-		//check to see if any author indicators occur in parameter string
-		int authorIndex = -1;						//no matches by default
-		
-		for(String indicatorStr: authorIndicators) {
-			if(str.indexOf(indicatorStr) != -1) {			//if there is match
-			authorIndex = str.indexOf(indicatorStr);		//record index of match
-			}
-		}
-		
-		//separate tune title and author into individual strings
-		if(authorIndex != -1) {								//if author name is present
-			titleCredit[0] = str.substring(0, authorIndex);	//text before [by is tune title [0]
-			titleCredit[1] = str.substring(authorIndex, str.length());	//text where [by starts to end of string is tune author [1]
-			return titleCredit;	
-		}
-		
-		titleCredit[0] = str;								//if no author detected, return entire string as title with null author
-		return titleCredit;				
-	}	
-
-		//check if current entry is melodic incipit
-		//used for determining parsing actions as well as testing purposes
-		private boolean isMelodicIncipit(String str) {
-			
-			int digitCount = 0,				//counter of digits in string
-					maxConsecDigits = 0,	//most consecutive digits that occur in a row in given string
-					curConsec = 0;
-			
-			if(str == null)
-				return false;			
-			for(char c: str.toCharArray()) {	//check if each character is digit, and increment count if so				
-				if(Character.isDigit(c)) {		//if character is a digit, increment total digit count and consecutive digit count
-					digitCount++;
-					curConsec++;
-				}	
-				//TODO the two statements below seem off in how they check if maxConsec and setting curConsec only in if statement
-				else {							//if current character is not a digit
-					if(curConsec > maxConsecDigits) {	//if current amount of consecutive digits is greater than previous max consecutive digits
-						maxConsecDigits = curConsec;	//set new max
-					}
-					curConsec = 0;					//reset current count
+	public static boolean isMelodicIncipit(String parText) {	//check if current entry is melodic incipit, indicated by more than three digits
+		int totalDigitCount = 0,				//total digits in string
+				greatestConsecutiveDigits = 0,	//most consecutive digits that occur in a row in given string
+				curConsecutiveDigits = 0;		
+		if(parText == null)		//no text, no incipit
+			return false;		
+		for(char c: parText.toCharArray()) {	//check if each character is digit, and increment count if so			
+			//TODO consider adding pipes to check
+			if(Character.isDigit(c)) {
+				totalDigitCount++;
+				curConsecutiveDigits++;
+				if(isNewGreatestConsecutiveDigits(curConsecutiveDigits, greatestConsecutiveDigits)) {
+					greatestConsecutiveDigits = curConsecutiveDigits;	//record new greatest
 				}
+			}			
+			else {	//if character not a digit
+				curConsecutiveDigits = 0;	//reset count
 			}
-			if(curConsec > maxConsecDigits) {
-				maxConsecDigits = curConsec;
-			}
-			//if there are more than 3 digits combined with pipes, or there is a dash,
-			//or there are at least four consecutive digits and the digit count is at least 8, return true, else return false 
-			return ((digitCount >=3 && (str.indexOf("|") != -1) || str.indexOf("-") != -1) || maxConsecDigits  > 4|| digitCount >= 8) ? true: false;
 		}
+		//check for various indicators of melodic incipit according to digits contained and characters contained
+		return (totalDigitCount >= 3 && 												//more than 3 digits
+					(parText.indexOf("|") != -1) || parText.indexOf("-") != -1) ||  //	and has pipes or dash is indicator of melodic incipit
+				greatestConsecutiveDigits  > 4 || 						//more than 4 consecutive digits indicator of melodic incipit
+				totalDigitCount >= 8;									//more than 8 digits total indicator of melodic incipit
+	}
+	
+	private static boolean isNewGreatestConsecutiveDigits(int curCount, int curGreatestCount) {
+		return curCount > curGreatestCount;
+	}
 
 	//determine if string is vocal part
 	private boolean isVocalPart(String[] entriesSplit, int index) {
@@ -237,45 +287,15 @@ public class ParseEntry {
 		return strArr;
 	}
 
-	//get tune page which is text that occurs before colon
-	private String getTunePage(String entryStr) {
-		if(entryStr.indexOf(":") != -1){							//colon indicates presence of page number
-			return entryStr.substring(0, entryStr.indexOf(":"));	//get page number, which occurs up until colon character
-		}
-		else {														//if no page number indicated
-			return null;			
-		}	
-	}
-
 	//finalize variables in entry object
-	private void setVariables(String[] entryArr) {
-		entry.setLocation(entryArr[0]);
-		entry.setTitle(parseTitle(entryArr[1]));
-		entry.setCredit(parseCredit(entryArr[2]));
-		entry.setVocalPart(entryArr[3]);
-		entry.setKey(entryArr[4]);
-		entry.setMelodicIncipit(entryArr[5]);
-		entry.setTextIncipit(entryArr[6]);						
-	}
-
-	private String parseCredit(String credit) {
-		if(credit != null) {
-			credit = credit.trim();				//remove whitespace
-			//add bracket to beginning of credit if there is unmatched bracket at end
-			if(credit.endsWith("]") && !credit.startsWith("[") && !credit.endsWith("[sic]"))
-				credit = "[" + credit;
-		}
-		return credit;
-	}
-
-	private String parseTitle(String title) {
-		if(title != null) {
-			title = title.trim();								//trim whitespace
-			//add bracket to end of title if it starts with bracket but does not end with bracket
-			if(title.startsWith("[") && !title.endsWith("]"))	
-				title +=  "]";									
-		}
-		return title;
+	private void setVariables(String[] workingEntries) {
+		entry.setLocation(workingEntries[0]);
+		entry.setTitle(workingEntries[1]);
+		entry.setCredit(workingEntries[2]);
+		entry.setVocalPart(workingEntries[3]);
+		entry.setKey(workingEntries[4]);
+		entry.setMelodicIncipit(workingEntries[5]);
+		entry.setTextIncipit(workingEntries[6]);						
 	}
 	
 }

@@ -19,27 +19,25 @@ public class SpreadsheetWriter {
 	
 	private Workbook workbook;			//workbook being created
 	private Sheet sheet;				//sheet within workbook
-	CellStyle style;
+	private CellStyle style;
 	private FileOutputStream fos;		//excel file output
 	private Row row;					//spreadsheet row
 	private Cell cell;					//spreadsheet cell
-	int curRow;							//row to which next entry will be written
-	static final int WIDTH_CONSTANT = 256;	//constant by which cell width will be multiplied, since Apache POI
-											//cell width unit of measurement is 1/256th of character width
-	File file;
+	private int curRow;							//row to which next entry will be written
+	private static final int WIDTH_CONSTANT = 256;	//constant by which cell width will be multiplied
+												//Apache POI cell width unit of measurement is 1/256th of character width
+	private File file;
 	
 	public SpreadsheetWriter(ColumnInfo columnInfo, SheetInfo sheetInfo) throws Exception{
 		file = sheetInfo.getWorkbookFile();		//excel file being read/written to
 		if(file.exists()) {										//check if file exists
 			initializeExistingWorkbook(file);
-			initializeCurrentSheet(sheetInfo.getSheetName());
-			initializeCellStyle();
 		}
 		else {
 			createBlankWorkbook(file);
-			initializeCurrentSheet(sheetInfo.getSheetName());
-			initializeCellStyle();
 		}
+		initializeCurrentSheet(sheetInfo.getSheetName());
+		initializeCellStyle();
 		fos = new FileOutputStream(file);
 		initializeCurrentRow();
 		if(isNewSheet()) {
