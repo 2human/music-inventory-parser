@@ -2,6 +2,7 @@ package parsers;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -27,7 +28,7 @@ import objects.Source;
  */
 
 //TODO write test that ensures correct number of sources and entries?
-public class ParseCollection {
+public class CollectionParser {
 	private Collection collection;
 	private FileInputStream fis;
 
@@ -56,25 +57,23 @@ public class ParseCollection {
 							sourceTitle;
 	private Source source;
 	
-	//variables for creating rough entries
+	//variables for parsing entries
 	private RoughEntries roughEntries;
 	private RoughEntry roughEntry;
 	boolean entryIsSecular;
 	private StringBuilder entryStrBuilder;
+	EntryParser entryParser;
 	
 	
-	public ParseCollection() {
+	public CollectionParser() {
 		
 	}
 	
-	public ParseCollection(File file, Collection collection){
+	public CollectionParser(File file, Collection collection){
 		this.collection = collection;
 		parseAndSaveCollectionName(file);
 		try {
-			fis = new FileInputStream(file);				//Word file being parsed
-			xdoc = new XWPFDocument(OPCPackage.open(fis));	//Apache POI .docx reader
-			paragraphList = xdoc.getParagraphs();			//convert document to paragraphs
-			
+			initializeInputDocument(file);			
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -96,6 +95,12 @@ public class ParseCollection {
 		//collection name derived from file name
 		collectionName = file.getName().substring(0, file.getName().lastIndexOf("."));
 		collection.setName(collectionName);
+	}
+	
+	private void initializeInputDocument(File file) throws Exception {
+		fis = new FileInputStream(file);				//Word file being parsed
+		xdoc = new XWPFDocument(OPCPackage.open(fis));	//Apache POI .docx reader
+		paragraphList = xdoc.getParagraphs();			//convert document to paragraphs		
 	}
 	
 	//get information about collection which ends when source number occurs at beginning of a paragraph
@@ -310,7 +315,7 @@ public class ParseCollection {
 	
 	private boolean hasMelodicIncipit(XWPFParagraph par) {	//loose application if isMelodicIncipit method to detect if paragraph contains incipit	
 		String parText = par.getText();
-		return ParseEntry.isMelodicIncipit(parText) && !hasCallNumber(par);	//call numbers can be false indicator of melodic incipit
+		return EntryParser.isMelodicIncipit(parText) && !hasCallNumber(par);	//call numbers can be false indicator of melodic incipit
 	}
 	
 	//parse current section of entries
@@ -380,6 +385,7 @@ public class ParseCollection {
 	private void parseAndSaveEntries(){
 		Entry entry;		
 		for(RoughEntry roughEntry: roughEntries.toArrayList()) {
+			entryParser = new EntryParser(roughEntry);			
 			//entry object parses rough entry upon construction
 			entry = new Entry(collectionName, source.getSourceNumber(), roughEntry);  
 			source.addEntry(entry);		//save to current source object

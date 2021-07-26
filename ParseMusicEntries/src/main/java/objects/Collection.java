@@ -2,7 +2,7 @@ package objects;
 
 import java.io.File;
 
-import parsers.ParseCollection;
+import parsers.CollectionParser;
 import writers.DatabaseWriter;
 import writers.SpreadsheetWriter;
 
@@ -35,7 +35,7 @@ public class Collection {
 	 *
 	 */
 	public Collection(File file){
-		ParseCollection pc = new ParseCollection(file, this);	//constructor for collection parser
+		CollectionParser pc = new CollectionParser(file, this);	//constructor for collection parser
 		pc.execute();																//execute collection parser
 		collection[0] = collectionName;							//record collection name to array
 		collection[1] = collectionDescription.trim();			//record collection description to array

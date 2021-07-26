@@ -4,7 +4,7 @@
  */
 package objects;
 
-import parsers.ParseEntry;
+import parsers.EntryParser;
 
 public class Entry {
 	private boolean isSecular;			//true if entry is secular, false if not
@@ -40,8 +40,8 @@ public class Entry {
 		this.collection = collection;
 		this.source =  Integer.toString(source);
 		this.isSecular = roughEntry.isSecular();
-		ParseEntry pe = new ParseEntry(roughEntry.getNonParsedFields(), this);
-		pe.parseEntry();
+		EntryParser pe = new EntryParser(roughEntry.getNonParsedFields(), this);
+		pe.parseFormattedEntry();
 	}
 	
 	//
