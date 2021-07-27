@@ -10,7 +10,7 @@ import objects.SheetInfo;
 public class ParseCollectionApp {
 	public static void main(String[] args) {
 		deleteOldSpreadhsset();		
-		Collections collections = new Collections(getFinalizedCollectionFiles());
+		Collections collections = new Collections(getCurrentCollectionFiles());
 		writeSpreadsheet(collections);
 		openSpreadsheet();		
 	}

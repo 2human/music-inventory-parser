@@ -4,8 +4,6 @@
  */
 package objects;
 
-import parsers.EntryParser;
-
 public class Entry {
 	private boolean isSecular;			//true if entry is secular, false if not
 	private String collection,			//name of collection entry is a part of
@@ -18,6 +16,7 @@ public class Entry {
 					melodicIncipit,		//melodic incipit for entry, which contains its musical notes
 					textIncipit;		//vocal text for entry
 
+	
 	private static String[] fields = {"collection_name", "source_number", "entry_location", 	//labels for entry table columns
 			"entry_title", "entry_credit", "entry_vocal_part",
 			"entry_key", "entry_melodic_incipit", "entry_text_incipit", "entry_is_secular"};
@@ -25,23 +24,7 @@ public class Entry {
 	/**
 	 * Create music entry object
 	 */	
-	public Entry(){		
-	}
-	
-	/**
-	 * Create music entry object
-	 * @param collection	name of collection entry is contained within
-	 * @param source		name of source entry is contained within
-	 * @param entryStr		non-parsed string with entry information 
-	 * @param isSecular		is music entry secular?
-	 */	
-	public Entry(String collection, int source, RoughEntry roughEntry){
-		//prepare data for entry array construction
-		this.collection = collection;
-		this.source =  Integer.toString(source);
-		this.isSecular = roughEntry.isSecular();
-		EntryParser pe = new EntryParser(roughEntry.getNonParsedFields(), this);
-		pe.parseFormattedEntry();
+	public Entry(){	
 	}
 	
 	//
@@ -104,8 +87,16 @@ public class Entry {
 	public void setTextIncipit(String textIncipit) {
 		this.textIncipit = textIncipit;
 	}
+	
+	public void setIsSecular(boolean isSecular) {
+		this.isSecular = isSecular;
+	}
 
-	public static void setFields(String[] fields) {
-		Entry.fields = fields;
+	public void setCollection(String collection) {
+		this.collection = collection;
+	}
+
+	public void setSource(int source) {
+		this.source = Integer.toString(source);
 	}
 }

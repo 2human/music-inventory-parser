@@ -13,6 +13,9 @@ public class EntryParser {
 	private String[] splitEntry,
 			workingEntry;
 	private boolean isSecular;
+	private String collection;
+	private int source;
+	String entryStr;
 	
 	
 	int indexShift ,			//number of times array fields are shifted, such as there being multipe values for same field in separate indices
@@ -25,33 +28,23 @@ public class EntryParser {
 	public EntryParser(){		
 	}
 	
-	public EntryParser(String entryStr, Entry entry){
+	public EntryParser(String collection, int source, RoughEntry roughEntry){
+		entry = new Entry();
+		this.collection = collection;
+		this.source = source;
 		//prepare data for entry array construction
 		workingEntry = new String[7];
-		parseEntry(entryStr, entry);
+		entryStr = roughEntry.getNonParsedFields();
+		isSecular = roughEntry.isSecular();
+		parseEntry();
 	}
 	
-	public EntryParser(RoughEntry roughEntry){
-		//prepare data for entry array construction
-		workingEntry = new String[7];
-		parseEntry(roughEntry.getNonParsedFields());
-	}
-	
-	public void parseEntry(String entryStr) {
+	public void parseEntry() {
 		recordTunePage(entryStr);		//pull tune page from entry string	
 		entryStr = formatEntryStr(entryStr);			//format current entry, removing tunepage, whitespace and unwanted commas
 		splitEntry = entryStr.split(", ");	//split entry into fields using ", " as delimiter
 		parseAndRecordTitleCredit();	//get title and credit from first entry of split array, which
-		parseFormattedEntry();		
-	}
-	
-	public void parseEntry(String entryStr, Entry entry) {
-		recordTunePage(entryStr);		//pull tune page from entry string	
-		entryStr = formatEntryStr(entryStr);			//format current entry, removing tunepage, whitespace and unwanted commas
-		splitEntry = entryStr.split(", ");	//split entry into fields using ", " as delimiter
-		parseAndRecordTitleCredit();	//get title and credit from first entry of split array, which
-		this.entry = entry;		
-		parseFormattedEntry();
+		parseRemainingEntryFields();		
 	}
 
 	//get tune page which is text that occurs before colon
@@ -100,7 +93,7 @@ public class EntryParser {
 	}
 	
 	//return array containing [0]: tune title and [1]: tune author by parsing string containing title and author
-	public void parseAndRecordTitleCredit() {
+	private void parseAndRecordTitleCredit() {
 		String titleCreditStr = splitEntry[0],	//first splitArrayIndex of split entries always contains titleCredit
 				title,
 				credit;
@@ -165,7 +158,7 @@ public class EntryParser {
 	}
 
 	//sort  entry so that each piece of data is in its respective field
-	public void parseFormattedEntry() {	
+	private void parseRemainingEntryFields() {	
 		indexShift = 0;
 		arrLimit = 5;		
 		//convert split array to full array
@@ -201,7 +194,7 @@ public class EntryParser {
 		appendRemainingToTextIncipit();		
 		removeFalseDelimiterReplacementSymbols();		
 		detectandTallyNotIncipit();		
-		setVariables(workingEntry);
+		setEntryVariables();
 	}	
 	
 	private boolean lastIndexWasVocalPart() {
@@ -349,21 +342,24 @@ public class EntryParser {
 	}
 	
 	//finalize variables in entry object
-	private void setVariables(String[] workingEntry) {
+	private void setEntryVariables() {
 		entry.setLocation(workingEntry[0]);
 		entry.setTitle(workingEntry[1]);
 		entry.setCredit(workingEntry[2]);
 		entry.setVocalPart(workingEntry[3]);
-		entry.setKey(workingEntry[4]);
 		entry.setMelodicIncipit(workingEntry[5]);
-		entry.setTextIncipit(workingEntry[6]);						
+		entry.setKey(workingEntry[4]);
+		entry.setTextIncipit(workingEntry[6]);	
+		entry.setIsSecular(isSecular);
+		entry.setCollection(collection);
+		entry.setSource(source);
 	}
 	
 	/**
 	 * 
 	 * @return Parsed entry in array form.
 	 */
-	public String[] getParsedEntry() {
-		return workingEntry;
+	public Entry getParsedEntry() {
+		return entry;
 	}
 }
