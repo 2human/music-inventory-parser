@@ -1,5 +1,5 @@
 /**
-		Parses string containing entry information into fields
+		Contains information about a music entry.
  * 
  */
 package objects;

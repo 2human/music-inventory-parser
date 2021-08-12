@@ -36,7 +36,6 @@ public class EntryParser {
 		workingEntry = new String[7];
 		entryStr = roughEntry.getNonParsedFields();
 		isSecular = roughEntry.isSecular();
-		parseEntry();
 	}
 	
 	public void parseEntry() {
@@ -164,7 +163,7 @@ public class EntryParser {
 		//convert split array to full array
 		//TODO create fillWorkingArray
 		for(splitArrayIndex = 1; splitArrayIndex < splitEntry.length && splitArrayIndex < arrLimit; splitArrayIndex++) {			
-			if(lastIndexWasVocalPart() && isVocalPart(splitArrayIndex)) {				
+			if(lastIndexWasVocalPart() && isVocalPart(splitArrayIndex)) {	
 				recordLeftwardShift();
 				appendAdditionalVocalPart();
 			}			
@@ -194,7 +193,7 @@ public class EntryParser {
 		appendRemainingToTextIncipit();		
 		removeFalseDelimiterReplacementSymbols();		
 		detectandTallyNotIncipit();		
-		setEntryVariables();
+		recordEntryVariables();
 	}	
 	
 	private boolean lastIndexWasVocalPart() {
@@ -235,7 +234,8 @@ public class EntryParser {
 
 	//determine if string is vocal part
 	private boolean isVocalPart(int splitArrayIndex) {
-		String[] vocalPartKeywords = {"tenor", "counter", "bass", "treble", "cantus", "medus", "basus", "meaudus", "voice", "TCTB", "fragment", "not in score"};
+		String[] vocalPartKeywords = {"tenor", "counter", "bass", "treble", "cantus", "medus", "basus",
+				"meaudus", "voice", "TCTB", "fragment", "not in score", "altus", "voices"};
 		//^^terms that represent vocal part description
 		if(splitEntry[splitArrayIndex].indexOf("“") != -1 )		//quote character that indicates vocal part
 			return true;
@@ -342,7 +342,7 @@ public class EntryParser {
 	}
 	
 	//finalize variables in entry object
-	private void setEntryVariables() {
+	private void recordEntryVariables() {
 		entry.setLocation(workingEntry[0]);
 		entry.setTitle(workingEntry[1]);
 		entry.setCredit(workingEntry[2]);

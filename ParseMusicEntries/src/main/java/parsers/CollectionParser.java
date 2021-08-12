@@ -192,10 +192,7 @@ public class CollectionParser {
 	
 	private void parseAuthorTitleDescription() {
 		//analyze runs of current paragraph to extract title and author
-		//start at index 1 because first run contains source number and does not need to be analyzed		
-		if(currentSourceEquals(20)) {
-			printSourceRuns();
-		}
+		//start at index 1 because first run contains source number and does not need to be analyzed
 		for (int runIndex = 1; runIndex < paragraphRuns.size(); runIndex++) {					
 			curRun = paragraphRuns.get(runIndex);								//get run at current index from list of runs
 			if(isDescription(curRun)) {
@@ -224,10 +221,7 @@ public class CollectionParser {
 	
 	private boolean isTitle(XWPFRun run) {
 		if(titleNotRecorded()) {
-			if(run.isItalic() && !isFalseTitleIndicator(run)){	//italicized text indicates title
-				return true;
-			}
-			if(containsTitleEdition(run)) {		//title edition is not italicized but is part of title
+			if(run.isItalic() && isNotFalseTitleIndicator(run)){	//italicized text indicates title
 				return true;
 			}
 		}
@@ -238,20 +232,9 @@ public class CollectionParser {
 		return source.getTitle() == null;	//title has not been recorded if null
 	}
 	
-	private boolean isFalseTitleIndicator(XWPFRun run) {
+	private boolean isNotFalseTitleIndicator(XWPFRun run) {
 		//italicized 'sic' can be false indicator of title
-		return run.toString().toLowerCase().indexOf("sic") == 0;
-	}
-	
-	private boolean containsTitleEdition(XWPFRun run) {
-		return hasDigit(run.toString()) && run.toString().indexOf("ed.") != -1; 
-	}
-	
-	private boolean hasDigit(String str) {
-		for(char c: str.toCharArray()) {
-			if(Character.isDigit(c)) return true;
-		}
-		return false;
+		return run.toString().toLowerCase().indexOf("sic") != 0;
 	}
 	
 	/**
@@ -260,7 +243,7 @@ public class CollectionParser {
 	 */
 	private int parseTitle(int runIndex) {
 		sourceTitle.append(curRun.toString());										//record current run as title
-		while(runIndex < paragraphRuns.size() && isTitle(getNextRun(runIndex))) {	//next run is title
+		while(runIndex + 1 < paragraphRuns.size() && isTitle(getNextRun(runIndex))) {	//next run is title
 			sourceTitle.append(getNextRun(runIndex++).toString());					//record run as title and increment			
 		}
 		return runIndex;
@@ -456,6 +439,7 @@ public class CollectionParser {
 		return source.getSourceNumber() == sourceNumber;
 	}
 	
+	@SuppressWarnings("unused")
 	private void printSourceRuns() {
 		for(int i = 0; i < paragraphRuns.size(); i++) {
 			System.out.println("Run index: " + i + " Run text: " + paragraphRuns.get(i).toString());
