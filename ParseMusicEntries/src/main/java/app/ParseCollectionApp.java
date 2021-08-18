@@ -18,7 +18,7 @@ public class ParseCollectionApp {
 	private static void deleteOldSpreadhsset() {
 		File file = new File("C:\\Users\\Andrew\\git\\projects_1\\ParseMusicEntries\\src\\main\\resources\\spreadsheet outputs\\parsed_collections.xlsx");
 		file.delete();
-	}
+	} 
 	
 	@SuppressWarnings("unused")
 	private static File[] getCurrentCollectionFiles() {
