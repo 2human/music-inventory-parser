@@ -12,7 +12,7 @@ public class ParseCollectionApp {
 		deleteOldSpreadhsset();		
 		Collections collections = new Collections(getCurrentCollectionFiles());
 		writeSpreadsheet(collections);
-		openSpreadsheet();	
+		openSpreadsheet(); 	
 	}
 	
 	private static void deleteOldSpreadhsset() {
