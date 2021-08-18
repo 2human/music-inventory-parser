@@ -46,7 +46,7 @@ public class Sources {
 		try {
 			ColumnInfo columnInfo = new ColumnInfo(Source.getFields(), columnWidths);
 			SpreadsheetWriter sw = new SpreadsheetWriter(columnInfo, sheetInfo);
-			for(Source source: sources) {
+			for(Source source: sources) {	
 				sw.writeRow(source.toArray());	//write source information to spreadsheet
 			}
 			sw.closeStream();

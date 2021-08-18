@@ -2,7 +2,6 @@ package parsers;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -13,7 +12,6 @@ import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 import objects.Collection;
-import objects.Entry;
 import objects.RoughEntries;
 import objects.RoughEntry;
 import objects.Source;
@@ -145,7 +143,7 @@ public class CollectionParser {
 				parseAndSaveInscription();
 			}			
 			else if(hasCallNumber(paragraphObj)) {
-				parseAndSaveCallNumber();
+				parseAndSaveCallNumber();		
 			}
 			else if(entryFound(paragraphObj)) {	
 				parseAndSaveSourceEntries();
@@ -183,7 +181,7 @@ public class CollectionParser {
 		source.setAuthor(sourceAuthor.toString());		//text between source number and source title is author
 		source.setTitle(sourceTitle.toString());
 		source.setDescription(sourceDescription.toString().replace("**&", ":"));	//replace temp false delimiter colon symbol with real colon
-		collection.addSource(source);
+		collection.addSource(source); 
 	}
 	
 	private void initializeSource() {
@@ -289,12 +287,14 @@ public class CollectionParser {
 	
 	private void parseAndSaveCallNumber() {
 		String callNumber = getCallNumber(paragraphObj);
-		source.setCallNumber(callNumber);		
+		source.setCallNumber(callNumber);
 	}
 
 	//search current run for call number and return call number in string form
-	private String getCallNumber(XWPFParagraph paragraph) {	
-		String callNumStr = "";
+	private String getCallNumber(XWPFParagraph paragraph) {
+		String callNumStr;
+		if(source.getCallNumber() == null) callNumStr = "";
+		else callNumStr = source.getCallNumber() + "\n";
 		for(XWPFRun run: paragraph.getRuns()) {
 			if(run.isBold())	//call number indicated by bold text
 				callNumStr += run.toString();
@@ -435,6 +435,7 @@ public class CollectionParser {
 		System.out.println("Total not incipit: " + notIncipitCount);
 	}	
 	
+	@SuppressWarnings("unused")
 	private boolean currentSourceEquals(int sourceNumber) {
 		return source.getSourceNumber() == sourceNumber;
 	}

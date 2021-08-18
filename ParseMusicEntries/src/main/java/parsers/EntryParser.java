@@ -22,7 +22,9 @@ public class EntryParser {
 		splitArrayIndex,				//current split entry splitArrayIndex being analyzed
 		arrLimit;			//number of indices from split entries that will be added to temp entries before rest of 
 							//indices from split entries are dumped into text incipit splitArrayIndex
-		private static final int INDEX_DISCREPENCY = 2;	//discrepency between splitEnty splitArrayIndex and workingEntry splitArrayIndex
+	//discrepancy between splitArrayIndex and workingEntry index
+	//
+	private static final int INDEX_DISCREPANCY = 2;
 	
 	//default constructor
 	public EntryParser(){		
@@ -62,6 +64,28 @@ public class EntryParser {
 	
 	private String textPrecedingColon(String str) {
 		return str.substring(0, str.indexOf(":"));
+	}
+	
+	//test to check contents of split entry array
+	@SuppressWarnings("unused")
+	private void printSplitEntry(int source, String tunePage) {
+		if(isThisEntry(source, tunePage)) {
+			for(String field: splitEntry) {
+				System.out.println(field);
+			}
+			System.out.println("-----" + indexShift + "-------");
+		}
+	}
+	
+	//test to check contents of workingEntry array
+	@SuppressWarnings("unused")
+	private void printWorkingEntry(int source, String tunePage) {
+		if(isThisEntry(source, tunePage)) {
+			for(int i = 0; i < workingEntry.length; i++) {
+				System.out.println("Index: " + i + " Content: " + workingEntry[i]);
+			}
+			System.out.println("-----" + indexShift + "-------");
+		}
 	}
 	
 	//format string of entry to format optimal for parsing
@@ -163,20 +187,21 @@ public class EntryParser {
 		//convert split array to full array
 		//TODO create fillWorkingArray
 		for(splitArrayIndex = 1; splitArrayIndex < splitEntry.length && splitArrayIndex < arrLimit; splitArrayIndex++) {			
-			if(lastIndexWasVocalPart() && isVocalPart(splitArrayIndex)) {	
+			if(lastIndexWasVocalPart() && isVocalPart(splitArrayIndex) && !isMelodicIncipit(splitEntry[splitArrayIndex])) {	
 				recordLeftwardShift();
 				appendAdditionalVocalPart();
 			}			
 			else {
 				copySplitEntryToWorkingEntry();
 			}
-		}
+		}		
 		
 		//if no vocal part existed and  tune key was placed vocalPart field
 		if(entryHadNoVocalPart()) {
 			workingEntry = shiftCellsRight(workingEntry, 3);	//shift data out of vocal period
 			indexShift++;	//record shift
-		}		
+		}	
+		
 		
 		if(melodicIncipitIsMisplaced()) {
 			findAndPlaceMelodicIncipit();
@@ -187,7 +212,7 @@ public class EntryParser {
 		if(additionalMelodicIncipitInfoFound()) {
 			appendMelodicIncipit();
 			vacateTextIncipitField();
-			indexShift--;				//record leftward shift
+			//TODO used to be negative shift here; find out why it had to be removed
 		}
 		
 		appendRemainingToTextIncipit();		
@@ -198,16 +223,18 @@ public class EntryParser {
 	
 	private boolean lastIndexWasVocalPart() {
 		return splitArrayIndex > 1 && 				//splitArrayIndex 1 is vocal part in splitEntry
-				splitArrayIndex + INDEX_DISCREPENCY + indexShift == 4;	// and 3 in working entries
+				splitArrayIndex + INDEX_DISCREPANCY + indexShift == 4;	// and 3 in working entries
 	}
 
 	public static boolean isMelodicIncipit(String parText) {	//check if current entry is melodic incipit, indicated by more than three digits
 		int totalDigitCount = 0,				//total digits in string
 				greatestConsecutiveDigits = 0,	//most consecutive digits that occur in a row in given string
-				curConsecutiveDigits = 0;		
+				curConsecutiveDigits = 0;	
 		if(parText == null)		//no text, no incipit
 				//TODO turn to try/catch
-			return false;		
+			return false;	
+		
+
 		for(char c: parText.toCharArray()) {	//check if each character is digit, and increment count if so			
 			//TODO consider adding pipes to check
 			if(Character.isDigit(c)) {
@@ -220,10 +247,10 @@ public class EntryParser {
 			else {	//if character not a digit
 				curConsecutiveDigits = 0;	//reset count
 			}
-		}
+		}		
 		//check for various indicators of melodic incipit according to digits contained and characters contained
 		return (totalDigitCount >= 3 && 												//more than 3 digits
-					(parText.indexOf("|") != -1) || parText.indexOf("-") != -1) ||  //	and has pipes or dash is indicator of melodic incipit
+					((parText.indexOf("|") != -1) || parText.indexOf("-") != -1)) ||  //	and has pipes or dash is indicator of melodic incipit
 				greatestConsecutiveDigits  > 4 || 						//more than 4 consecutive digits indicator of melodic incipit
 				totalDigitCount >= 8;									//more than 8 digits total indicator of melodic incipit
 	}
@@ -262,8 +289,18 @@ public class EntryParser {
 		workingEntry[getWorkingEntryIndex()] = splitEntry[splitArrayIndex];		//add entry to workingEntry
 	}
 	
+	//compare split array data with working array data for testing purposes
+	@SuppressWarnings("unused")
+	private void printCurrentField(int source, String tunePage) {
+		if(this.source == source && workingEntry[0].indexOf(tunePage) != -1) {
+			System.out.println("" + getWorkingEntryIndex() + " " + workingEntry[getWorkingEntryIndex()]
+				+ splitArrayIndex + " " + splitEntry[splitArrayIndex]);			
+		}
+	}
+	
+	//index in workingEntry to which data is currently being added
 	private int getWorkingEntryIndex() {
-		return splitArrayIndex + INDEX_DISCREPENCY + indexShift;
+		return splitArrayIndex + INDEX_DISCREPANCY + indexShift;
 	}
 	
 	//TODO this may be able to be eliminated by adjusting previous loop
@@ -316,8 +353,17 @@ public class EntryParser {
 	
 	private void appendRemainingToTextIncipit() {
 		for(int i = 5 - indexShift; i < splitEntry.length; i++) {
-			workingEntry[6] += (", " + splitEntry[i]);
+			if(workingEntry[6] == null){			//will be null when a shift occurred
+				workingEntry[6] = splitEntry[i];
+			}
+			else {
+				workingEntry[6] += (", " + splitEntry[i]);
+			}
 		}		
+	}
+	
+	private boolean isThisEntry(int source, String tunePage) {
+		return this.source == source && workingEntry[0].indexOf(tunePage) != -1;
 	}
 
 	//replace commas and colons that were substituted in source document that were acting as false delimiters
