@@ -7,6 +7,17 @@ import java.io.IOException;
 import objects.Collections;
 import objects.SheetInfo;
 
+
+/**
+ * 
+ * Parses music handwritten inscriptions in music collections recorded to Word document. Within each collection are numerous sources.
+ * Each source may contain numerous entries (handwritten melodic incipits, which are sometimes accompanied by text incipits)
+ * Author recorded these into .docx Word files with consistent syntax, making it possible to parse collections into table format
+ * 
+ * @author Andrew
+ * 
+ */
+
 public class ParseCollectionApp {
 	public static void main(String[] args) {
 		deleteOldSpreadhsset();		
@@ -16,7 +27,7 @@ public class ParseCollectionApp {
 	}
 	
 	private static void deleteOldSpreadhsset() {
-		File file = new File("C:\\Users\\Andrew\\git\\projects_1\\ParseMusicEntries\\src\\main\\resources\\spreadsheet outputs\\parsed_collections.xlsx");
+		File file = new File("src/main/resources/spreadsheet outputs/parsed_collections.xlsx");
 		file.delete();
 	} 
 	
@@ -29,10 +40,10 @@ public class ParseCollectionApp {
 			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx"),
 			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx"),
 			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx"),
-//			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx"),
-//			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx"),
-//			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx"),
-//			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx")
+			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx"),
+			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx"),
+			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx"),
+			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx")
 			};
 		return files;
 	}
@@ -50,7 +61,7 @@ public class ParseCollectionApp {
 	}
 	
 	private static void openSpreadsheet() {
-		File file = new File("C:\\Users\\Andrew\\git\\projects_1\\ParseMusicEntries\\src\\main\\resources\\spreadsheet outputs\\parsed_collections.xlsx");
+		File file = new File("src/main/resources/spreadsheet outputs/parsed_collections.xlsx");
 		try {
 			Desktop.getDesktop().open(file);
 		} catch (IOException e) {

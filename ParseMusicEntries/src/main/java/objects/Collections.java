@@ -4,15 +4,6 @@ import java.io.File;
 import writers.DatabaseWriter;
 import writers.SpreadsheetWriter;
 
-/**
- * 
- * Parses music handwritten inscriptions in music collections recorded to Word document. Within each collection are numerous sources.
- * Each source may contain numerous entries (handwritten melodic incipits, which are sometimes accompanied by text incipits)
- * Author recorded these into .docx Word files with consistent syntax, making it possible to parse collections into table format
- * 
- * @author Andrew
- * 
- */
 
 
 public class Collections {

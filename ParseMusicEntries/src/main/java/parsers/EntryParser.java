@@ -134,7 +134,7 @@ public class EntryParser {
 	}	
 	
 	private int getCreditIndex(String str) {
-		String[] creditIndicators = {"[by", "-by", " by ", "“By", "att."};	//strings that indicate presence of author
+		String[] creditIndicators = {"[by", "-by", " by ", "“By", "“by", "att.", "[originally by"};	//strings that indicate presence of author
 		int splitArrayIndex = -1;						//no matches by default
 		for(String indicator: creditIndicators) {	//check to see if any author indicators occur in text
 			if(creditIndicatorFound(str, indicator)) {
@@ -262,7 +262,7 @@ public class EntryParser {
 	//determine if string is vocal part
 	private boolean isVocalPart(int splitArrayIndex) {
 		String[] vocalPartKeywords = {"tenor", "counter", "bass", "treble", "cantus", "medus", "basus",
-				"meaudus", "voice", "TCTB", "fragment", "not in score", "altus", "voices"};
+				"meaudus", "voice", "TCTB", "fragment", "not in score", "altus", "voices", "tune A", "2 staves", "medius", "Basso"};
 		//^^terms that represent vocal part description
 		if(splitEntry[splitArrayIndex].indexOf("“") != -1 )		//quote character that indicates vocal part
 			return true;
