@@ -1,0 +1,1776 @@
+Collection Name: finalized collections/MA Petersham, Nym Cooke collection INVENTORY (1)
+
+------------------------------------Collection Description------------------------------------
+Pre-1821 American Sacred Music 
+in the collection of Nym Cooke
+January 2019
+
+incipits for sacred tunes are tenor voice, unless otherwise specified or tenor is not present
+TCTB = treble, counter, tenor, bass (vocal parts always listed from top down)
+5-6 = slurred notes (setting one syllable)
+5_|5 = single note tied across a bar line
+“,” in a string of scale degree numbers = end of one line of text, start of the next
+4tr = trill on the 4th degree of the scale
+5+U1 = 2 notes at once in a part
+n4 or n7 = natural sign before the 4th or 7th degree of the scale, raising it a half-step
+(6) = grace note
+ = noteworthy
+ASMI = Britton, Lowens, and Crawford, American Sacred Music Imprints, 1698-1810: A Bibliography (American Antiquarian Society, 1990)
+
+
+
+------------------------------------End of Collection Description------------------------------------
+Source: 1
+Author: Atwill, Thomas H.  
+Title: The New York & Vermont Collection of Sacred Harmony.  
+Description: nd ed.  Albany, N.Y.: printed by the proprietors, [1806?].  ASMI 29B.  Complete, but first 8 pp. are printed [i]/vi, vii/iv, v/ii, iii/viii.
+	no MS. music
+
+
+Call number: null
+Inscription(s): additional leaf verso, “John W Ender[s?] / Albany”
+----------------end of source-------------
+
+Source: 2
+Author: [Atwill, Thomas H.  
+Title: The New York & Vermont Collection of Sacred Harmony.  
+Description: nd ed.  Albany, N.Y., [1804-1806].]  Lacks pp. [i]-vi, so it can’t be determined whether this is ASMI 29 or 29B.
+	no MS. music
+
+
+Call number: null
+Inscription(s): p. vii, “Burdett”; p. [9], “Mrs[.] Caroline C. Lathrop”
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Entry Page: leaf [1] recto
+Entry Title: Newburgh
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Trebbe”
+Entry Key: C
+Entry Melodic Incipit: 1|3332|3,3|1D6|U22|2
+Entry Text Incipit: Let every creature Join to praise the eternal god
+
+
+Entry Page: leaf [1] recto
+Entry Title: Pennsylvania “By Temple”
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Am
+Entry Melodic Incipit: 11-23-4|5234-3|21D#7
+Entry Text Incipit: The god of Glory sends his summons forth
+
+
+Entry Page: leaf [2] verso
+Entry Title: Delight 
+Secular Entry: false
+Entry Credit: [by Coan]
+Entry Vocal Part: treble
+Entry Key: Em
+Entry Melodic Incipit: 534|55U1
+Entry Text Incipit: null
+
+
+Entry Page: leaf [2] verso
+Entry Title: Mortality
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 555|5431|4
+Entry Text Incipit: null
+
+
+Entry Page: leaf [2] verso
+Entry Title: Refuge
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 133|33-455|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [3] recto
+Entry Title: Vergennes
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Gm
+Entry Melodic Incipit: [missing 1st note]3-4-54|33-555|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [3] recto
+Entry Title: Evening Shade
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em?
+Entry Melodic Incipit: [missing 1st note]5543[-]4|5,5|3456|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [3] verso
+Entry Title: Smyrna
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: A
+Entry Melodic Incipit: 334|3211|1,D7|U1112|3
+Entry Text Incipit: Why should the children of a king go mourning all their days
+
+
+Entry Page: leaf [3] verso
+Entry Title: sardin[i]a [“s” sic]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Dm
+Entry Melodic Incipit: 557|U11|D7-65-45
+Entry Text Incipit: Thou art the [earnest?] of [my?] love
+
+
+Entry Page: leaf [4] recto
+Entry Title: Ex[h]ortation
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: F
+Entry Melodic Incipit: 5|3-2-34-3|22|3-4-55|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [4] recto
+Entry Title: Grafton 
+Secular Entry: false
+Entry Credit: [by Stone]
+Entry Vocal Part: treble?
+Entry Key: C
+Entry Melodic Incipit: 1_|1D55|U1D7U1-D76|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [4] verso
+Entry Title: Sharon
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: D
+Entry Melodic Incipit: 5|555U1|D7,7|5U1D7U2-D7|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [4] verso
+Entry Title: Berne 
+Secular Entry: false
+Entry Credit: [by Hill]
+Entry Vocal Part: treble
+Entry Key: Am
+Entry Melodic Incipit: 1|11D#77|U114
+Entry Text Incipit: null
+
+
+Entry Page: leaf [4] verso-[5] recto
+Entry Title: Morning Swain
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 534|55U1D7|U1,1|D5565|5
+Entry Text Incipit: completed on next p. after 2 final mm. of the tune Friendship (see below)
+
+
+Entry Page: leaf [5] recto
+Entry Title: Persia
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: C
+Entry Melodic Incipit: 111|32|31D7,U2|3311|1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: leaf [5] recto
+Entry Title: Friendship
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 553|7553|4
+Entry Text Incipit: thy wrath lies heavy on my soul
+
+
+Entry Page: leaf [5] verso
+Entry Title: Devotion
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: C
+Entry Melodic Incipit: 1|3322|1D7|U1,1|D7U123|22|2
+Entry Text Incipit: null
+
+
+Entry Page: leaf [5] verso
+Entry Title: Funeral Hymn
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em?
+Entry Melodic Incipit: 333|3-2-3-45|5-44|5_|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [5] verso
+Entry Title: Paradise
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: D
+Entry Melodic Incipit: 35U1|1D655|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [6] recto
+Entry Title: Boston
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Am
+Entry Melodic Incipit: 1|2434|5,5|34-321-D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: leaf [6] recto
+Entry Title: [untitled]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Am
+Entry Melodic Incipit: 1|1D7U15|312_|2,255|4-32-1D7-12|1
+Entry Text Incipit: null
+
+
+Entry Page: leaf [6] verso
+Entry Title: New Jerusalem 
+Secular Entry: false
+Entry Credit: [by Ingalls]
+Entry Vocal Part: treble tenor + bass copied sequentially (i. e., not in score)
+Entry Key: G
+Entry Melodic Incipit: tenor incipit 132|1234|5
+Entry Text Incipit: From the third heavens where God resides
+
+
+Entry Page: leaf [7] recto
+Entry Title: Coronation “By Holden”
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble + tenor copied sequentially
+Entry Key: Ab
+Entry Melodic Incipit: tenor incipit 5|U1133|212
+Entry Text Incipit: All hail the power of Jesus’ name
+
+
+Entry Page: leaf [7] recto
+Entry Title: Prolection [sic; surely Protection]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: F#m
+Entry Melodic Incipit: 5|4455|5U1D7_|77U11|D7-65-433|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [7] recto
+Entry Title: Freindship [sic]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: F
+Entry Melodic Incipit: 5|555U1|D7,5|U1D636|5
+Entry Text Incipit: null
+
+
+Entry Page: leaf [7] verso
+Entry Title: Burlington
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Bm
+Entry Melodic Incipit: 1|33D77|U123,3-4|53-21D5-7|U1
+Entry Text Incipit: null
+
+
+Entry Page: leaf [7] verso
+Entry Title: New Durham
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Bm
+Entry Melodic Incipit: 1|2231|234,4|23-452-D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: leaf [7] verso
+Entry Title: Chartotte [sic; surely Charlotte]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 5|5433|56[sic]|U1-D75|5
+Entry Text Incipit: null
+
+
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 3
+Author: Atwill, Thomas H.  
+Title: The New-York Collection of Sacred Harmony
+Description: ASMI 27 and 28, the dated printings of 1795 and 1802]  Complete.  
+	MS. music on leaves sewn or bound inside front and back covers; what will be called 
+		here leaves [1-6], all inside the front cover, are actually a single long folded 
+		leaf , producing effectively 2 leaves (“leaves [1-2]”); 2 leaves pasted together 
+		back to back, producing effectively a single leaf (“leaf [3]”); 2 separate leaves, 
+		the second folded over about an inch at the stitching (“leaves [4-5]”); and the 
+		front flyleaf, bound into the book (“leaf [6]”); what will be called here leaf [7] 
+		is the back flyleaf, bound into the book.  
+	inscription, leaf [6] recto: “Betsey Spear her Book / Bought Shelburne 1805 Price 
+		one Dollar”; inscription, leaf [7] recto: “1805”
+	leaves [1] verso and [2] recto are filled with penmanship exercises: “…and beware of 
+		blotting take Care” written 16 times on leaf [1] verso (with “Thomas 
+		Chittenden”* at the bottom), “Nebuchadnezzar the King made an…” written 
+		17 times on leaf [2] recto (also “Six foot of Earth ends all distinction,” 
+		“Burlington”) *Thomas Chittenden was the first governor of Vermont; lived 
+		in Williston, not far from Shelburne; died 1797
+	MS. music entries 1-9 + 18-19 lack both clef + time signature; entries 10-17 lack 
+		time signature 
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 4
+Author: Belknap, Daniel.  
+Title: The Evangelical Harmony
+Description:  T. Andrews, 1800.  Lacks pp. 31-32, 77-[80]; pp. 43-74 cut so that outer 6th-12th is missing.
+	no inscriptions, no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 5
+Author: [Benham, Asahel.  
+Title: Federal Harmony.
+Description: 2nd-6th ed.  New Haven: A. Morse or Middletown, Conn.: Moses H. Woodward, 1792-?1796.]  Incomplete, so edition can’t be determined.  Lacks all pp. before p. [9]; pp. [9]-14 fragmentary; next leaf (with texts of 2 pieces) lacks upper outside corner, so whether it’s unnumbered or numbered 15-16 can’t be determined; music lacks pp. 31-34; pp. 25-28 of music appear to be bound between pp. 52 and 53; pp. 57-58 fragmentary.  Lacks most of both covers.  
+	no inscriptions, no MS. music 
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 6
+Author: Benham, Asahel.  
+Title: Social Harmony
+Description: Wallingford, Conn.?, 1801 or later].  ASMI 95A.  Complete.
+	ink stamp on t. p.: “NEWMAN HUNGERFORD, / 4[5?] Prospect St., / HARTFORD, 
+		CONN.”
+	no inscriptions, no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 7
+Author: [Brown, Bartholomew, and others.  
+Title: Columbian and European Harmony: or, Bridgewater Collection of Sacred Music.
+Description: nd ed.  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1804.]  Lacks pp. [i]-viii, 73-80, 91-94, 97-112.  P. no. 118 printed upside down.
+	no MS. music
+
+
+Call number: null
+Inscription(s): front cover, “[Ste]phen Curtis’ / Book Scituate January 30th 1809”; 
+		inside back cover, “Stephen Curtis / Curtis Stephen”
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Entry Page: a. l. [1] recto
+Entry Title: Hanover
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: A
+Entry Melodic Incipit: 5|U1-2-12|3-4-35|1-2D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [1] recto
+Entry Title: Psalm 23rd
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: C
+Entry Melodic Incipit: 1|D76|5U2|1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [1] recto
+Entry Title: Panama
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 3|1-D7-U12|3-45|6-5-43|2
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [1] verso
+Entry Title: Milton
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: C
+Entry Melodic Incipit: 5|U11|31|2-1-D76|5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [1] verso
+Entry Title: St. Mary[’]s
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: Em
+Entry Melodic Incipit: 5|55-4|32|1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [1] verso
+Entry Title: Addison’s
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: 19th Psalm
+Entry Key: G
+Entry Melodic Incipit: 5|U12|3-4-32|1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] recto
+Entry Title: Psalm 24th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|3-4-32|3-4-51|2-3-43|2
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] recto
+Entry Title: Psalm 29th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 5|U1D5|U12|32|3
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] recto
+Entry Title: Psalm 15th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 5|U32|1D5|U3-42|3
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] verso
+Entry Title: Psalm 39th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: Dm
+Entry Melodic Incipit: 1|32|1-54|5-32|1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] verso
+Entry Title: St[.] Paul’s
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: Bb
+Entry Melodic Incipit: 5|3-56|U2-1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] verso
+Entry Title: Vernon
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: C
+Entry Melodic Incipit: 1|35|U1-21|D76|5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [3] recto
+Entry Title: St[.] Helen’s
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: C
+Entry Melodic Incipit: 5|35|U1D5|6U2|D7
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [3] recto
+Entry Title: [St. Helen’s]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Treble”
+Entry Key: C
+Entry Melodic Incipit: 5|5U1|31|D66|5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [3] verso
+Entry Title: St. Ann’s
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: C
+Entry Melodic Incipit: 5|36|5U1|1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [3] verso
+Entry Title: Trinity
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|12|D7U1|2,3|34|32|1,2|1D7|1
+Entry Text Incipit: Come thou Almighty King Help us thy name to sing Help us to praise; 4 verses of text written on facing p. (a. l. [4] recto)
+
+
+Entry Page: a. l. [3] verso
+Entry Title: Easton
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|53|42|31|2
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [3] verso
+Entry Title: Pleyel’s German Hymn
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 35|23|42|3
+Entry Text Incipit: Praise O praise the name divine; 4 verses of text written on facing p. (a. l. [4] recto)
+
+
+Entry Page: a. l. [5] recto
+Entry Title: Columbia
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: [music by Thomas Arne]
+Entry Key: G
+Entry Melodic Incipit: 5|U11|1-2-3-4-51|22-3-4|4-3
+Entry Text Incipit: “Psalm 104th P.M.” given as source of text, tune originally set the poem “Rule Britannia”
+
+
+Entry Page: a. l. [5] recto
+Entry Title: Lisbon
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1D5U1|2D5|U3234|32
+Entry Text Incipit: Hither ye faithful haste with songs of triumph, 3 verses of text written on facing p. (a. l. [4] verso)
+
+
+Entry Page: a. l. [5] recto
+Entry Title: Psalm 68th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: D
+Entry Melodic Incipit: 1|3135|U1D3-4|5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [5] recto
+Entry Title: Luneville
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|1-D5U3|3-13|2-1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [5] verso
+Entry Title: Psalm 33d
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|313-6-|54|32|1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [5] verso
+Entry Title: Piermont
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: D
+Entry Melodic Incipit: 134|55|U1-D7-6-56-4|3
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [5] verso
+Entry Title: Psalm 108th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|24|25|4-3-21|2
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [5] verso
+Entry Title: Newport
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 5|31|1D5|U2-3-4-5-43|3-2
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [5] verso
+Entry Title: Effingham
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|5-43|3-21|D5-U43|3-2
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [5] verso
+Entry Title: Washington
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: F
+Entry Melodic Incipit: 5|543|654|3
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [8] recto
+Entry Title: Trumbull
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: D
+Entry Melodic Incipit: (after 4 mm. rest) 1|D5-65-4|31|66|61|55|53|U13-2|1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [8] recto
+Entry Title: St. Catherine’s a Funeral Dirge
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: E
+Entry Melodic Incipit: 3|33|33|3-2-3-43|3-2
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [8] recto
+Entry Title: Psalm 136th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: G
+Entry Melodic Incipit: 1|D5U124|3,1|23-1D76|5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [8] recto
+Entry Title: Hotham
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: Eb
+Entry Melodic Incipit: 5126|543
+Entry Text Incipit: null
+
+
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 8
+Author: [Bull, Amos.]  
+Title: The .  
+Description: [Worcester, Mass.: Isaiah Thomas, 1795.]  100 pp.  Bottom 2/3 of t. p. lacking; otherwise complete.  
+	9 unnumbered additional leaves bound in at end of book, between p. 100 (end of 
+		printed music) and back cover; leaves [1-2], [5], [8-9] appear to be original 
+		back flyleaves, while leaves [3-4], [6-7] are smaller; leaves [1-3], [5], [8] 
+		contain MS. music, leaf [4] contains MS. texts, leaves [6-7] contain printed 
+		texts, leaf [9] is blank
+	MS. music is all single vocal parts, most of which appear to be melodic; the one vocal 
+		part (for St. Helen’s) that is identified (as “Treble”) is obviously harmonic, 
+		and appears on the same p. as the melody for the same tune, so the 
+		unidentified MS. vocal parts may all be tenors
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 9
+Author: Harmon, Joel, Jr.  
+Title: The Columbian Sacred Minstrel.
+Description: ndrew] Wright, 1809.  Lacks p. l., pp. 75-78.
+	inscriptions (all in pencil): t. p., “[Mines?] Walden”; p. [ii], “Nancy A[.] Walden,” 
+		“William H[.] Ball”
+	no MS. music
+		
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 10
+Author: [Holden,] O[liver.  
+Title: The
+Description:  Unio[n Harmony, or] Universal [Collection of Sacred Music…Vol. I.  Boston:] Isaiah Tho[mas and Ebenezer T. Andrews, 1793.]  Pp. [i-ii] fragmentary; otherwise complete. 
+	no inscriptions, no MS. music
+	bound with nos. 13, 17, 35  
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 11
+Author: Holden, Oliver.  
+Title: The Union Harmony, or Universal Collection of Sacred Music…Vol. II.
+Description: 
+	no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 12
+Author: [Holden, Oliver.  
+Title: The Worcester Collection of Sacred Harmony
+Description: DEO!” at head of title].  6th ed.  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1797.  Lacks pp. [i-ii], [11]-14, 141-[144] (stubs of 2 leaves remain at end, but visible contents don’t jive with descriptions of pp. 141-[144] in ASMI); leaf w/ pp. 137-138 bound in backwards (so p. 138 precedes p. 137).
+	no MS. music
+	bound with nos. 16, 26 
+
+
+Call number: null
+Inscription(s): inside front cover, “Amos Shelden”
+----------------end of source-------------
+
+Source: 13
+Author: Holyoke, Samuel.  
+Title: Harmonia Americana.
+Description: 
+	no inscriptions, no MS. music
+	bound with nos. 10, 17, 35
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 14
+Author: [Howe, Solomon, 
+Title: The Farmer’s Evening Entertainment
+Description: ASMI 274B, a composite made from pages of The Farmer’s Evening Entertainment and pages of the undated, anonymous The Psalm-Singer’s Amusement; see ASMI, p. 338, and the contents itemization for ASMI no. 410 on p. 496.]  Lacks pp. [1-2], 31-32.
+	no MS. music
+
+
+Call number: null
+Inscription(s): “Artemas Trowbridge” or “A. Trowbridge” or “Artemas Trowbridge 
+		Book” on almost every page, sometimes twice on one page; p. 22, “4600 
+		[$?]4600 [1809?]”
+----------------end of source-------------
+
+Source: 15
+Author: Janes, Walter.  
+Title: The Harmonic .  Ded
+Description: ham, Mass.: H[erman] Mann, 1807.  Lacks pp. 95-96.
+	no inscriptions, no MS. music 
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 16
+Author: Kimball, Jacob, Jr.  
+Title: The Essex Harmony
+Description: enry] Ranlet, 1800.  Lacks pp. 43-46, 111-[112].  
+	no MS. music
+	bound with nos. 12, 26
+	
+
+Call number: null
+Inscription(s): inside front cover, “Amos Shelden”
+----------------end of source-------------
+
+Source: 17
+Author: Kimball, Jacob, Jr.  
+Title: The Rural Harmony
+Description: 
+	no inscriptions, no MS. music
+	bound with nos. 10, 13, 35
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 18
+Author: Law, Andrew.  
+Title: The Art of Singing
+Description: th [i.e., 3rd] ed.  Cambridge: W. Hilliard, 1803.  [2nd t. p.:] Law, Andrew.  The Musical Primer; or the First Part of The Art of Singing.  Lacks pp. [25]-26.  
+	no inscriptions, no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 19
+Author: [Law, Andrew.  
+Title: Select Harmony
+Description:   1779.]  ASMI no. 358.  Lacks all pp. before p. 27, so whether this is ASMI issue B or Ca can’t be determined (Psalm 21, p. 53, has no engraver’s name—true only of issues B and Ca).  Lacks all pp. before p. 27, pp. 61-62, most of pp. 63-64, most of pp. 67-68, all pp. after p. 92.  Inscriptions: inside front cover, “17 ¾ Benjamin Wright of holliss,” “7 bushels E Jones paid,” “Mary Lovejoy”; inside back cover, fragment of what appears to be a poem, on torn sheet of thin paper pasted onto heavy paper which in turn is pasted to cover: ends of lines include “that Delight,” “Day & Night,” “and gold,” “was ever told”
+	no MS. music 
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Entry Page: p. 101
+Entry Title: America 
+Secular Entry: false
+Entry Credit: [by Billings; version in NEPS
+Entry Vocal Part: not SMA]
+Entry Key: TTCB then (from full m. 13 to end) TCTB, D
+Entry Melodic Incipit: 1|1[-]54|3-U1D7|U1-D76|5
+Entry Text Incipit: null
+
+
+Entry Page: p. 102
+Entry Title: Con[n]ection 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: E
+Entry Melodic Incipit: 1|55|67|U1
+Entry Text Incipit: null
+
+
+Entry Page: pp. 102-104
+Entry Title: Stockbridge 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: F
+Entry Melodic Incipit: bass incipit 1|1D76|567|3+U1
+Entry Text Incipit: null
+
+
+Entry Page: p. 104
+Entry Title: Majesty 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: F
+Entry Melodic Incipit: 5|U1-D7-U1D6|5-31|43-1|U1
+Entry Text Incipit: the Lord de[s]cended from a bove; incomplete—breaks off at end of m. 22, last notes of m. 22 written on slip of paper glued onto the page; next p. numbered 105
+
+
+Entry Page: p. 105
+Entry Title: Heath 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 5|U11|1|1|33|3
+Entry Text Incipit: null
+
+
+Entry Page: p. 106
+Entry Title: Bunker Hill
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: Am
+Entry Melodic Incipit: 321|D7U1|D5U1D7U1|22
+Entry Text Incipit: null
+
+
+Entry Page: p. 106
+Entry Title: The Force of Musick
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: secular melody w/ instrumental bass line
+Entry Key: G
+Entry Melodic Incipit: melody incipit 343|2513|2
+Entry Text Incipit: [no text]
+
+
+Entry Page: p. 107
+Entry Title: Auro[r]a 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 5|U13-5|4-32|1
+Entry Text Incipit: awake my Soul awake
+
+
+Entry Page: pp. 108-109
+Entry Title: Damon and C[h]loe
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: secular duet
+Entry Key: Bb
+Entry Melodic Incipit: after 2 mm. of voice 2, voice 1 incipit is 55|U11|23|4321|D7
+Entry Text Incipit: null
+
+
+Entry Page: pp. 110-111
+Entry Title: Washington 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: E
+Entry Melodic Incipit: 555|U1D7U12|3
+Entry Text Incipit: null
+
+
+Entry Page: p. 111
+Entry Title: Buckingham
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TTB
+Entry Key: Am
+Entry Melodic Incipit: 1|5-4-32|34|5[-]43|2
+Entry Text Incipit: Help Lord for god & Godly Men
+
+
+Entry Page: p. 111
+Entry Title: Chester 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: F
+Entry Melodic Incipit: 567|U1D5|6-U1-D76|5
+Entry Text Incipit: null
+
+
+Entry Page: pp. 112-113
+Entry Title: Bethlehem 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: E
+Entry Melodic Incipit: 5|U1D7|U1-D7-65-4|3-4-32-1|5
+Entry Text Incipit: While Sheperds watch their flocks by Night
+
+
+Entry Page: p. 113
+Entry Title: Ricmansworth
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 1|13|53|13|2
+Entry Text Incipit: null
+
+
+Entry Page: p. 114
+Entry Title: [Buckingham]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: TT
+Entry Melodic Incipit: Am,1|5-4-32|34|5-43|2
+Entry Text Incipit: tenor part incomplete, staff ruled for bass, with bass clef but no notes
+
+
+Entry Page: p. 114
+Entry Title: Colchester
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 1|1-D76|54|3-21|5
+Entry Text Incipit: null
+
+
+Entry Page: p. 117
+Entry Title: David[’]s Lamentation
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: Am
+Entry Melodic Incipit: 112|32|323|4-2D7
+Entry Text Incipit: David the King was Grieved & moved
+
+
+Entry Page: p. 118
+Entry Title: Winchester
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 5|U1D5|66|54|3[-]2[-]1
+Entry Text Incipit: null
+
+
+Entry Page: p. 118
+Entry Title: Warren 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 1212|345
+Entry Text Incipit: Children of the Heav’nly King
+
+
+Entry Page: p. 121
+Entry Title: A Hymn for Easter Day
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 1351|465
+Entry Text Incipit: Jesus Christ is risen to Day
+
+
+Entry Page: p. 122
+Entry Title: Amherst 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 135|4-32|1
+Entry Text Incipit: to God the Mighty Lord
+
+
+Entry Page: p. 123
+Entry Title: Columbia 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: E
+Entry Melodic Incipit: 531|67|U1
+Entry Text Incipit: Not all the pow[’]rs on earth
+
+
+Entry Page: pp. 124-126
+Entry Title: An Anthem
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: Ps. LXXXI
+Entry Key: TCTB, Am
+Entry Melodic Incipit: 13|21D#7|U1[-]2[-]3[-]45[-]4|3-2-1D7|U1
+Entry Text Incipit: sing ye merrily unto God our Strength
+
+
+Entry Page: p. 127
+Entry Title: Landaff
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: Gm
+Entry Melodic Incipit: 5|432|454|321
+Entry Text Incipit: bar lines sic
+
+
+Entry Page: p. 128
+Entry Title: Islington
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TTB
+Entry Key: C
+Entry Melodic Incipit: 1|1-D54|3-45|6-7U1|D7-6-5
+Entry Text Incipit: null
+
+
+Entry Page: p. 128
+Entry Title: Bromsgrove
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: Am
+Entry Melodic Incipit: 1|5-43|23|2-1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: p. 129
+Entry Title: Little Ma[r]lboro
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: Am
+Entry Melodic Incipit: 5|U13|2-1D#7|U1
+Entry Text Incipit: null
+
+
+Entry Page: p. 129
+Entry Title: Few Happy matches
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: secular duet
+Entry Key: C
+Entry Melodic Incipit: melody incipit 5|32|65|6-U1D7-U2|1
+Entry Text Incipit: Say mighty Love & teach my Song
+
+
+Entry Page: p. 130
+Entry Title: Montague 
+Secular Entry: false
+Entry Credit: [by Swan]
+Entry Vocal Part: tenor + bass
+Entry Key: Dm
+Entry Melodic Incipit: 4[sic]U11|D75U32-1|2
+Entry Text Incipit: Ye sons of men with joy record
+
+
+Entry Page: p. 131
+Entry Title: Bethesda
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 1|3234[-]2|1
+Entry Text Incipit: “rong” written over first phrase of bass part, which has some problems
+
+
+Entry Page: p. 131
+Entry Title: New Eagle Street Hym[n]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 5|U1-2-32|3-4-5-43|2
+Entry Text Incipit: null
+
+
+Entry Page: p. 132
+Entry Title: Wickham
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: tenor
+Entry Key: G
+Entry Melodic Incipit: 1|345-6-|5-4-32|12|3
+Entry Text Incipit: staves ruled for 3 other vocal parts, but no notes
+
+
+Entry Page: p. 133
+Entry Title: Penbury
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 1|3-4-3-21|5_|53|D75|U13-2-3-4-|3-4-54-3|2
+Entry Text Incipit: Salvation oh the Joy full the Joy-full Sound
+
+
+Entry Page: p. 134
+Entry Title: Chocksett 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 1|1234|5
+Entry Text Incipit: Lord of the worlds above
+
+
+Entry Page: p. 135
+Entry Title: Suffolk 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: bass
+Entry Key: Gm
+Entry Melodic Incipit: 1|1D5|U1-21-2|3-2-1D7|5
+Entry Text Incipit: null
+
+
+Entry Page: p. 135
+Entry Title: Lebanon 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: bass
+Entry Key: Am
+Entry Melodic Incipit: 11D5|15|U1-D76|5
+Entry Text Incipit: null
+
+
+Entry Page: pp. 136-137
+Entry Title: A Funeral Anthem 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: TCTB
+Entry Key: Fm
+Entry Melodic Incipit: 1|55U1|D76|5
+Entry Text Incipit: I Heard a great voice from Heav[’]n
+
+
+Entry Page: p. 138
+Entry Title: All Saint’s
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 1|1-D76|5U1|2-1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page: p. 138
+Entry Title: Wells
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: F
+Entry Melodic Incipit: 1|35U1|D7U1D6|5
+Entry Text Incipit: null
+
+
+Entry Page: p. 139
+Entry Title: Bridge Watter 
+Secular Entry: false
+Entry Credit: [by Edson]
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 131|221D7|U1
+Entry Text Incipit: in 3/2 time
+
+
+Entry Page: pp. 140-146
+Entry Title: An Anthem Exodous [sic] 15th
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: 11|33|14|22|31|224|31
+Entry Text Incipit: I will sing will sing unto the Lord for he hath triumphed; final 5-mm. [Ha]llelujah looks quickly sketched in, in contrast to the rest of the score
+
+
+Entry Page: pp. 146-150
+Entry Title: An Anthem. PS 122
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: C
+Entry Melodic Incipit: starts with bass + tenor (or treble) duet, melody incipit is 1D7|U12|3-2-1-2-3-4-|5-6-5-4-3|12_|2
+Entry Text Incipit: I was Glad was Glad was Glad
+
+
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 20
+Author: [Law, Andrew.  
+Title: Select Harmony
+Description: nd ed.]  ASMI no. 359A, dated [1782-87].  Lacks all pp. before music, so whether this is ASMI issue J or K can’t be determined.  Printed music, pp. 5-100; then added leaves, bound in and neatly numbered pp. 101-192 (leaves w/ pp. 115-116, 119-120, 151-152, 187-188 are lacking).  
+	MS. music on pp. 101-150; MS. “A Table of Tunes” (exactly conforming to MS. 
+		musical contents) on pp. 192-191 [sic]  
+	bookplate with printed name “Josiah Gould” pasted inside front cover; in MS. below 
+		printed name is “Chorister / Dane St[.] Choir / in 183[?] 1834”; this is 
+		probably Josiah Gould (1793-1836), student at Exeter Academy in 1809, 
+		merchant in Beverly, Mass., died at sea
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 21
+Author: Mann, Elias.  
+Title: The Massachusetts Collection of Sacred Harmony.
+Description: 
+	no MS. music
+
+
+Call number: null
+Inscription(s): preliminary leaf recto, “Joseph Condon’s.”
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Entry Page: a. l. [1] recto
+Entry Title: Dirge
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: Dm
+Entry Melodic Incipit: 11|1D#7U1|D55|U1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [1] verso
+Entry Title: Majesty 
+Secular Entry: false
+Entry Credit: [by Billings]
+Entry Vocal Part: “Bass”
+Entry Key: F
+Entry Melodic Incipit: 1|1-D5-U12|D5-U13|45-3|1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [1] verso
+Entry Title: Oundell
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: C
+Entry Melodic Incipit: 1153|4231,|2D7U11|4[-]32[-]1D5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] recto-verso
+Entry Title: Cambri[d]g[e]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: F
+Entry Melodic Incipit: 11|111|1111|D5-6
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] verso
+Entry Title: Litchfield
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: C
+Entry Melodic Incipit: 1|11|34|55|1
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [2] verso
+Entry Title: Deptford
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: E
+Entry Melodic Incipit: 1D5|34|55|U1,|1D7|66|5U1|D4,
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [3] recto-[6] recto
+Entry Title: null
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: null
+Entry Melodic Incipit: null
+Entry Text Incipit: secular instrumental melodies; titles are The Roveing Sailor, Will the Weaver, Ladies Delight, Quick Step to 44 Reg[’]t, No[.] 42, No[.] 51, Shove hur up [?], Washington March, Green[’]s Mar[c]h, General Washington[’s] March, Lesson by Morilly, Jefferson[’]s March, Capt. David[’]s Quickstep (with “primo” and “Secondo” parts), No[.] 3, No[.] 5
+
+
+Entry Page: a. l. [6] verso-[7] verso
+Entry Title: fingering charts
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: null
+Entry Melodic Incipit: null
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [8] recto
+Entry Title: Northampton
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: bass
+Entry Key: if in C
+Entry Melodic Incipit: 52|5|111|43[-]21D6|U1+U1[,?]|4-662|33|D6
+Entry Text Incipit: key uncertain, fragmentary (page ripped)
+
+
+Entry Page: a. l. [8] recto
+Entry Title: Portuga[ll?]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: bass
+Entry Key: if in G
+Entry Melodic Incipit: 1|U1|D56|55|12|5,|3|3-13-4|2-D7U1|1D1|5
+Entry Text Incipit: key uncertain, fragmentary (page ripped)
+
+
+Entry Page: a. l. [8] recto
+Entry Title: St. Asaph[’]s
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: bass?
+Entry Key: if in Bb
+Entry Melodic Incipit: 14|55|1|15-4|31|14|11|1[-]23[-]4|55|1
+Entry Text Incipit: key uncertain, fragmentary (page ripped)
+
+
+Entry Page: a. l. [8] verso
+Entry Title: Sunday
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: null
+Entry Melodic Incipit: “[ba]ss” fragmentary (page ripped) so beginning not present and key uncertain, if in D, first notes surviving are 1-32|1-2D5|U1D5|U25|12|D5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [8] verso
+Entry Title: Vergennes
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: null
+Entry Melodic Incipit: “[ba]ss” fragmentary (page ripped) so beginning not present and key uncertain, if in Gm, first notes surviving are 3345|1|D7n7U1|D515|355|437U1|D5
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [9] recto
+Entry Title: Chockset
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: Dm
+Entry Melodic Incipit: 112|342D7|U1
+Entry Text Incipit: fragmentary (page ripped)
+
+
+Entry Page: a. l. [9] recto
+Entry Title: New North
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: D
+Entry Melodic Incipit: 1|11|21|12|D5
+Entry Text Incipit: fragmentary (page ripped)
+
+
+Entry Page: a. l. [9] recto
+Entry Title: [Drnham?]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Bass”
+Entry Key: null
+Entry Melodic Incipit: 1|11|11|1D5|U1,|1|42|11|22|D5
+Entry Text Incipit: fragmentary (page ripped)
+
+
+Entry Page: a. l. [9] verso
+Entry Title: fragmentary (page ripped) so no title survives
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: meter indication is “10s” bass?
+Entry Key: if in G
+Entry Melodic Incipit: first complete phrase of melody is 1|D57U12|6622|6
+Entry Text Incipit: null
+
+
+Entry Page: a. l. [9] verso
+Entry Title: fragmentary (page ripped) so no title survives
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: meter indication is “S. M[.]” bass?
+Entry Key: if in Am
+Entry Melodic Incipit: surviving notes are 3U1|D5U1|D41|5,5|U11|D45|1
+Entry Text Incipit: null
+
+
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 22
+Author: [
+Title: The Middlesex Collection of Church Music: or, Ancient Psalmody Revived.
+Description: Boston: Manning and Loring, 1807.]  Lacks pp. [i]-viii, 13-14, 51-54, 129-130, 135-[136].  Pp. 37-38 torn, mostly missing; pp. 59-60 torn, ca. 1/5 missing.
+	no inscriptions
+	MS. music (bass parts for sacred tunes, + secular instrumental melodies) and 
+		fingering charts for flute (+ other instrument/s?) on 9 additional leaves sewn 
+		together and inserted inside back cover (stubs of 8 more leaves are part of 
+		this booklet)
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Entry Page: leaf [1] recto
+Entry Title: Symphany [sic] “by Morgan”
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: bass
+Entry Key: Eb
+Entry Melodic Incipit: 111|11|21D76|5
+Entry Text Incipit: Behold the judge des[c]ends his guards are nigh
+
+
+Entry Page: leaf [1] verso-leaf [2] recto
+Entry Title: Lena [crossed out] 
+Secular Entry: false
+Entry Credit: [by Belknap]
+Entry Vocal Part: bass
+Entry Key: F#m
+Entry Melodic Incipit: 1D5U1D#7|U12D55
+Entry Text Incipit: null
+
+
+Entry Page: leaf [1] verso-leaf [2] recto
+Entry Title: Virginia 
+Secular Entry: false
+Entry Credit: [by Brownson]
+Entry Vocal Part: bass
+Entry Key: Em
+Entry Melodic Incipit: 1|1115|4-3-21|D5
+Entry Text Incipit: Thy words the raging winds Control
+
+
+Entry Page: leaf [2] verso-leaf [3] recto
+Entry Title: [Delight] 
+Secular Entry: false
+Entry Credit: [by Coan]
+Entry Vocal Part: tenor + bass
+Entry Key: Em
+Entry Melodic Incipit: 1D54|3-214
+Entry Text Incipit: null
+
+
+Entry Page: leaf [3] verso
+Entry Title: Mear
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: G
+Entry Melodic Incipit: 1|55|33|1-23|2
+Entry Text Incipit: O [’]twas a joy ful Sound to hear
+
+
+Entry Page: leaf [4] recto
+Entry Title: Devotion
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: Am
+Entry Melodic Incipit: 1|13|54|35[-]3[-]21_|1
+Entry Text Incipit: But man weak man is born to die
+
+
+Entry Page: leaf [4] verso-leaf [5] verso
+Entry Title: Lementation [sic]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: TCTB
+Entry Key: Em
+Entry Melodic Incipit: 1|3-4-57|U1-2-3D5|4-32-1|5
+Entry Text Incipit: When we our we[a]ried limbs to rest
+
+
+Entry Page: leaf [6] recto
+Entry Title: Poland 
+Secular Entry: false
+Entry Credit: [by Swan]
+Entry Vocal Part: TCTB
+Entry Key: C#m
+Entry Melodic Incipit: 1|D55|7U3|D7[-]U1[-]D75|4
+Entry Text Incipit: God of my life look [gently] down
+
+
+Entry Page: leaf [7] recto-leaf [21] recto
+Entry Title: untexted secular melodies: Scotch Favorite
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: null
+Entry Key: null
+Entry Melodic Incipit: null
+Entry Text Incipit: My Love She is [a lassie yet], King Williams or Boyn Water, The Heavenly Union [appears with sacred text in Ingalls 1805], Half Double Drag, the Duke of Holstine[’]s March, Pen[n]sylvania, Battimore [sic; likely Baltimore], On the road to Boston, Jackson[’]s Frolick or Fifer[’]s master piece, Yankey doodle, Serenade, Jefferson[’]s Liberty, the Girl I Left behind me, The Double Drag, Single Drag, O Dear What can the matter be, Soldier[’]s return, The Roving Sailor, Flower[s?] of Edinburgh, Capt[.] Ives[’s] Hornpipe, Kiss my Lady, Col[.] Smith[’]s march, Chorus Jigg, [Mc? –crossed out?] [Daniels?] Reel. Quick Step, Fisher[’]s Hornpipe, The Retreat, Mary Dream, Long troop [over morning parade?], [Durans?] [something crossed out] Hornpipe, Jack on the Green, Devil[’]s Dream, High Pretty [Martin?] Tip To [Fine?], Grand Spy, Peggy and Moll, [Oppen?] Reel, Nancy Dorson, the Ohio Song, Morgan [Rattleer?], General Robinson’s March, Canada[’]s Farewell, New Buttonhole, the Four Seasons, Ric[k?]er[’]s Hornpip[e], Gil[l]ie Crankie, Col[l]ege Hornpipe, King of Prussia[’]s March, New Century Hornpipe, The Merry Girls of Newyork, Sacket[’]s Harbour, The [Pony?] quick Step
+
+
+Entry Page: leaf (now in 2 sections) inside back cover
+Entry Title: Fremont Quickstep
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: incomplete untexted secular keyboard piece; “Subscribers for the Journal” crossed out below title
+Entry Key: null
+Entry Melodic Incipit: null
+Entry Text Incipit: null
+
+
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 23
+Author: null
+Title: null
+Description: MS. collection of sacred and secular music, undated.  30 unnumbered leaves, the first 21 bearing MS. music; 1 leaf (in 2 pieces, torn along fold) inserted inside back cover.  	inscriptions: inside front cover, pencil: “Betty Bandel / [fr?] Mrs Tudhope / 29 July 
+		1981” (Betty Bandel lived in South Burlington, VT; Helen Tudhope ran Back 
+		Door Books in Essex Junction, VT); leaf [30] verso: “Salmon M Needham / 
+		Singing Book / of Whiting” (probably Vermont)
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 24
+Author: [Olmsted, T[imothy].  
+Title: The Musical Olio
+Description: p.l., pp. [1]-6), pp. 57-58, 61-62, all pp. after p. 120 (i.e., pp. 121-[128]).   
+	no MS. music
+
+
+Call number: null
+Inscription(s): inside front cover, “Chester Cornwell”
+----------------end of source-------------
+
+Source: 25
+Author: Swan, Timothy.  
+Title: New England Harmony
+Description: -[104].
+	no inscriptions, no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 26
+Author: 
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Description: th ed.  Exeter, N. H.: Norris and Sawyer, 1807.  Lacks final [2] pp. of indexes.
+	no MS. music
+	bound with nos. 12, 16
+
+
+Call number: null
+Inscription(s): inside front cover, “Amos Shelden”
+----------------end of source-------------
+
+Source: 27
+Author: 
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Description: th ed.  Exeter, N. H.: Norris and Sawyer, 1808.  Complete.
+	inscription, p. [ii] (verso of t. p.), inside printed box with the words “THE / 
+		PROPERTY OF”: “Betsey Spear,s”  
+	no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 28
+Author: [
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Description: th ed.  Exeter, N. H.: C. Norris and Co., [1810].]  Lacks all pp. before p. 33, all pp. after p. 270; pp. 53-54, 215-216, 263-264 fragmentary.  All attributions check out with those listed for ASMI 514, except Dunkenfield, p. 259, is attributed to Harrison, and Harrison is not listed as an attribution in ASMI 514 (there may be other exceptions; a complete comparison of attributions was not made); also, the ASMI entry says “The first 4 of p. 44 not struck,” and it is here.  
+	no inscriptions, no MS. music 
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 29
+Author: 
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Description: th ed.  Newburyport, Mass.: E. Little and Company, [1813].  Leaf with pp. 19-20 lacks a chunk, and final leaf (pp. [325-326]) is mostly lacking; otherwise, complete.
+	no inscriptions, no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 30
+Author: [
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Description: Possibly the second issue of the 12th ed. (Newburyport, Mass.: E. Little and Company, [1815?]).]  Lacks all pp. before p. 9 (though 3 stubs are still extant); pp. 327-330 are fragmentary; lacks all pp. after p. 330.  The pagination shows this to be an edition after the first issue of the 12th ed., which had only 323 pages of music.  See ASMI, p. 601.
+	no inscriptions (but an ink drawing of a man in profile, inside front cover), no MS. 
+		music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 31
+Author: 
+Title: The Village Harmony: or, New-England Repository of Sacred .  14
+Description: th ed.  Boston: West and Richardson (Exeter, N. H.: printed by C. Norris), [1817].  Lacks pp. 339-340; otherwise, appears to be complete.
+	no MS. music
+
+
+Call number: null
+Inscription(s): p. l. [1] recto, pasted-on slip of paper with printed name “E [on tiny 
+		piece of paper further pasted on] GOWING.” followed by, in MS., “March 
+		[1818?] / The singers went before with joy, / On instruments they play’d: / 
+		The damsels with their timbrels then / In beauty were array’d.” / Psalm, 68, 
+		25”
+----------------end of source-------------
+
+Source: 32
+Author: West, Elisha.  
+Title: The Musical Concert
+Description: 
+	no MS. music
+	
+
+Call number: null
+Inscription(s): preliminary leaf recto, “William Wells’s Book”
+----------------end of source-------------
+
+Source: 33
+Author: 
+Title: The Worcester Collection of Sacred Harmony
+Description: nd ed.  Worcester: Isaiah Thomas, 1788.  Lacks 1st preliminary leaf with title page, pp. 3-6, 37-40, 49-56.  Inscription inside front cover, inside hand-drawn oval with curling garland of leaves, text calligraphed in red, black, + green ink: “Sacred Harmony / The Property of / Betsy Curtis of / Windsor Vermont”
+	no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+
+Source: 34
+Author: 
+Title: The Worcester Collection of Sacred Harmony
+Description: DEO!” at head of title].  3rd ed.  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1791.  Lacks pp. 57-64, 67-70, 79-80.  Inscription inside back cover: “Ruth Woodberry Hur Book”
+	no MS. music
+
+
+Call number: null
+Inscription(s): null
+----------------end of source-------------
+

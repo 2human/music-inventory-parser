@@ -1,0 +1,29 @@
+let current collection be file name
+let collection description be empty string
+
+//pull collection information
+create entry in collections database for current document
+	current collection as collection name
+if current paragraph does not start with source number
+	add each paragraph to collection description
+when source number has been found
+	add collection description string to collection entry
+switch to source / entry operations
+	
+//source operations
+for all paragraphs proceeding end of collection description
+	if current paragraph starts with digits followed by period (indicating source number has been found)
+		record source number in source number field
+		search until italicized text run, new source number, or "music entries has been found
+			while searching, build string
+		//^italicized text run indicates name of source has been found, which should occur for every source 
+		number
+		//source numbers or "ms music entries" being found before italicized text run indicate formatting error or no source title. this should not occur in ideal circumstances
+			if italicized text run has been found, record italicized text run as source name
+				record built string as author name
+		if "source number" or "ms music entries" is found
+			record built string as source description
+			if source number was found,
+				restart from beginning of source operations
+			else if "ms music entries" was found
+				proceed with music entries operations

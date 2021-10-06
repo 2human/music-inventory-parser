@@ -1,0 +1,291 @@
+
+***********End of Collection Description********************
+
+
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Newburgh---“Trebbe”---C---1|3332|3,3|1D6|U22|2---Let every creature Join to praise the eternal god---
+tune_page:  leaf [1] recto
+tune_title: Newburgh
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: “Trebbe”
+tune_key: C
+tune_melodic_incipit: 1|3332|3,3|1D6|U22|2
+tune_text_incipit: Let every creature Join to praise the eternal god
+*******************
+Pennsylvania “By Temple”---treble?---Am---11-23-4|5234-3| 21D#7---The god of Glory sends his summons forth---
+tune_page:   leaf [1] recto
+tune_title: Pennsylvania “By Temple”
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 11-23-4|5234-3| 21D#7
+tune_text_incipit: The god of Glory sends his summons forth
+*******************
+Delight [by Coan]---treble---Em---534|55U1---
+tune_page:   leaf [2] verso
+tune_title: Delight 
+tune_credit: [by Coan]
+tune_is_secular: true
+tune_vocal_part: treble
+tune_key: Em
+tune_melodic_incipit: 534|55U1
+tune_text_incipit: null
+*******************
+Mortality---treble?---Em---555|5431|4---
+tune_page:   leaf [2] verso
+tune_title: Mortality
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 555|5431|4
+tune_text_incipit: null
+*******************
+Refuge---treble?---Em---133|33-455|5---
+tune_page:   leaf [2] verso
+tune_title: Refuge
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 133|33-455|5
+tune_text_incipit: null
+*******************
+Vergennes---treble?---Gm---[missing 1st note]3-4-54|33-555|5---
+tune_page:   leaf [3] recto
+tune_title: Vergennes
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Gm
+tune_melodic_incipit: [missing 1st note]3-4-54|33-555|5
+tune_text_incipit: null
+*******************
+Evening Shade---treble?---Em?---[missing 1st note]5543[-]4|5---5|3456|5---
+tune_page:   leaf [3] recto
+tune_title: Evening Shade
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Em?
+tune_melodic_incipit: [missing 1st note]5543[-]4|5
+tune_text_incipit: 5|3456|5
+*******************
+Smyrna---treble?---A---334|3211|1,D7|U1112|3---Why should the children of a king go mourning all their days---
+tune_page:   leaf [3] verso
+tune_title: Smyrna
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: A
+tune_melodic_incipit: 334|3211|1,D7|U1112|3
+tune_text_incipit: Why should the children of a king go mourning all their days
+*******************
+sardin[i]a [“s” sic]---treble?---Dm---557|U11|D7-65-45---Thou art the [earnest?] of [my?] love---
+tune_page:   leaf [3] verso
+tune_title: sardin[i]a [“s” sic]
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Dm
+tune_melodic_incipit: 557|U11|D7-65-45
+tune_text_incipit: Thou art the [earnest?] of [my?] love
+*******************
+Ex[h]ortation---treble?---F---5|3-2-34-3|22|3-4-55|5---
+tune_page:   leaf [4] recto
+tune_title: Ex[h]ortation
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: F
+tune_melodic_incipit: 5|3-2-34-3|22|3-4-55|5
+tune_text_incipit: null
+*******************
+Grafton [by Stone]---treble?---C---1_|1D55|U1D7U1-D76|5---
+tune_page:   leaf [4] recto
+tune_title: Grafton 
+tune_credit: [by Stone]
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: 1_|1D55|U1D7U1-D76|5
+tune_text_incipit: null
+*******************
+Sharon---treble?---D---5|555U1|D7,7|5U1D7U2-D7|5---
+tune_page:   leaf [4] verso
+tune_title: Sharon
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: D
+tune_melodic_incipit: 5|555U1|D7,7|5U1D7U2-D7|5
+tune_text_incipit: null
+*******************
+Berne [by Hill]---treble---Am---1|11D#77|U114---
+tune_page:   leaf [4] verso
+tune_title: Berne 
+tune_credit: [by Hill]
+tune_is_secular: true
+tune_vocal_part: treble
+tune_key: Am
+tune_melodic_incipit: 1|11D#77|U114
+tune_text_incipit: null
+*******************
+Morning Swain---treble?---Em---534|55U1D7|U1---1|D5565|5---completed on next p. after 2 final mm. of the tune Friendship (see below)---
+tune_page:   leaf [4] verso-[5] recto
+tune_title: Morning Swain
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 534|55U1D7|U1
+tune_text_incipit: 1|D5565|5, completed on next p. after 2 final mm. of the tune Friendship (see below)
+*******************
+Persia---treble?---C---111|32|31D7,U2|3311|1D7|U1---
+tune_page:   leaf [5] recto
+tune_title: Persia
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: 111|32|31D7,U2|3311|1D7|U1
+tune_text_incipit: null
+*******************
+Friendship---treble?---Em---553|7553|4---thy wrath lies heavy on my soul---
+tune_page:   leaf [5] recto
+tune_title: Friendship
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 553|7553|4
+tune_text_incipit: thy wrath lies heavy on my soul
+*******************
+Devotion---treble?---C---1|3322|1D7|U1,1|D7U123|22|2---
+tune_page:   leaf [5] verso
+tune_title: Devotion
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: 1|3322|1D7|U1,1|D7U123|22|2
+tune_text_incipit: null
+*******************
+Funeral Hymn---treble?---Em?---333|3-2-3-45|5-44|5_|5---
+tune_page:   leaf [5] verso
+tune_title: Funeral Hymn
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Em?
+tune_melodic_incipit: 333|3-2-3-45|5-44|5_|5
+tune_text_incipit: null
+*******************
+Paradise---treble?---D---35U1|1D655|5---
+tune_page:   leaf [5] verso
+tune_title: Paradise
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: D
+tune_melodic_incipit: 35U1|1D655|5
+tune_text_incipit: null
+*******************
+Boston---treble?---Am---1|2434|5,5|34-321-D7|U1---
+tune_page:   leaf [6] recto
+tune_title: Boston
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 1|2434|5,5|34-321-D7|U1
+tune_text_incipit: null
+*******************
+[untitled]---treble?---Am---1|1D7U15|312_|2,255|4-32-1D7-12|1---
+tune_page:   leaf [6] recto
+tune_title: [untitled]
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 1|1D7U15|312_|2,255|4-32-1D7-12|1
+tune_text_incipit: null
+*******************
+New Jerusalem [by Ingalls]---treble---tenor---+ bass copied sequentially (i. e.-*- not in score)---G---tenor incipit 132|1234|5---From the third heavens where God resides---
+tune_page:   leaf [6] verso
+tune_title: New Jerusalem 
+tune_credit: [by Ingalls]
+tune_is_secular: true
+tune_vocal_part: treble tenor + bass copied sequentially (i. e., not in score)
+tune_key: G
+tune_melodic_incipit: tenor incipit 132|1234|5
+tune_text_incipit: From the third heavens where God resides
+*******************
+Coronation “By Holden”---treble + tenor copied sequentially---Ab---tenor incipit 5|U1133|212---All hail the power of Jesus’ name---
+tune_page:   leaf [7] recto
+tune_title: Coronation “By Holden”
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble + tenor copied sequentially
+tune_key: Ab
+tune_melodic_incipit: tenor incipit 5|U1133|212
+tune_text_incipit: All hail the power of Jesus’ name
+*******************
+Prolection [sic; surely Protection]---treble?---F#m---5|4455|5U1D7_|77U11|D7-65-433|5---
+tune_page:   leaf [7] recto
+tune_title: Prolection [sic; surely Protection]
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: F#m
+tune_melodic_incipit: 5|4455|5U1D7_|77U11|D7-65-433|5
+tune_text_incipit: null
+*******************
+Freindship [sic]---treble?---F---5|555U1|D7,5|U1D636|5---
+tune_page:   leaf [7] recto
+tune_title: Freindship [sic]
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: F
+tune_melodic_incipit: 5|555U1|D7,5|U1D636|5
+tune_text_incipit: null
+*******************
+Burlington---treble?---Bm---1|33D77|U123,3-4|53-21D5-7|U1---
+tune_page:   leaf [7] verso
+tune_title: Burlington
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Bm
+tune_melodic_incipit: 1|33D77|U123,3-4|53-21D5-7|U1
+tune_text_incipit: null
+*******************
+New Durham---treble?---Bm---1|2231|234,4|23-452-D7|U1---
+tune_page:   leaf [7] verso
+tune_title: New Durham
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Bm
+tune_melodic_incipit: 1|2231|234,4|23-452-D7|U1
+tune_text_incipit: null
+*******************
+Chartotte [sic; surely Charlotte]---treble?---Em---5|5433|56[sic]|U1-D75|5---
+tune_page:   leaf [7] verso
+tune_title: Chartotte [sic; surely Charlotte]
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 5|5433|56[sic]|U1-D75|5
+tune_text_incipit: null
+*******************
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+

@@ -1,0 +1,943 @@
+[page frayed so title not legible]---“Treble”---C---133|1D767|U1---
+tune_page: leaf [1] recto
+tune_title: [page frayed so title not legible]
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: C
+tune_melodic_incipit: 133|1D767|U1
+tune_text_incipit: null
+*******************
+Russia [by Read]---“Treble”---Am---112|3211|D#7---
+tune_page: leaf [1] recto
+tune_title: Russia 
+tune_credit: [by Read]
+tune_vocal_part: “Treble”
+tune_key: Am
+tune_melodic_incipit: 112|3211|D#7
+tune_text_incipit: null
+*******************
+Amanda [by Morgan]---Am---1|32|55|3-4-54-2|1---
+tune_page: leaf [1] recto
+tune_title: Amanda 
+tune_credit: [by Morgan]
+tune_vocal_part: null
+tune_key: Am
+tune_melodic_incipit: 1|32|55|3-4-54-2|1
+tune_text_incipit: null
+*******************
+25---“Treble”---Am---5|33|21|D7,|U2|3-4-5-4-|32|1D7|U1---
+tune_page: leaf [2] recto
+tune_title: 25
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: Am
+tune_melodic_incipit: 5|33|21|D7,|U2|3-4-5-4-|32|1D7|U1
+tune_text_incipit: null
+*******************
+Dover---treble?---C---after 9 mm. rest---3|2[-]1D7[-]6|5567|U1---
+tune_page: leaf [2] recto
+tune_title: Dover
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: after 9 mm. rest, 3|2[-]1D7[-]6|5567|U1
+tune_text_incipit: null
+*******************
+Stafford---treble?---A---1|5-4-34-3|2-1D7|U1---
+tune_page: leaf [2] recto
+tune_title: Stafford
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: A
+tune_melodic_incipit: 1|5-4-34-3|2-1D7|U1
+tune_text_incipit: null
+*******************
+Jordon [recte Jordan by Billings]---“Treble”---A---after 4½ mm. rest---1|14-3|2-43-2|3---
+tune_page: leaf [2] verso-leaf [3] recto
+tune_title: Jordon [recte Jordan by Billings]
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: A
+tune_melodic_incipit: after 4½ mm. rest, 1|14-3|2-43-2|3
+tune_text_incipit: null
+*******************
+Wilmington---“Treble”---Em---555|7755|5,5|7U32-1D7|U1---
+tune_page: leaf [2] verso
+tune_title: Wilmington
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: Em
+tune_melodic_incipit: 555|7755|5,5|7U32-1D7|U1
+tune_text_incipit: null
+*******************
+Refuge---treble?---Em---133|33-455|5,|533|45U1D7|7---
+tune_page: leaf [3] recto
+tune_title: Refuge
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 133|33-455|5,|533|45U1D7|7
+tune_text_incipit: null
+*******************
+Troy---treble?---Am---155|53-1|2---
+tune_page: leaf [3] recto
+tune_title: Troy
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 155|53-1|2
+tune_text_incipit: null
+*******************
+Surry---“Treble”---Eb---567|U1D5|65-4|5---
+tune_page: leaf [3] verso-leaf [4] recto
+tune_title: Surry
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: Eb
+tune_melodic_incipit: 567|U1D5|65-4|5
+tune_text_incipit: null
+*******************
+Harmony [= Huntington by Morgan]---“Treble”---A---1|3-2-13|22|112---
+tune_page: leaf [3] verso-leaf [4] recto
+tune_title: Harmony [= Huntington by Morgan]
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: A
+tune_melodic_incipit: 1|3-2-13|22|112
+tune_text_incipit: null
+*******************
+Mont[g?]omery [by Morgan]---“Treble”---C---5|U1113|22-1D7---
+tune_page: leaf [3] verso-leaf [4] recto
+tune_title: Mont[g?]omery 
+tune_credit: [by Morgan]
+tune_vocal_part: “Treble”
+tune_key: C
+tune_melodic_incipit: 5|U1113|22-1D7
+tune_text_incipit: null
+*******************
+Lisbon---treble?---Bb---5|U121D7|U1---
+tune_page: leaf [3] verso
+tune_title: Lisbon
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Bb
+tune_melodic_incipit: 5|U121D7|U1
+tune_text_incipit: null
+*******************
+Guilford---“Treble”---C---1|D567-U12|23-45---
+tune_page: leaf [4] verso
+tune_title: Guilford
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: C
+tune_melodic_incipit: 1|D567-U12|23-45
+tune_text_incipit: null
+*******************
+Lincoln---“Treble”---F---355|5-43|4,5|1-2-33|45|5---
+tune_page: leaf [4] verso
+tune_title: Lincoln
+tune_credit: null
+tune_vocal_part: “Treble”
+tune_key: F
+tune_melodic_incipit: 355|5-43|4,5|1-2-33|45|5
+tune_text_incipit: null
+*******************
+[Lyme? –this bit of top of page almost detached]---treble?---C---1|3234|51D7,7-6|5U122|1---
+tune_page: leaf [5] recto
+tune_title: [Lyme? –this bit of top of page almost detached]
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: 1|3234|51D7,7-6|5U122|1
+tune_text_incipit: null
+*******************
+Greenfield [by Edson]---treble---Am---1|1122|332---
+tune_page: leaf [5] recto
+tune_title: Greenfield 
+tune_credit: [by Edson]
+tune_vocal_part: treble
+tune_key: Am
+tune_melodic_incipit: 1|1122|332
+tune_text_incipit: null
+*******************
+Wells---treble---F---3|553|543|2_|2---
+tune_page: leaf [5] recto
+tune_title: Wells
+tune_credit: null
+tune_vocal_part: treble
+tune_key: F
+tune_melodic_incipit: 3|553|543|2_|2
+tune_text_incipit: null
+*******************
+[page frayed so title not visible]---treble?---at least 6 mm. rest then this excerpt if in F---32|1|333|4544|55|5655|5|3|5532|---
+tune_page: leaf [5] verso-leaf [6] recto
+tune_title: [page frayed so title not visible]
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: at least 6 mm. rest then this excerpt if in F
+tune_melodic_incipit: 32|1|333|4544|55|5655|5|3|5532|
+tune_text_incipit: null
+*******************
+46th---treble?---if in F---3|365|432|3_|3---
+tune_page: leaf [5] verso-leaf [6] recto
+tune_title: 46th
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: if in F
+tune_melodic_incipit: 3|365|432|3_|3
+tune_text_incipit: null
+*******************
+Suffield---treble?---Em---5|1431|555_|5,5|1234|5---
+tune_page: leaf [5] verso
+tune_title: Suffield
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 5|1431|555_|5,5|1234|5
+tune_text_incipit: null
+*******************
+Norwich---treble?---Am---1|3-2-1D7|U12|3---
+tune_page: leaf [5] verso-leaf [6] recto
+tune_title: Norwich
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 1|3-2-1D7|U12|3
+tune_text_incipit: null
+*******************
+Hartford---treble?---Dm---5|5577|U1D7-65,5|5555|57-U1|D7---
+tune_page: leaf [5] verso-leaf [6] recto
+tune_title: Hartford
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Dm
+tune_melodic_incipit: 5|5577|U1D7-65,5|5555|57-U1|D7
+tune_text_incipit: null
+*******************
+Lenox [by Edson]---treble---2 versions at once: one might be 1|3321|2,2|321D7-6|5---+ the other might be 1|3311|D7,U2|1D767|U1 (all those notes are---or appear to be---present)---
+********Skipped**********
+Wor[thin]gton (top edge of p. frayed) [by Strong]---treble---Dm---555|U1D7U3-21|2---
+tune_page: leaf [6] verso-leaf [7] recto
+tune_title: Wor[thin]gton (top edge of p. frayed) 
+tune_credit: [by Strong]
+tune_vocal_part: treble
+tune_key: Dm
+tune_melodic_incipit: 555|U1D7U3-21|2
+tune_text_incipit: null
+*******************
+Milford [by Stephenson]---treble---A---3 mm. rest---then 533|1-2-1-23-4|552---
+tune_page: leaf [6] verso-leaf [7] recto
+tune_title: Milford 
+tune_credit: [by Stephenson]
+tune_vocal_part: treble
+tune_key: A
+tune_melodic_incipit: 3 mm. rest, then 533|1-2-1-23-4|552
+tune_text_incipit: null
+*******************
+133---treble?---G---1|33|55|4-32|1---
+tune_page: leaf [6] verso-leaf [7] recto
+tune_title: 133
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: G
+tune_melodic_incipit: 1|33|55|4-32|1
+tune_text_incipit: null
+*******************
+Bunker [Hill] A sap[p]hic Ode---treble---Am---1D7U1|24|3343|2D7---
+tune_page: leaf [6] verso-leaf [7] recto
+tune_title: Bunker [Hill] A sap[p]hic Ode
+tune_credit: null
+tune_vocal_part: treble
+tune_key: Am
+tune_melodic_incipit: 1D7U1|24|3343|2D7
+tune_text_incipit: null
+*******************
+Maryland [by Billings]---treble---Am--- 1|1321|D7---
+tune_page: leaf [6] verso-leaf [7] recto
+tune_title: Maryland 
+tune_credit: [by Billings]
+tune_vocal_part: treble
+tune_key: Am
+tune_melodic_incipit:  1|1321|D7
+tune_text_incipit: null
+*******************
+Rainbow [by Swan]---treble---C---1|D555-U1|D7-56U1|D7,|3332D7|U1---
+tune_page: leaf [7] verso-leaf [8] recto
+tune_title: Rainbow 
+tune_credit: [by Swan]
+tune_vocal_part: treble
+tune_key: C
+tune_melodic_incipit: 1|D555-U1|D7-56U1|D7,|3332D7|U1
+tune_text_incipit: null
+*******************
+Majesty [by Billings]---treble---F---3|54|55|65|5---
+tune_page: leaf [7] verso-leaf [8] recto
+tune_title: Majesty 
+tune_credit: [by Billings]
+tune_vocal_part: treble
+tune_key: F
+tune_melodic_incipit: 3|54|55|65|5
+tune_text_incipit: null
+*******************
+Virginia---treble?---Em---5|3355|6-7-5U1|D7---1st 2 lines both set 8 syllables---whereas Brownson’s Virginia is a C. M. tune (8.6.8.6.)---
+********Skipped**********
+Connection [by Billings]---treble---E---5|U11|1-D7-65|5---
+tune_page: leaf [7] verso-leaf [8] recto
+tune_title: Connection 
+tune_credit: [by Billings]
+tune_vocal_part: treble
+tune_key: E
+tune_melodic_incipit: 5|U11|1-D7-65|5
+tune_text_incipit: null
+*******************
+Bridgewater [by Edson]---treble---C---5|U11|D75U12+5[half note G under quarter notes C + D]|3---
+tune_page: leaf [7] verso-leaf [8] recto
+tune_title: Bridgewater 
+tune_credit: [by Edson]
+tune_vocal_part: treble
+tune_key: C
+tune_melodic_incipit: 5|U11|D75U12+5[half note G under quarter notes C + D]|3
+tune_text_incipit: null
+*******************
+Anthem Luke 2nd Chap [by Stephenson]---treble---G---1|5-6-5-43|442|31---Behold I bring you glad tidings---
+tune_page: leaf [8] verso-leaf [9] recto
+tune_title: Anthem Luke 2nd Chap 
+tune_credit: [by Stephenson]
+tune_vocal_part: treble
+tune_key: G
+tune_melodic_incipit: 1|5-6-5-43|442|31
+tune_text_incipit: Behold I bring you glad tidings
+*******************
+Grafton---treble?---Dm---5U11|D75|444,|455|5U1|D7U21_|1---
+tune_page: leaf [9] recto
+tune_title: Grafton
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Dm
+tune_melodic_incipit: 5U11|D75|444,|455|5U1|D7U21_|1
+tune_text_incipit: null
+*******************
+Bristol [by Swan]---treble---5|55|53|4-5-65|5---
+tune_page: leaf [10] verso-leaf [11] recto
+tune_title: Bristol 
+tune_credit: [by Swan]
+tune_vocal_part: null
+tune_key: treble
+tune_melodic_incipit: 5|55|53|4-5-65|5
+tune_text_incipit: null
+*******************
+Repentance---treble?---Dm---5|55|5U1|2-1D7-6|5,5|5U1|D77|54|5---Behold and see as you pass by---
+tune_page: leaf [10] verso-leaf [11] recto
+tune_title: Repentance
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Dm
+tune_melodic_incipit: 5|55|5U1|2-1D7-6|5,5|5U1|D77|54|5
+tune_text_incipit: Behold and see as you pass by
+*******************
+Denmark [by Madan]---treble---D---1|11|11-2-3|22|2---Before jehovah[’]s awfull throne---
+tune_page: leaf [11] verso-leaf [12] recto
+tune_title: Denmark 
+tune_credit: [by Madan]
+tune_vocal_part: treble
+tune_key: D
+tune_melodic_incipit: 1|11|11-2-3|22|2
+tune_text_incipit: Before jehovah[’]s awfull throne
+*******************
+[page frayed so title not visible]---treble?---A or Am---1|3[-]2-1D7|U13|2-1D7[-U1]|[2?],|3|5-6-53|2-1D7|U1---
+tune_page: leaf [13] verso
+tune_title: [page frayed so title not visible]
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: A or Am
+tune_melodic_incipit: 1|3[-]2-1D7|U13|2-1D7[-U1]|[2?],|3|5-6-53|2-1D7|U1
+tune_text_incipit: null
+*******************
+Rainbow [by Swan]---treble---C---1D55|5-U1D7-5|6U1D7_|7---
+tune_page: leaf [13] verso
+tune_title: Rainbow 
+tune_credit: [by Swan]
+tune_vocal_part: treble
+tune_key: C
+tune_melodic_incipit: 1D55|5-U1D7-5|6U1D7_|7
+tune_text_incipit: null
+*******************
+Indian Philosopher---“Tenor”---D---133|3255|5,5U1D5|6563|2---
+tune_page: leaf [13] verso
+tune_title: Indian Philosopher
+tune_credit: null
+tune_vocal_part: “Tenor”
+tune_key: D
+tune_melodic_incipit: 133|3255|5,5U1D5|6563|2
+tune_text_incipit: null
+*******************
+Baltimore---treble?---clef + key signature missing (page frayed)---if in C---first surviving notes are 134|531232|1D7U1432|3---see counter part on leaf [34] recto ---
+********Skipped**********
+Providence---treble?---G---3|5556|5-3,6|2565|5---
+tune_page: leaf [14] verso-leaf [15] recto
+tune_title: Providence
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: G
+tune_melodic_incipit: 3|5556|5-3,6|2565|5
+tune_text_incipit: null
+*******************
+Washington [by Billings]---treble---E---5U11|D55-6-7[slur sic]|U1---Lord when thou didst ascend on high---
+tune_page: leaf [14] verso-leaf [15] recto
+tune_title: Washington 
+tune_credit: [by Billings]
+tune_vocal_part: treble
+tune_key: E
+tune_melodic_incipit: 5U11|D55-6-7[slur sic]|U1
+tune_text_incipit: Lord when thou didst ascend on high
+*******************
+Kettery [Kittery---by Billings]---Am---1|321D7|U11-D7-U1[slur sic]---Our father who in heaven art---
+tune_page: leaf [14] verso-leaf [15] recto
+tune_title: Kettery [Kittery
+tune_credit: null
+tune_vocal_part: by Billings]
+tune_key: Am
+tune_melodic_incipit: 1|321D7|U11-D7-U1[slur sic]
+tune_text_incipit: Our father who in heaven art
+*******************
+Aurora [by Billings]---treble---C---1|3[-]45-3|1D7|U1---Awake my soul awake---
+tune_page: leaf [14] verso-leaf [15] recto
+tune_title: Aurora 
+tune_credit: [by Billings]
+tune_vocal_part: treble
+tune_key: C
+tune_melodic_incipit: 1|3[-]45-3|1D7|U1
+tune_text_incipit: Awake my soul awake
+*******************
+Lisbon [by Swan]---treble---C---1|1D567-U1|2---Oh let thy God & King---
+tune_page: leaf [14] verso
+tune_title: Lisbon 
+tune_credit: [by Swan]
+tune_vocal_part: treble
+tune_key: C
+tune_melodic_incipit: 1|1D567-U1|2
+tune_text_incipit: Oh let thy God & King
+*******************
+[The Indian Philosopher]---treble---D---556|5577|7---incomplete (only 1st 3 mm.)---see next entry---
+********Skipped**********
+The Indian Philosopher---treble---D---556|5577|7---Why should our Joys transform to pain---
+tune_page: leaf [15] verso
+tune_title: The Indian Philosopher
+tune_credit: null
+tune_vocal_part: treble
+tune_key: D
+tune_melodic_incipit: 556|5577|7
+tune_text_incipit: Why should our Joys transform to pain
+*******************
+Symphony [by Morgan]---treble---Eb---555|53|456U1|D7---
+tune_page: leaf [16] verso-leaf [17] recto
+tune_title: Symphony 
+tune_credit: [by Morgan]
+tune_vocal_part: treble
+tune_key: Eb
+tune_melodic_incipit: 555|53|456U1|D7
+tune_text_incipit: null
+*******************
+Amity [by Read]---treble---A---1|1322|3---
+tune_page: leaf [16] verso-leaf [17] recto
+tune_title: Amity 
+tune_credit: [by Read]
+tune_vocal_part: treble
+tune_key: A
+tune_melodic_incipit: 1|1322|3
+tune_text_incipit: null
+*******************
+Plymouth [by Kilbourn]---treble---D---5|5U132-1|D5566|5_|5---
+tune_page: leaf [16] verso-leaf [17] recto
+tune_title: Plymouth 
+tune_credit: [by Kilbourn]
+tune_vocal_part: treble
+tune_key: D
+tune_melodic_incipit: 5|5U132-1|D5566|5_|5
+tune_text_incipit: null
+*******************
+Anthem from Sundry Scriptures [by Billings]---treble---Gm---1|3-21D7|U32|11|D#7---
+tune_page: leaf [18] verso-leaf [19] recto
+tune_title: Anthem from Sundry Scriptures 
+tune_credit: [by Billings]
+tune_vocal_part: treble
+tune_key: Gm
+tune_melodic_incipit: 1|3-21D7|U32|11|D#7
+tune_text_incipit: null
+*******************
+All saints [by Hall]---treble---Cm---1|D7755|5-6-7U1|D7---
+tune_page: leaf [20] verso-leaf [21] recto
+tune_title: All saints 
+tune_credit: [by Hall]
+tune_vocal_part: treble
+tune_key: Cm
+tune_melodic_incipit: 1|D7755|5-6-7U1|D7
+tune_text_incipit: null
+*******************
+Montgomery [by Morgan]---“Counter”---C---3|5555+6|555---
+tune_page: leaf [22] verso-leaf [23] recto
+tune_title: Montgomery 
+tune_credit: [by Morgan]
+tune_vocal_part: “Counter”
+tune_key: C
+tune_melodic_incipit: 3|5555+6|555
+tune_text_incipit: null
+*******************
+Jordan [by Billings]---“Counter”---A---5|55|55-#4|56-5|6---
+tune_page: leaf [22] verso-leaf [23] recto
+tune_title: Jordan 
+tune_credit: [by Billings]
+tune_vocal_part: “Counter”
+tune_key: A
+tune_melodic_incipit: 5|55|55-#4|56-5|6
+tune_text_incipit: null
+*******************
+Dover---“Counter”---C---6 mm. rest---then 132-1|556-54-3|2---
+tune_page: leaf [22] verso-leaf [23] recto
+tune_title: Dover
+tune_credit: null
+tune_vocal_part: “Counter”
+tune_key: C
+tune_melodic_incipit: 6 mm. rest, then 132-1|556-54-3|2
+tune_text_incipit: null
+*******************
+Harmony [= Huntington by Morgan]---“Counter”---A---5|U11|D77|U1[1?]2---
+tune_page: leaf [22] verso-leaf [23] recto
+tune_title: Harmony [= Huntington by Morgan]
+tune_credit: null
+tune_vocal_part: “Counter”
+tune_key: A
+tune_melodic_incipit: 5|U11|D77|U1[1?]2
+tune_text_incipit: null
+*******************
+Farewell [??] Anthem [by French]---“Treble”---Am---4 mm. rest---then 55|5433|255|5555|554-32|1---My friends I am going A Long & tedious jou[r]ney never to Return---
+********Skipped**********
+Troy---“Counter”---if Am---555|7U1|D7,7|77U1D5|5---See what [a living stone?]---
+tune_page: leaf [24] verso
+tune_title: Troy
+tune_credit: null
+tune_vocal_part: “Counter”
+tune_key: if Am
+tune_melodic_incipit: 555|7U1|D7,7|77U1D5|5
+tune_text_incipit: See what [a living stone?]
+*******************
+Refuge---“Counter”---Em---111|111D7|U1,|111|2232|2---
+tune_page: leaf [24] verso
+tune_title: Refuge
+tune_credit: null
+tune_vocal_part: “Counter”
+tune_key: Em
+tune_melodic_incipit: 111|111D7|U1,|111|2232|2
+tune_text_incipit: null
+*******************
+Williamsto[w]n---treble?---Gm---1|5432|32-12_|2---
+tune_page: leaf [25] recto
+tune_title: Williamsto[w]n
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Gm
+tune_melodic_incipit: 1|5432|32-12_|2
+tune_text_incipit: null
+*******************
+Suffield---treble?---Em---5|1431|555_|5---
+tune_page: leaf [25] recto
+tune_title: Suffield
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 5|1431|555_|5
+tune_text_incipit: null
+*******************
+Connection [by Billings]---treble---E---5|U11|1-D7-65|5---
+tune_page: leaf [25] recto
+tune_title: Connection 
+tune_credit: [by Billings]
+tune_vocal_part: treble
+tune_key: E
+tune_melodic_incipit: 5|U11|1-D7-65|5
+tune_text_incipit: null
+*******************
+Wells---treble---F---3|553|543|2_|2---
+tune_page: leaf [25] verso-leaf [26] recto
+tune_title: Wells
+tune_credit: null
+tune_vocal_part: treble
+tune_key: F
+tune_melodic_incipit: 3|553|543|2_|2
+tune_text_incipit: null
+*******************
+Milford [by Stephenson]---treble---A---3 m-*********m. rest---then 533|1-2-1-23-4|552---
+tune_page: leaf [25] verso-leaf [26] recto
+tune_title: Milford 
+tune_credit: [by Stephenson]
+tune_vocal_part: treble
+tune_key: A
+tune_melodic_incipit: 3 mm. rest, then 533|1-2-1-23-4|552
+tune_text_incipit: null
+*******************
+Worthington [by Strong]---treble---Dm---555|U1D7U3-21|2---
+tune_page: leaf [25] verso-leaf [26] recto
+tune_title: Worthington 
+tune_credit: [by Strong]
+tune_vocal_part: treble
+tune_key: Dm
+tune_melodic_incipit: 555|U1D7U3-21|2
+tune_text_incipit: null
+*******************
+Repentance---treble?---Dm---1|35|52-4|42|3 ---
+tune_page: leaf [26] verso-leaf [27] recto
+tune_title: Repentance
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Dm
+tune_melodic_incipit: 1|35|52-4|42|3 
+tune_text_incipit: null
+*******************
+Bethel---“Counter”---C---555|6535|5---
+tune_page: leaf [27] verso
+tune_title: Bethel
+tune_credit: null
+tune_vocal_part: “Counter”
+tune_key: C
+tune_melodic_incipit: 555|6535|5
+tune_text_incipit: null
+*******************
+Russia [by Read]---“Counter”---Am---555|5565|5---
+tune_page: leaf [27] verso
+tune_title: Russia 
+tune_credit: [by Read]
+tune_vocal_part: “Counter”
+tune_key: Am
+tune_melodic_incipit: 555|5565|5
+tune_text_incipit: null
+*******************
+Amanda [by Morgan]---“Counter”---Am---5|57|5-7[sic]7-5|3-4-55|5---
+tune_page: leaf [27] verso
+tune_title: Amanda 
+tune_credit: [by Morgan]
+tune_vocal_part: “Counter”
+tune_key: Am
+tune_melodic_incipit: 5|57|5-7[sic]7-5|3-4-55|5
+tune_text_incipit: null
+*******************
+Norwitch [sic]---treble?---Am---1|3-2-1D7|U12|3---
+tune_page: leaf [28] verso-leaf [29] recto
+tune_title: Norwitch [sic]
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 1|3-2-1D7|U12|3
+tune_text_incipit: null
+*******************
+Hartford---treble?---Dm---5|5577|U1D7-65,5|5555|57-U1|D7---
+tune_page: leaf [28] verso-leaf [29] recto
+tune_title: Hartford
+tune_credit: null
+tune_vocal_part: treble?
+tune_key: Dm
+tune_melodic_incipit: 5|5577|U1D7-65,5|5555|57-U1|D7
+tune_text_incipit: null
+*******************
+Lenox [by Edson]---counter---C---3|5554|5---
+tune_page: leaf [28] verso-leaf [29] recto
+tune_title: Lenox 
+tune_credit: [by Edson]
+tune_vocal_part: counter
+tune_key: C
+tune_melodic_incipit: 3|5554|5
+tune_text_incipit: null
+*******************
+Virginia [by Brownson?]---counter---Em---1|1132|2-4-33|5-2---
+tune_page: leaf [28] verso-leaf [29] recto
+tune_title: Virginia 
+tune_credit: [by Brownson?]
+tune_vocal_part: counter
+tune_key: Em
+tune_melodic_incipit: 1|1132|2-4-33|5-2
+tune_text_incipit: null
+*******************
+Lenox [by Edson]---treble---C---1|3321|2---
+tune_page: leaf [30] recto
+tune_title: Lenox 
+tune_credit: [by Edson]
+tune_vocal_part: treble
+tune_key: C
+tune_melodic_incipit: 1|3321|2
+tune_text_incipit: null
+*******************
+Virginia [by Brownson?]---treble---Em---5|3355|6-7-5U1|D7---
+tune_page: leaf [30] recto
+tune_title: Virginia 
+tune_credit: [by Brownson?]
+tune_vocal_part: treble
+tune_key: Em
+tune_melodic_incipit: 5|3355|6-7-5U1|D7
+tune_text_incipit: null
+*******************
+Norwich---counter---Am---5|U1-2-1D7|65|5---
+tune_page: leaf [30] verso-leaf [31] recto
+tune_title: Norwich
+tune_credit: null
+tune_vocal_part: counter
+tune_key: Am
+tune_melodic_incipit: 5|U1-2-1D7|65|5
+tune_text_incipit: null
+*******************
+Hartford---counter---Dm---1|3355|54-32---
+tune_page: leaf [30] verso-leaf [31] recto
+tune_title: Hartford
+tune_credit: null
+tune_vocal_part: counter
+tune_key: Dm
+tune_melodic_incipit: 1|3355|54-32
+tune_text_incipit: null
+*******************
+46---counter---if in F---1|111|11D6|6---
+tune_page: leaf [30] verso-leaf [31] recto
+tune_title: 46
+tune_credit: null
+tune_vocal_part: counter
+tune_key: if in F
+tune_melodic_incipit: 1|111|11D6|6
+tune_text_incipit: null
+*******************
+Connection [by Billings]---counter---E---1|33|42|3---
+tune_page: leaf [30] verso-leaf [31] recto
+tune_title: Connection 
+tune_credit: [by Billings]
+tune_vocal_part: counter
+tune_key: E
+tune_melodic_incipit: 1|33|42|3
+tune_text_incipit: null
+*******************
+Majesty [by Billings]---counter---F---1|3-2-32|21|11|3---[The Lord?] descended from above---
+tune_page: leaf [30] verso-leaf [31] recto
+tune_title: Majesty 
+tune_credit: [by Billings]
+tune_vocal_part: counter
+tune_key: F
+tune_melodic_incipit: 1|3-2-32|21|11|3
+tune_text_incipit: [The Lord?] descended from above
+*******************
+Suffield---counter?---clef---key signature missing---if in Em---1|3211|D77U1_|1 ---
+********Skipped**********
+Milford [by Stephenson]---counter---A---4 mm. rest---then 1D66|5-6-5-67|U1D7|6-55|5---If angels Sung a Sav[i]our[’]s birth---
+********Skipped**********
+Worthington [by Strong]---counter---Dm---135|555-43-4|5---
+tune_page: leaf [31] verso-leaf [32] recto
+tune_title: Worthington 
+tune_credit: [by Strong]
+tune_vocal_part: counter
+tune_key: Dm
+tune_melodic_incipit: 135|555-43-4|5
+tune_text_incipit: null
+*******************
+133---counter---G---5|5U1|D7U1|D65|5---
+tune_page: leaf [31] verso-leaf [32] recto
+tune_title: 133
+tune_credit: null
+tune_vocal_part: counter
+tune_key: G
+tune_melodic_incipit: 5|5U1|D7U1|D65|5
+tune_text_incipit: null
+*******************
+Wells---counter---F---5|555|5U11|D7---
+tune_page: leaf [31] verso-leaf [32] recto
+tune_title: Wells
+tune_credit: null
+tune_vocal_part: counter
+tune_key: F
+tune_melodic_incipit: 5|555|5U11|D7
+tune_text_incipit: null
+*******************
+Bridgewater [by Edson]---C---331|5532|3---
+tune_page: leaf [32] recto
+tune_title: Bridgewater 
+tune_credit: [by Edson]
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 331|5532|3
+tune_text_incipit: null
+*******************
+Bunkerhill A sap[p]hic Ode---counter---Am---555|56|7776|55---Why should vain Mortal[s?] tremble at the sight of; 2 verses of this text written on this p.---neither underlaid---
+********Skipped**********
+Maryland [by Billings]---counter---Am---5|5555|5,5|5565|5---And must this Body die---
+tune_page: leaf [32] verso-leaf [33] recto
+tune_title: Maryland 
+tune_credit: [by Billings]
+tune_vocal_part: counter
+tune_key: Am
+tune_melodic_incipit: 5|5555|5,5|5565|5
+tune_text_incipit: And must this Body die
+*******************
+Rainbow [by Swan]---counter---C---1|333|555|5---[’]Tis by thy strength the mountains stand---
+tune_page: leaf [32] verso-leaf [33] recto
+tune_title: Rainbow 
+tune_credit: [by Swan]
+tune_vocal_part: counter
+tune_key: C
+tune_melodic_incipit: 1|333|555|5
+tune_text_incipit: [’]Tis by thy strength the mountains stand
+*******************
+Worcester [by Wood]---counter---F---5 mm. rest---then 5U11|D7766|5---
+tune_page: leaf [33] verso-leaf [34] recto
+tune_title: Worcester 
+tune_credit: [by Wood]
+tune_vocal_part: counter
+tune_key: F
+tune_melodic_incipit: 5 mm. rest, then 5U11|D7766|5
+tune_text_incipit: null
+*******************
+Greenfield [by Edson]---counter---Am---5|5577|55-67---
+tune_page: leaf [33] verso-leaf [34] recto
+tune_title: Greenfield 
+tune_credit: [by Edson]
+tune_vocal_part: counter
+tune_key: Am
+tune_melodic_incipit: 5|5577|55-67
+tune_text_incipit: null
+*******************
+The Indian Philosopher---counter---D---113|3222|2---
+tune_page: leaf [33] verso-leaf [34] recto
+tune_title: The Indian Philosopher
+tune_credit: null
+tune_vocal_part: counter
+tune_key: D
+tune_melodic_incipit: 113|3222|2
+tune_text_incipit: null
+*******************
+Lyme---counter---if in Cm---5|5556|555,5-6|7655|5---
+tune_page: leaf [34] recto
+tune_title: Lyme
+tune_credit: null
+tune_vocal_part: counter
+tune_key: if in Cm
+tune_melodic_incipit: 5|5556|555,5-6|7655|5
+tune_text_incipit: null
+*******************
+Baltimo[r?]e---counter---C---556|555556|543655|5---treble? part on leaf [13] verso---
+tune_page: leaf [34] recto
+tune_title: Baltimo[r?]e
+tune_credit: null
+tune_vocal_part: counter
+tune_key: C
+tune_melodic_incipit: 556|555556|543655|5
+tune_text_incipit: treble? part on leaf [13] verso
+*******************
+Anthem Luke 2nd Chap [by Stephenson]---counter---G---5|56|445|55---
+tune_page: leaf [34] verso-leaf [35] recto
+tune_title: Anthem Luke 2nd Chap 
+tune_credit: [by Stephenson]
+tune_vocal_part: counter
+tune_key: G
+tune_melodic_incipit: 5|56|445|55
+tune_text_incipit: null
+*******************
+The Indian Chief---melody---G---5|534|565|422|2---
+tune_page: leaf [35] verso-leaf [36] recto
+tune_title: The Indian Chief
+tune_credit: null
+tune_vocal_part: melody
+tune_key: G
+tune_melodic_incipit: 5|534|565|422|2
+tune_text_incipit: null
+*******************
+Old 100th [by Bourgeois?]---A---3|32|1D7|67|U1---
+tune_page: a. l. [1] recto
+tune_title: Old 100th 
+tune_credit: [by Bourgeois?]
+tune_vocal_part: null
+tune_key: A
+tune_melodic_incipit: 3|32|1D7|67|U1
+tune_text_incipit: null
+*******************
+St[.] Helen[’]s---C---5|5U1|31|D65[or 6]|5---
+tune_page: a. l. [1] recto
+tune_title: St[.] Helen[’]s
+tune_credit: null
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 5|5U1|31|D65[or 6]|5
+tune_text_incipit: null
+*******************
+Colchester---C---5|U1[-?]2[-?]32|D7-U12|D55|U1---
+tune_page: a. l. [1] recto
+tune_title: Colchester
+tune_credit: null
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 5|U1[-?]2[-?]32|D7-U12|D55|U1
+tune_text_incipit: null
+*******************
+untitled tune---Bb---1|12|12|3,|1|D7U1|23-2-1|D7---
+tune_page: a. l. [1] recto
+tune_title: untitled tune
+tune_credit: null
+tune_vocal_part: null
+tune_key: Bb
+tune_melodic_incipit: 1|12|12|3,|1|D7U1|23-2-1|D7
+tune_text_incipit: null
+*******************
+Haverhill---G---3-4|54-3|22-3|43-2|1---LoudLord [sic] haluj[?]hs [sic] to the Lord---
+tune_page: a. l. [1] verso
+tune_title: Haverhill
+tune_credit: null
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 3-4|54-3|22-3|43-2|1
+tune_text_incipit: LoudLord [sic] haluj[?]hs [sic] to the Lord
+*******************
+Martin[’]s Lane---F---1|31|(5)[-]53-U1|D6-43-2|(2)[-]3---
+tune_page: a. l. [1] verso
+tune_title: Martin[’]s Lane
+tune_credit: null
+tune_vocal_part: null
+tune_key: F
+tune_melodic_incipit: 1|31|(5)[-]53-U1|D6-43-2|(2)[-]3
+tune_text_incipit: null
+*******************
+Bedford---F---1|35|63|41|5---
+tune_page: a. l. [1] verso
+tune_title: Bedford
+tune_credit: null
+tune_vocal_part: null
+tune_key: F
+tune_melodic_incipit: 1|35|63|41|5
+tune_text_incipit: null
+*******************
+Martin[’]s Lane---F---1|31[-](3)|53-U1|D6-4-33[sic]|(3)[-]3---
+tune_page: a. l. [2] recto
+tune_title: Martin[’]s Lane
+tune_credit: null
+tune_vocal_part: null
+tune_key: F
+tune_melodic_incipit: 1|31[-](3)|53-U1|D6-4-33[sic]|(3)[-]3
+tune_text_incipit: null
+*******************
+Pecham [recte Peckham?]---D?---5|U12-3|2[-?]1D7|U1 (if this is a S. M. tune but even then some notes appear to be missing)---accidentals in key signature are flats on A + E and sharps on F + E---
+tune_page: a. l. [2] recto
+tune_title: Pecham [recte Peckham?]
+tune_credit: null
+tune_vocal_part: null
+tune_key: D?
+tune_melodic_incipit: 5|U12-3|2[-?]1D7|U1 (if this is a S. M. tune but even then some notes appear to be missing)
+tune_text_incipit: accidentals in key signature are flats on A + E and sharps on F + E
+*******************
+Loughton---Bb---333|53|U14|2,D5|66|U43|(3)[-]2---
+tune_page: a. l. [2] recto
+tune_title: Loughton
+tune_credit: null
+tune_vocal_part: null
+tune_key: Bb
+tune_melodic_incipit: 333|53|U14|2,D5|66|U43|(3)[-]2
+tune_text_incipit: null
+*******************
+Dunstan---G---131|43|21|5---
+tune_page: a. l. [2] verso
+tune_title: Dunstan
+tune_credit: null
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 131|43|21|5
+tune_text_incipit: null
+*******************

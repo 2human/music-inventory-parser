@@ -1,0 +1,292 @@
+Collection Name: finalized collections/Atwill n
+
+------------------------------------Collection Description------------------------------------
+
+
+------------------------------------End of Collection Description------------------------------------
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Entry Page:  leaf [1] recto
+Entry Title: Newburgh
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: “Trebbe”
+Entry Key: C
+Entry Melodic Incipit: 1|3332|3,3|1D6|U22|2
+Entry Text Incipit: Let every creature Join to praise the eternal god
+
+
+Entry Page:   leaf [1] recto
+Entry Title: Pennsylvania “By Temple”
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Am
+Entry Melodic Incipit: 11-23-4|5234-3| 21D#7
+Entry Text Incipit: The god of Glory sends his summons forth
+
+
+Entry Page:   leaf [2] verso
+Entry Title: Delight 
+Secular Entry: false
+Entry Credit: [by Coan]
+Entry Vocal Part: treble
+Entry Key: Em
+Entry Melodic Incipit: 534|55U1
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [2] verso
+Entry Title: Mortality
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 555|5431|4
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [2] verso
+Entry Title: Refuge
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 133|33-455|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [3] recto
+Entry Title: Vergennes
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Gm
+Entry Melodic Incipit: [missing 1st note]3-4-54|33-555|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [3] recto
+Entry Title: Evening Shade
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em?
+Entry Melodic Incipit: [missing 1st note]5543[-]4|5, 5|3456|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [3] verso
+Entry Title: Smyrna
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: A
+Entry Melodic Incipit: 334|3211|1,D7|U1112|3
+Entry Text Incipit: Why should the children of a king go mourning all their days
+
+
+Entry Page:   leaf [3] verso
+Entry Title: sardin[i]a [“s” sic]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Dm
+Entry Melodic Incipit: 557|U11|D7-65-45
+Entry Text Incipit: Thou art the [earnest?] of [my?] love
+
+
+Entry Page:   leaf [4] recto
+Entry Title: Ex[h]ortation
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: F
+Entry Melodic Incipit: 5|3-2-34-3|22|3-4-55|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [4] recto
+Entry Title: Grafton 
+Secular Entry: false
+Entry Credit: [by Stone]
+Entry Vocal Part: treble?
+Entry Key: C
+Entry Melodic Incipit: 1_|1D55|U1D7U1-D76|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [4] verso
+Entry Title: Sharon
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: D
+Entry Melodic Incipit: 5|555U1|D7,7|5U1D7U2-D7|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [4] verso
+Entry Title: Berne 
+Secular Entry: false
+Entry Credit: [by Hill]
+Entry Vocal Part: treble
+Entry Key: Am
+Entry Melodic Incipit: 1|11D#77|U114
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [4] verso-[5] recto
+Entry Title: Morning Swain
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 534|55U1D7|U1, 1|D5565|5
+Entry Text Incipit: completed on next p. after 2 final mm. of the tune Friendship (see below)
+
+
+Entry Page:   leaf [5] recto
+Entry Title: Persia
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: C
+Entry Melodic Incipit: 111|32|31D7,U2|3311|1D7|U1
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [5] recto
+Entry Title: Friendship
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 553|7553|4
+Entry Text Incipit: thy wrath lies heavy on my soul
+
+
+Entry Page:   leaf [5] verso
+Entry Title: Devotion
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: C
+Entry Melodic Incipit: 1|3322|1D7|U1,1|D7U123|22|2
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [5] verso
+Entry Title: Funeral Hymn
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em?
+Entry Melodic Incipit: 333|3-2-3-45|5-44|5_|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [5] verso
+Entry Title: Paradise
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: D
+Entry Melodic Incipit: 35U1|1D655|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [6] recto
+Entry Title: Boston
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Am
+Entry Melodic Incipit: 1|2434|5,5|34-321-D7|U1
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [6] recto
+Entry Title: [untitled]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Am
+Entry Melodic Incipit: 1|1D7U15|312_|2,255|4-32-1D7-12|1
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [6] verso
+Entry Title: New Jerusalem 
+Secular Entry: false
+Entry Credit: [by Ingalls]
+Entry Vocal Part: treble tenor + bass copied sequentially (i. e., not in score)
+Entry Key: G
+Entry Melodic Incipit: tenor incipit 132|1234|5
+Entry Text Incipit: From the third heavens where God resides
+
+
+Entry Page:   leaf [7] recto
+Entry Title: Coronation “By Holden”
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble + tenor copied sequentially
+Entry Key: Ab
+Entry Melodic Incipit: tenor incipit 5|U1133|212
+Entry Text Incipit: All hail the power of Jesus’ name
+
+
+Entry Page:   leaf [7] recto
+Entry Title: Prolection [sic; surely Protection]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: F#m
+Entry Melodic Incipit: 5|4455|5U1D7_|77U11|D7-65-433|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [7] recto
+Entry Title: Freindship [sic]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: F
+Entry Melodic Incipit: 5|555U1|D7,5|U1D636|5
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [7] verso
+Entry Title: Burlington
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Bm
+Entry Melodic Incipit: 1|33D77|U123,3-4|53-21D5-7|U1
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [7] verso
+Entry Title: New Durham
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Bm
+Entry Melodic Incipit: 1|2231|234,4|23-452-D7|U1
+Entry Text Incipit: null
+
+
+Entry Page:   leaf [7] verso
+Entry Title: Chartotte [sic; surely Charlotte]
+Secular Entry: false
+Entry Credit: null
+Entry Vocal Part: treble?
+Entry Key: Em
+Entry Melodic Incipit: 5|5433|56[sic]|U1-D75|5
+Entry Text Incipit: null
+
+
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+

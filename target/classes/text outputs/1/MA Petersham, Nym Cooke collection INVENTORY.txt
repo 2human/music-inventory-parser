@@ -1,0 +1,1737 @@
+Pre-1821 American Sacred Music 
+in the collection of Nym Cooke
+January 2019
+
+incipits for sacred tunes are tenor voice, unless otherwise specified or tenor is not present
+TCTB = treble, counter, tenor, bass (vocal parts always listed from top down)
+5-6 = slurred notes (setting one syllable)
+5_|5 = single note tied across a bar line
+“,” in a string of scale degree numbers = end of one line of text, start of the next
+4tr = trill on the 4th degree of the scale
+5+U1 = 2 notes at once in a part
+n4 or n7 = natural sign before the 4th or 7th degree of the scale, raising it a half-step
+(6) = grace note
+ = noteworthy
+ASMI = Britton, Lowens, and Crawford, American Sacred Music Imprints, 1698-1810:
+A Bibliography (American Antiquarian Society, 1990)
+
+
+***********End of Collection Description********************
+
+
+
+Source: 1
+Author: Atwill, Thomas H.  
+Title: The New York & Vermont Collection of Sacred Harmony.  
+Call number: null
+Inscription: additional leaf verso, “John W Ender[s?] / Albany”
+Description: 2nd ed.  Albany, N.Y.: printed by the proprietors, [1806?].  ASMI 29B.  Complete, but first 8 pp. are printed [i]/vi, vii/iv, v/ii, iii/viii.	no MS. music
+
+
+----------------end of source-------------
+
+Source: 2
+Author: [Atwill, Thomas H.  
+Title: The New York & Vermont Collection of Sacred Harmony.  
+Call number: null
+Inscription: null
+Description: 2nd ed.  Albany, N.Y., [1804-1806].]  Lacks pp. [i]-vi, so it can’t be determined whether this is ASMI 29 or 29B.	inscriptions: p. vii, “Burdett”; p. [9], “Mrs[.] Caroline C. Lathrop”
+	no MS. music
+
+
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Newburgh---“Trebbe”---C---1|3332|3,3|1D6|U22|2---Let every creature Join to praise the eternal god---
+tune_page: leaf [1] recto
+tune_title: Newburgh
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Trebbe”
+tune_key: C
+tune_melodic_incipit: 1|3332|3,3|1D6|U22|2
+tune_text_incipit: Let every creature Join to praise the eternal god
+*******************
+Pennsylvania “By Temple”---treble?---Am---11-23-4|5234-3|21D#7---The god of Glory sends his summons forth---
+tune_page: leaf [1] recto
+tune_title: Pennsylvania “By Temple”
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 11-23-4|5234-3|21D#7
+tune_text_incipit: The god of Glory sends his summons forth
+*******************
+Delight [by Coan]---treble---Em---534|55U1---
+tune_page: leaf [2] verso
+tune_title: Delight 
+tune_credit: [by Coan]
+tune_is_secular: false
+tune_vocal_part: treble
+tune_key: Em
+tune_melodic_incipit: 534|55U1
+tune_text_incipit: null
+*******************
+Mortality---treble?---Em---555|5431|4---
+tune_page: leaf [2] verso
+tune_title: Mortality
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 555|5431|4
+tune_text_incipit: null
+*******************
+Refuge---treble?---Em---133|33-455|5---
+tune_page: leaf [2] verso
+tune_title: Refuge
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 133|33-455|5
+tune_text_incipit: null
+*******************
+Vergennes---treble?---Gm---[missing 1st note]3-4-54|33-555|5---
+tune_page: leaf [3] recto
+tune_title: Vergennes
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Gm
+tune_melodic_incipit: [missing 1st note]3-4-54|33-555|5
+tune_text_incipit: null
+*******************
+Evening Shade---treble?---Em?---[missing 1st note]5543[-]4|5,5|3456|5---
+tune_page: leaf [3] recto
+tune_title: Evening Shade
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Em?
+tune_melodic_incipit: [missing 1st note]5543[-]4|5,5|3456|5
+tune_text_incipit: null
+*******************
+Smyrna---treble?---A---334|3211|1,D7|U1112|3---Why should the children of a king go mourning all their days---
+tune_page: leaf [3] verso
+tune_title: Smyrna
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: A
+tune_melodic_incipit: 334|3211|1,D7|U1112|3
+tune_text_incipit: Why should the children of a king go mourning all their days
+*******************
+sardin[i]a [“s” sic]---treble?---Dm---557|U11|D7-65-45---Thou art the [earnest?] of [my?] love---
+tune_page: leaf [3] verso
+tune_title: sardin[i]a [“s” sic]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Dm
+tune_melodic_incipit: 557|U11|D7-65-45
+tune_text_incipit: Thou art the [earnest?] of [my?] love
+*******************
+Ex[h]ortation---treble?---F---5|3-2-34-3|22|3-4-55|5---
+tune_page: leaf [4] recto
+tune_title: Ex[h]ortation
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: F
+tune_melodic_incipit: 5|3-2-34-3|22|3-4-55|5
+tune_text_incipit: null
+*******************
+Grafton [by Stone]---treble?---C---1_|1D55|U1D7U1-D76|5---
+tune_page: leaf [4] recto
+tune_title: Grafton 
+tune_credit: [by Stone]
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: 1_|1D55|U1D7U1-D76|5
+tune_text_incipit: null
+*******************
+Sharon---treble?---D---5|555U1|D7,7|5U1D7U2-D7|5---
+tune_page: leaf [4] verso
+tune_title: Sharon
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: D
+tune_melodic_incipit: 5|555U1|D7,7|5U1D7U2-D7|5
+tune_text_incipit: null
+*******************
+Berne [by Hill]---treble---Am---1|11D#77|U114---
+tune_page: leaf [4] verso
+tune_title: Berne 
+tune_credit: [by Hill]
+tune_is_secular: false
+tune_vocal_part: treble
+tune_key: Am
+tune_melodic_incipit: 1|11D#77|U114
+tune_text_incipit: null
+*******************
+Morning Swain---treble?---Em---534|55U1D7|U1,1|D5565|5---completed on next p. after 2 final mm. of the tune Friendship (see below)---
+tune_page: leaf [4] verso-[5] recto
+tune_title: Morning Swain
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 534|55U1D7|U1,1|D5565|5
+tune_text_incipit: completed on next p. after 2 final mm. of the tune Friendship (see below)
+*******************
+Persia---treble?---C---111|32|31D7,U2|3311|1D7|U1---
+tune_page: leaf [5] recto
+tune_title: Persia
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: 111|32|31D7,U2|3311|1D7|U1
+tune_text_incipit: null
+*******************
+Friendship---treble?---Em---553|7553|4---thy wrath lies heavy on my soul---
+tune_page: leaf [5] recto
+tune_title: Friendship
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 553|7553|4
+tune_text_incipit: thy wrath lies heavy on my soul
+*******************
+Devotion---treble?---C---1|3322|1D7|U1,1|D7U123|22|2---
+tune_page: leaf [5] verso
+tune_title: Devotion
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: C
+tune_melodic_incipit: 1|3322|1D7|U1,1|D7U123|22|2
+tune_text_incipit: null
+*******************
+Funeral Hymn---treble?---Em?---333|3-2-3-45|5-44|5_|5---
+tune_page: leaf [5] verso
+tune_title: Funeral Hymn
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Em?
+tune_melodic_incipit: 333|3-2-3-45|5-44|5_|5
+tune_text_incipit: null
+*******************
+Paradise---treble?---D---35U1|1D655|5---
+tune_page: leaf [5] verso
+tune_title: Paradise
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: D
+tune_melodic_incipit: 35U1|1D655|5
+tune_text_incipit: null
+*******************
+Boston---treble?---Am---1|2434|5,5|34-321-D7|U1---
+tune_page: leaf [6] recto
+tune_title: Boston
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 1|2434|5,5|34-321-D7|U1
+tune_text_incipit: null
+*******************
+[untitled]---treble?---Am---1|1D7U15|312_|2,255|4-32-1D7-12|1---
+tune_page: leaf [6] recto
+tune_title: [untitled]
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: treble?
+tune_key: Am
+tune_melodic_incipit: 1|1D7U15|312_|2,255|4-32-1D7-12|1
+tune_text_incipit: null
+*******************
+New Jerusalem [by Ingalls]---treble---tenor---+ bass copied sequentially (i. e.-*- not in score)---G---tenor incipit 132|1234|5---From the third heavens where God resides---
+tune_page: leaf [6] verso
+tune_title: New Jerusalem 
+tune_credit: [by Ingalls]
+tune_is_secular: false
+tune_vocal_part: treble tenor + bass copied sequentially (i. e., not in score)
+tune_key: G
+tune_melodic_incipit: tenor incipit 132|1234|5
+tune_text_incipit: From the third heavens where God resides
+*******************
+Coronation “By Holden”---treble + tenor copied sequentially---Ab---tenor incipit 5|U1133|212---All hail the power of Jesus’ name---
+tune_page: leaf [7] recto
+tune_title: Coronation “By Holden”
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble + tenor copied sequentially
+tune_key: Ab
+tune_melodic_incipit: tenor incipit 5|U1133|212
+tune_text_incipit: All hail the power of Jesus’ name
+*******************
+Prolection [sic; surely Protection]---treble?---F#m---5|4455|5U1D7_|77U11|D7-65-433|5---
+tune_page: leaf [7] recto
+tune_title: Prolection [sic; surely Protection]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: F#m
+tune_melodic_incipit: 5|4455|5U1D7_|77U11|D7-65-433|5
+tune_text_incipit: null
+*******************
+Freindship [sic]---treble?---F---5|555U1|D7,5|U1D636|5---
+tune_page: leaf [7] recto
+tune_title: Freindship [sic]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: F
+tune_melodic_incipit: 5|555U1|D7,5|U1D636|5
+tune_text_incipit: null
+*******************
+Burlington---treble?---Bm---1|33D77|U123,3-4|53-21D5-7|U1---
+tune_page: leaf [7] verso
+tune_title: Burlington
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Bm
+tune_melodic_incipit: 1|33D77|U123,3-4|53-21D5-7|U1
+tune_text_incipit: null
+*******************
+New Durham---treble?---Bm---1|2231|234,4|23-452-D7|U1---
+tune_page: leaf [7] verso
+tune_title: New Durham
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Bm
+tune_melodic_incipit: 1|2231|234,4|23-452-D7|U1
+tune_text_incipit: null
+*******************
+Chartotte [sic; surely Charlotte]---treble?---Em---5|5433|56[sic]|U1-D75|5---
+tune_page: leaf [7] verso
+tune_title: Chartotte [sic; surely Charlotte]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: treble?
+tune_key: Em
+tune_melodic_incipit: 5|5433|56[sic]|U1-D75|5
+tune_text_incipit: null
+*******************
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 3
+Author: Atwill, Thomas H.  
+Title: The New-York Collection of Sacred Harmony
+Call number: null
+Inscription: null
+Description: .  Albany: printed by the author, n. d. [note difference here from ASMI 27 and 28, the dated printings of 1795 and 1802]  Complete.  	MS. music on leaves sewn or bound inside front and back covers; what will be called 
+		here leaves [1-6], all inside the front cover, are actually a single long folded 
+		leaf , producing effectively 2 leaves (“leaves [1-2]”); 2 leaves pasted together 
+		back to back, producing effectively a single leaf (“leaf [3]”); 2 separate leaves, 
+		the second folded over about an inch at the stitching (“leaves [4-5]”); and the 
+		front flyleaf, bound into the book (“leaf [6]”); what will be called here leaf [7] 
+		is the back flyleaf, bound into the book.  
+	inscription, leaf [6] recto: “Betsey Spear her Book / Bought Shelburne 1805 Price 
+		one Dollar”; inscription, leaf [7] recto: “1805”
+	leaves [1] verso and [2] recto are filled with penmanship exercises: “…and beware of 
+		blotting take Care” written 16 times on leaf [1] verso (with “Thomas 
+		Chittenden”* at the bottom), “Nebuchadnezzar the King made an…” written 
+		17 times on leaf [2] recto (also “Six foot of Earth ends all distinction,” 
+		“Burlington”) *Thomas Chittenden was the first governor of Vermont; lived 
+		in Williston, not far from Shelburne; died 1797
+	MS. music entries 1-9 + 18-19 lack both clef + time signature; entries 10-17 lack 
+		time signature 
+
+----------------end of source-------------
+
+Source: 4
+Author: Belknap, Daniel.  
+Title: The Evangelical Harmony
+Call number: null
+Inscription: null
+Description: .  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1800.  Lacks pp. 31-32, 77-[80]; pp. 43-74 cut so that outer 6th-12th is missing.	no inscriptions, no MS. music
+
+
+----------------end of source-------------
+
+Source: 5
+Author: [Benham, Asahel.  
+Title: Federal Harmony.
+Call number: null
+Inscription: null
+Description:   2nd-6th ed.  New Haven: A. Morse or Middletown, Conn.: Moses H. Woodward, 1792-?1796.]  Incomplete, so edition can’t be determined.  Lacks all pp. before p. [9]; pp. [9]-14 fragmentary; next leaf (with texts of 2 pieces) lacks upper outside corner, so whether it’s unnumbered or numbered 15-16 can’t be determined; music lacks pp. 31-34; pp. 25-28 of music appear to be bound between pp. 52 and 53; pp. 57-58 fragmentary.  Lacks most of both covers.  	no inscriptions, no MS. music 
+
+
+----------------end of source-------------
+
+Source: 6
+Author: Benham, Asahel.  
+Title: Social Harmony
+Call number: null
+Inscription: null
+Description: .  [Wallingford, Conn.?, 1801 or later].  ASMI 95A.  Complete.	ink stamp on t. p.: “NEWMAN HUNGERFORD, / 4[5?] Prospect St., / HARTFORD, 
+		CONN.”
+	no inscriptions, no MS. music
+
+
+----------------end of source-------------
+
+Source: 7
+Author: [Brown, Bartholomew, and others.  
+Title: Columbian and European Harmony: or, Bridgewater Collection of Sacred Music.
+Call number: null
+Inscription: null
+Description:   2nd ed.  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1804.]  Lacks pp. [i]-viii, 73-80, 91-94, 97-112.  P. no. 118 printed upside down.	inscriptions: front cover, “[Ste]phen Curtis’ / Book Scituate January 30th 1809”; 
+		inside back cover, “Stephen Curtis / Curtis Stephen”
+	no MS. music
+
+
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Hanover---A---5|U1-2-12|3-4-35|1-2D7|U1---
+tune_page: a. l. [1] recto
+tune_title: Hanover
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: A
+tune_melodic_incipit: 5|U1-2-12|3-4-35|1-2D7|U1
+tune_text_incipit: null
+*******************
+Psalm 23rd---C---1|D76|5U2|1D7|U1---
+tune_page: a. l. [1] recto
+tune_title: Psalm 23rd
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 1|D76|5U2|1D7|U1
+tune_text_incipit: null
+*******************
+Panama---G---3|1-D7-U12|3-45|6-5-43|2---
+tune_page: a. l. [1] recto
+tune_title: Panama
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 3|1-D7-U12|3-45|6-5-43|2
+tune_text_incipit: null
+*******************
+Milton---C---5|U11|31|2-1-D76|5---
+tune_page: a. l. [1] verso
+tune_title: Milton
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 5|U11|31|2-1-D76|5
+tune_text_incipit: null
+*******************
+St. Mary[’]s---Em---5|55-4|32|1---
+tune_page: a. l. [1] verso
+tune_title: St. Mary[’]s
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: Em
+tune_melodic_incipit: 5|55-4|32|1
+tune_text_incipit: null
+*******************
+Addison’s---19th Psalm---G---5|U12|3-4-32|1D7|U1---
+tune_page: a. l. [1] verso
+tune_title: Addison’s
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: 19th Psalm
+tune_key: G
+tune_melodic_incipit: 5|U12|3-4-32|1D7|U1
+tune_text_incipit: null
+*******************
+Psalm 24th---G---1|3-4-32|3-4-51|2-3-43|2---
+tune_page: a. l. [2] recto
+tune_title: Psalm 24th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|3-4-32|3-4-51|2-3-43|2
+tune_text_incipit: null
+*******************
+Psalm 29th---G---5|U1D5|U12|32|3---
+tune_page: a. l. [2] recto
+tune_title: Psalm 29th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 5|U1D5|U12|32|3
+tune_text_incipit: null
+*******************
+Psalm 15th---G---5|U32|1D5|U3-42|3---
+tune_page: a. l. [2] recto
+tune_title: Psalm 15th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 5|U32|1D5|U3-42|3
+tune_text_incipit: null
+*******************
+Psalm 39th---Dm---1|32|1-54|5-32|1---
+tune_page: a. l. [2] verso
+tune_title: Psalm 39th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: Dm
+tune_melodic_incipit: 1|32|1-54|5-32|1
+tune_text_incipit: null
+*******************
+St[.] Paul’s---Bb---5|3-56|U2-1D7|U1---
+tune_page: a. l. [2] verso
+tune_title: St[.] Paul’s
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: Bb
+tune_melodic_incipit: 5|3-56|U2-1D7|U1
+tune_text_incipit: null
+*******************
+Vernon---C---1|35|U1-21|D76|5---
+tune_page: a. l. [2] verso
+tune_title: Vernon
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 1|35|U1-21|D76|5
+tune_text_incipit: null
+*******************
+St[.] Helen’s---C---5|35|U1D5|6U2|D7---
+tune_page: a. l. [3] recto
+tune_title: St[.] Helen’s
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 5|35|U1D5|6U2|D7
+tune_text_incipit: null
+*******************
+[St. Helen’s]---“Treble”---C---5|5U1|31|D66|5---
+tune_page: a. l. [3] recto
+tune_title: [St. Helen’s]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Treble”
+tune_key: C
+tune_melodic_incipit: 5|5U1|31|D66|5
+tune_text_incipit: null
+*******************
+St. Ann’s---C---5|36|5U1|1D7|U1---
+tune_page: a. l. [3] verso
+tune_title: St. Ann’s
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: C
+tune_melodic_incipit: 5|36|5U1|1D7|U1
+tune_text_incipit: null
+*******************
+Trinity---G---1|12|D7U1|2,3|34|32|1,2|1D7|1---Come thou Almighty King Help us thy name to sing Help us to praise; 4 verses of text written on facing p. (a. l. [4] recto)---
+tune_page: a. l. [3] verso
+tune_title: Trinity
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|12|D7U1|2,3|34|32|1,2|1D7|1
+tune_text_incipit: Come thou Almighty King Help us thy name to sing Help us to praise; 4 verses of text written on facing p. (a. l. [4] recto)
+*******************
+Easton---G---1|53|42|31|2---
+tune_page: a. l. [3] verso
+tune_title: Easton
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|53|42|31|2
+tune_text_incipit: null
+*******************
+Pleyel’s German Hymn---G---35|23|42|3---Praise O praise the name divine; 4 verses of text written on facing p. (a. l. [4] recto)---
+tune_page: a. l. [3] verso
+tune_title: Pleyel’s German Hymn
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 35|23|42|3
+tune_text_incipit: Praise O praise the name divine; 4 verses of text written on facing p. (a. l. [4] recto)
+*******************
+Columbia---[music by Thomas Arne]---G---5|U11|1-2-3-4-51|22-3-4|4-3---“Psalm 104th P.M.” given as source of text---tune originally set the poem “Rule Britannia”---
+tune_page: a. l. [5] recto
+tune_title: Columbia
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: [music by Thomas Arne]
+tune_key: G
+tune_melodic_incipit: 5|U11|1-2-3-4-51|22-3-4|4-3
+tune_text_incipit: “Psalm 104th P.M.” given as source of text, tune originally set the poem “Rule Britannia”
+*******************
+Lisbon---G---1D5U1|2D5|U3234|32---Hither ye faithful haste with songs of triumph---3 verses of text written on facing p. (a. l. [4] verso)---
+tune_page: a. l. [5] recto
+tune_title: Lisbon
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1D5U1|2D5|U3234|32
+tune_text_incipit: Hither ye faithful haste with songs of triumph, 3 verses of text written on facing p. (a. l. [4] verso)
+*******************
+Psalm 68th---D---1|3135|U1D3-4|5---
+tune_page: a. l. [5] recto
+tune_title: Psalm 68th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: D
+tune_melodic_incipit: 1|3135|U1D3-4|5
+tune_text_incipit: null
+*******************
+Luneville---G---1|1-D5U3|3-13|2-1D7|U1---
+tune_page: a. l. [5] recto
+tune_title: Luneville
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|1-D5U3|3-13|2-1D7|U1
+tune_text_incipit: null
+*******************
+Psalm 33d---G---1|313-6-|54|32|1---
+tune_page: a. l. [5] verso
+tune_title: Psalm 33d
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|313-6-|54|32|1
+tune_text_incipit: null
+*******************
+Piermont---D---134|55|U1-D7-6-56-4|3---
+tune_page: a. l. [5] verso
+tune_title: Piermont
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: D
+tune_melodic_incipit: 134|55|U1-D7-6-56-4|3
+tune_text_incipit: null
+*******************
+Psalm 108th---G---1|24|25|4-3-21|2---
+tune_page: a. l. [5] verso
+tune_title: Psalm 108th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|24|25|4-3-21|2
+tune_text_incipit: null
+*******************
+Newport---G---5|31|1D5|U2-3-4-5-43|3-2---
+tune_page: a. l. [5] verso
+tune_title: Newport
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 5|31|1D5|U2-3-4-5-43|3-2
+tune_text_incipit: null
+*******************
+Effingham---G---1|5-43|3-21|D5-U43|3-2---
+tune_page: a. l. [5] verso
+tune_title: Effingham
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|5-43|3-21|D5-U43|3-2
+tune_text_incipit: null
+*******************
+Washington---F---5|543|654|3---
+tune_page: a. l. [5] verso
+tune_title: Washington
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: F
+tune_melodic_incipit: 5|543|654|3
+tune_text_incipit: null
+*******************
+Trumbull---D---(after 4 mm. rest) 1|D5-65-4|31|66|61|55|53|U13-2|1D7|U1---
+tune_page: a. l. [8] recto
+tune_title: Trumbull
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: D
+tune_melodic_incipit: (after 4 mm. rest) 1|D5-65-4|31|66|61|55|53|U13-2|1D7|U1, null
+tune_text_incipit: null
+*******************
+St. Catherine’s a Funeral Dirge---E---3|33|33|3-2-3-43|3-2---
+tune_page: a. l. [8] recto
+tune_title: St. Catherine’s a Funeral Dirge
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: E
+tune_melodic_incipit: 3|33|33|3-2-3-43|3-2
+tune_text_incipit: null
+*******************
+Psalm 136th---G---1|D5U124|3,1|23-1D76|5---
+tune_page: a. l. [8] recto
+tune_title: Psalm 136th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: G
+tune_melodic_incipit: 1|D5U124|3,1|23-1D76|5
+tune_text_incipit: null
+*******************
+Hotham---Eb---5126|543---
+tune_page: a. l. [8] recto
+tune_title: Hotham
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: Eb
+tune_melodic_incipit: 5126|543
+tune_text_incipit: null
+*******************
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 8
+Author: [Bull, Amos.]  
+Title: The Responsary
+Call number: null
+Inscription: null
+Description: .  [Worcester, Mass.: Isaiah Thomas, 1795.]  100 pp.  Bottom 2/3 of t. p. lacking; otherwise complete.  	9 unnumbered additional leaves bound in at end of book, between p. 100 (end of 
+		printed music) and back cover; leaves [1-2], [5], [8-9] appear to be original 
+		back flyleaves, while leaves [3-4], [6-7] are smaller; leaves [1-3], [5], [8] 
+		contain MS. music, leaf [4] contains MS. texts, leaves [6-7] contain printed 
+		texts, leaf [9] is blank
+	MS. music is all single vocal parts, most of which appear to be melodic; the one vocal 
+		part (for St. Helen’s) that is identified (as “Treble”) is obviously harmonic, 
+		and appears on the same p. as the melody for the same tune, so the 
+		unidentified MS. vocal parts may all be tenors
+
+----------------end of source-------------
+
+Source: 9
+Author: Harmon, Joel, Jr.  
+Title: The Columbian Sacred Minstrel.
+Call number: null
+Inscription: null
+Description:   Northampton, Mass.: A[ndrew] Wright, 1809.  Lacks p. l., pp. 75-78.	inscriptions (all in pencil): t. p., “[Mines?] Walden”; p. [ii], “Nancy A[.] Walden,” 
+		“William H[.] Ball”
+	no MS. music
+		
+
+----------------end of source-------------
+
+Source: 10
+Author: [Holden,] O[liver.  
+Title: The
+Call number: null
+Inscription: null
+Description: ] Unio[n Harmony, or] Universal [Collection of Sacred Music…Vol. I.  Boston:] Isaiah Tho[mas and Ebenezer T. Andrews, 1793.]  Pp. [i-ii] fragmentary; otherwise complete. 	no inscriptions, no MS. music
+	bound with nos. 13, 17, 35  
+
+
+----------------end of source-------------
+
+Source: 11
+Author: Holden, Oliver.  
+Title: The Union Harmony, or Universal Collection of Sacred Music…Vol. II.
+Call number: null
+Inscription: null
+Description:   Boston: Isaiah Thomas and Ebenezer T. Andrews, 1793.  Complete.	no MS. music
+
+
+----------------end of source-------------
+
+Source: 12
+Author: [Holden, Oliver.  
+Title: The Worcester Collection of Sacred Harmony
+Call number: null
+Inscription: inside front cover, “Amos Shelden”
+Description:  [“LAUS DEO!” at head of title].  6th ed.  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1797.  Lacks pp. [i-ii], [11]-14, 141-[144] (stubs of 2 leaves remain at end, but visible contents don’t jive with descriptions of pp. 141-[144] in ASMI); leaf w/ pp. 137-138 bound in backwards (so p. 138 precedes p. 137).	no MS. music
+	bound with nos. 16, 26 
+
+
+----------------end of source-------------
+
+Source: 13
+Author: Holyoke, Samuel.  
+Title: Harmonia Americana.
+Call number: null
+Inscription: null
+Description:   Boston: Isaiah Thomas and Ebenezer T. Andrews, 1791.  Complete.  	no inscriptions, no MS. music
+	bound with nos. 10, 17, 35
+
+
+----------------end of source-------------
+
+Source: 14
+Author: [Howe, Solomon, 
+Title: The Farmer’s Evening Entertainment
+Call number: null
+Inscription: null
+Description: ?  Issued after 1804; this appears to be ASMI 274B, a composite made from pages of The Farmer’s Evening Entertainment and pages of the undated, anonymous The Psalm-Singer’s Amusement; see ASMI, p. 338, and the contents itemization for ASMI no. 410 on p. 496.]  Lacks pp. [1-2], 31-32.	inscriptions: “Artemas Trowbridge” or “A. Trowbridge” or “Artemas Trowbridge 
+		Book” on almost every page, sometimes twice on one page; p. 22, “4600 
+		[$?]4600 [1809?]”
+	no MS. music
+
+
+----------------end of source-------------
+
+Source: 15
+Author: Janes, Walter.  
+Title: The Harmonic Minstrelsey
+Call number: null
+Inscription: null
+Description: .  Dedham, Mass.: H[erman] Mann, 1807.  Lacks pp. 95-96.	no inscriptions, no MS. music 
+
+
+----------------end of source-------------
+
+Source: 16
+Author: Kimball, Jacob, Jr.  
+Title: The Essex Harmony
+Call number: null
+Inscription: inside front cover, “Amos Shelden”
+Description: .  Exeter, N. H.: H[enry] Ranlet, 1800.  Lacks pp. 43-46, 111-[112].  	no MS. music
+	bound with nos. 12, 26
+	
+
+----------------end of source-------------
+
+Source: 17
+Author: Kimball, Jacob, Jr.  
+Title: The Rural Harmony
+Call number: null
+Inscription: null
+Description: .  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1793.  Pp. 81-82 fragmentary; otherwise complete.  	no inscriptions, no MS. music
+	bound with nos. 10, 13, 35
+
+
+----------------end of source-------------
+
+Source: 18
+Author: Law, Andrew.  
+Title: The Art of Singing
+Call number: null
+Inscription: null
+Description: .  4th [i.e., 3rd] ed.  Cambridge: W. Hilliard, 1803.  [2nd t. p.:] Law, Andrew.  The Musical Primer; or the First Part of The Art of Singing.  Lacks pp. [25]-26.  	no inscriptions, no MS. music
+
+
+----------------end of source-------------
+
+Source: 19
+Author: [Law, Andrew.  
+Title: Select Harmony
+Call number: null
+Inscription: null
+Description: .  1779.]  ASMI no. 358.  Lacks all pp. before p. 27, so whether this is ASMI issue B or Ca can’t be determined (Psalm 21, p. 53, has no engraver’s name—true only of issues B and Ca).  Lacks all pp. before p. 27, pp. 61-62, most of pp. 63-64, most of pp. 67-68, all pp. after p. 92.  Inscriptions: inside front cover, “17 ¾ Benjamin Wright of holliss,” “7 bushels E Jones paid,” “Mary Lovejoy”; inside back cover, fragment of what appears to be a poem, on torn sheet of thin paper pasted onto heavy paper which in turn is pasted to cover: ends of lines include “that Delight,” “Day & Night,” “and gold,” “was ever told”	no MS. music 
+
+
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+America [by Billings; version in NEPS---not SMA]---TTCB then (from full m. 13 to end) TCTB-*- D---1|1[-]54|3-U1D7|U1-D76|5---
+tune_page: p. 101
+tune_title: America 
+tune_credit: [by Billings; version in NEPS
+tune_is_secular: false
+tune_vocal_part: not SMA]
+tune_key: TTCB then (from full m. 13 to end) TCTB, D
+tune_melodic_incipit: 1|1[-]54|3-U1D7|U1-D76|5
+tune_text_incipit: null
+*******************
+Con[n]ection [by Billings]---TCTB---E---1|55|67|U1---
+tune_page: p. 102
+tune_title: Con[n]ection 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: E
+tune_melodic_incipit: 1|55|67|U1
+tune_text_incipit: null
+*******************
+Stockbridge [by Billings]---TCTB---F---bass incipit 1|1D76|567|3+U1---
+tune_page: pp. 102-104
+tune_title: Stockbridge 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: F
+tune_melodic_incipit: bass incipit 1|1D76|567|3+U1
+tune_text_incipit: null
+*******************
+Majesty [by Billings]---TCTB---F---5|U1-D7-U1D6|5-31|43-1|U1---the Lord de[s]cended from a bove; incomplete—breaks off at end of m. 22---last notes of m. 22 written on slip of paper glued onto the page; next p. numbered 105---
+tune_page: p. 104
+tune_title: Majesty 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: F
+tune_melodic_incipit: 5|U1-D7-U1D6|5-31|43-1|U1
+tune_text_incipit: the Lord de[s]cended from a bove; incomplete—breaks off at end of m. 22, last notes of m. 22 written on slip of paper glued onto the page; next p. numbered 105
+*******************
+Heath [by Billings]---TCTB---C---5|U11|1|1|33|3---
+tune_page: p. 105
+tune_title: Heath 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 5|U11|1|1|33|3
+tune_text_incipit: null
+*******************
+Bunker Hill---TCTB---Am---321|D7U1|D5U1D7U1|22---
+tune_page: p. 106
+tune_title: Bunker Hill
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Am
+tune_melodic_incipit: 321|D7U1|D5U1D7U1|22
+tune_text_incipit: null
+*******************
+The Force of Musick---secular melody w/ instrumental bass line---G---melody incipit 343|2513|2---[no text]---
+tune_page: p. 106
+tune_title: The Force of Musick
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: secular melody w/ instrumental bass line
+tune_key: G
+tune_melodic_incipit: melody incipit 343|2513|2
+tune_text_incipit: [no text]
+*******************
+Auro[r]a [by Billings]---TCTB---C---5|U13-5|4-32|1---awake my Soul awake---
+tune_page: p. 107
+tune_title: Auro[r]a 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 5|U13-5|4-32|1
+tune_text_incipit: awake my Soul awake
+*******************
+Damon and C[h]loe---secular duet---Bb---after 2 mm. of voice 2---voice 1 incipit is 55|U11|23|4321|D7---Go fals[e] damon go your sighing is in vain---
+tune_page: pp. 108-109
+tune_title: Damon and C[h]loe
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: secular duet
+tune_key: Bb
+tune_melodic_incipit: after 2 mm. of voice 2, voice 1 incipit is 55|U11|23|4321|D7
+tune_text_incipit: null
+*******************
+Washington [by Billings]---TCTB---E---555|U1D7U12|3---
+tune_page: pp. 110-111
+tune_title: Washington 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: E
+tune_melodic_incipit: 555|U1D7U12|3
+tune_text_incipit: null
+*******************
+Buckingham---TTB-*- Am---1|5-4-32|34|5[-]43|2---Help Lord for god & Godly Men---
+tune_page: p. 111
+tune_title: Buckingham
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: null
+tune_melodic_incipit: TTB, Am
+tune_text_incipit: 1|5-4-32|34|5[-]43|2, Help Lord for god & Godly Men
+*******************
+Chester [by Billings]---TCTB---F---567|U1D5|6-U1-D76|5---
+tune_page: p. 111
+tune_title: Chester 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: F
+tune_melodic_incipit: 567|U1D5|6-U1-D76|5
+tune_text_incipit: null
+*******************
+Bethlehem [by Billings]---TCTB---E---5|U1D7|U1-D7-65-4|3-4-32-1|5---While Sheperds watch their flocks by Night---
+tune_page: pp. 112-113
+tune_title: Bethlehem 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: E
+tune_melodic_incipit: 5|U1D7|U1-D7-65-4|3-4-32-1|5
+tune_text_incipit: While Sheperds watch their flocks by Night
+*******************
+Ricmansworth---TCTB---G---1|13|53|13|2---
+tune_page: p. 113
+tune_title: Ricmansworth
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 1|13|53|13|2
+tune_text_incipit: null
+*******************
+[Buckingham]---TT---Am,1|5-4-32|34|5-43|2---tenor part incomplete---staff ruled for bass---with bass clef but no notes---
+tune_page: p. 114
+tune_title: [Buckingham]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: TT
+tune_melodic_incipit: Am,1|5-4-32|34|5-43|2
+tune_text_incipit: tenor part incomplete, staff ruled for bass, with bass clef but no notes
+*******************
+Colchester---TCTB---C---1|1-D76|54|3-21|5---
+tune_page: p. 114
+tune_title: Colchester
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 1|1-D76|54|3-21|5
+tune_text_incipit: null
+*******************
+David[’]s Lamentation---TCTB---Am---112|32|323|4-2D7---David the King was Grieved & moved---
+tune_page: p. 117
+tune_title: David[’]s Lamentation
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Am
+tune_melodic_incipit: 112|32|323|4-2D7
+tune_text_incipit: David the King was Grieved & moved
+*******************
+Winchester---TCTB---C---5|U1D5|66|54|3[-]2[-]1---
+tune_page: p. 118
+tune_title: Winchester
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 5|U1D5|66|54|3[-]2[-]1
+tune_text_incipit: null
+*******************
+Warren [by Billings]---TCTB---G---1212|345---Children of the Heav’nly King---
+tune_page: p. 118
+tune_title: Warren 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 1212|345
+tune_text_incipit: Children of the Heav’nly King
+*******************
+A Hymn for Easter Day---TCTB---C---1351|465---Jesus Christ is risen to Day---
+tune_page: p. 121
+tune_title: A Hymn for Easter Day
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 1351|465
+tune_text_incipit: Jesus Christ is risen to Day
+*******************
+Amherst [by Billings]---TCTB---G---135|4-32|1---to God the Mighty Lord---
+tune_page: p. 122
+tune_title: Amherst 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 135|4-32|1
+tune_text_incipit: to God the Mighty Lord
+*******************
+Columbia [by Billings]---TCTB---E---531|67|U1---Not all the pow[’]rs on earth---
+tune_page: p. 123
+tune_title: Columbia 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: E
+tune_melodic_incipit: 531|67|U1
+tune_text_incipit: Not all the pow[’]rs on earth
+*******************
+An Anthem---Ps. LXXXI---TCTB-*- Am---13|21D#7|U1[-]2[-]3[-]45[-]4|3-2-1D7|U1---sing ye merrily unto God our Strength---
+tune_page: pp. 124-126
+tune_title: An Anthem
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: Ps. LXXXI
+tune_key: TCTB, Am
+tune_melodic_incipit: 13|21D#7|U1[-]2[-]3[-]45[-]4|3-2-1D7|U1
+tune_text_incipit: sing ye merrily unto God our Strength
+*******************
+Landaff---TCTB---Gm---5|432|454|321---bar lines sic---
+tune_page: p. 127
+tune_title: Landaff
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Gm
+tune_melodic_incipit: 5|432|454|321
+tune_text_incipit: bar lines sic
+*******************
+Islington---TTB-*- C---1|1-D54|3-45|6-7U1|D7-6-5---
+tune_page: p. 128
+tune_title: Islington
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: null
+tune_melodic_incipit: TTB, C
+tune_text_incipit: 1|1-D54|3-45|6-7U1|D7-6-5
+*******************
+Bromsgrove---TCTB---Am---1|5-43|23|2-1D7|U1---
+tune_page: p. 128
+tune_title: Bromsgrove
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Am
+tune_melodic_incipit: 1|5-43|23|2-1D7|U1
+tune_text_incipit: null
+*******************
+Little Ma[r]lboro---TCTB---Am---5|U13|2-1D#7|U1---
+tune_page: p. 129
+tune_title: Little Ma[r]lboro
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Am
+tune_melodic_incipit: 5|U13|2-1D#7|U1
+tune_text_incipit: null
+*******************
+Few Happy matches---secular duet---C---melody incipit 5|32|65|6-U1D7-U2|1---Say mighty Love & teach my Song---
+tune_page: p. 129
+tune_title: Few Happy matches
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: secular duet
+tune_key: C
+tune_melodic_incipit: melody incipit 5|32|65|6-U1D7-U2|1
+tune_text_incipit: Say mighty Love & teach my Song
+*******************
+Montague [by Swan]---tenor + bass---Dm---4[sic]U11|D75U32-1|2---Ye sons of men with joy record---
+tune_page: p. 130
+tune_title: Montague 
+tune_credit: [by Swan]
+tune_is_secular: false
+tune_vocal_part: tenor + bass
+tune_key: Dm
+tune_melodic_incipit: 4[sic]U11|D75U32-1|2
+tune_text_incipit: Ye sons of men with joy record
+*******************
+Bethesda---TCTB---G---1|3234[-]2|1---“rong” written over first phrase of bass part---which has some problems---
+tune_page: p. 131
+tune_title: Bethesda
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 1|3234[-]2|1
+tune_text_incipit: “rong” written over first phrase of bass part, which has some problems
+*******************
+New Eagle Street Hym[n]---TCTB---G---5|U1-2-32|3-4-5-43|2---
+tune_page: p. 131
+tune_title: New Eagle Street Hym[n]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 5|U1-2-32|3-4-5-43|2
+tune_text_incipit: null
+*******************
+Wickham---tenor---G---1|345-6-|5-4-32|12|3---staves ruled for 3 other vocal parts but no notes---
+tune_page: p. 132
+tune_title: Wickham
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: tenor
+tune_key: G
+tune_melodic_incipit: 1|345-6-|5-4-32|12|3
+tune_text_incipit: staves ruled for 3 other vocal parts but no notes
+*******************
+Penbury---TCTB---G---1|3-4-3-21|5_|53|D75|U13-2-3-4-|3-4-54-3|2---Salvation oh the Joy full the Joy-full Sound---
+tune_page: p. 133
+tune_title: Penbury
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 1|3-4-3-21|5_|53|D75|U13-2-3-4-|3-4-54-3|2
+tune_text_incipit: Salvation oh the Joy full the Joy-full Sound
+*******************
+Chocksett [by Billings]---TCTB---G---1|1234|5---Lord of the worlds above---
+tune_page: p. 134
+tune_title: Chocksett 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 1|1234|5
+tune_text_incipit: Lord of the worlds above
+*******************
+Suffolk [by Billings]---bass---Gm---1|1D5|U1-21-2|3-2-1D7|5---
+tune_page: p. 135
+tune_title: Suffolk 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: bass
+tune_key: Gm
+tune_melodic_incipit: 1|1D5|U1-21-2|3-2-1D7|5
+tune_text_incipit: null
+*******************
+Lebanon [by Billings]---bass---Am---11D5|15|U1-D76|5---
+tune_page: p. 135
+tune_title: Lebanon 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: bass
+tune_key: Am
+tune_melodic_incipit: 11D5|15|U1-D76|5
+tune_text_incipit: null
+*******************
+A Funeral Anthem [by Billings]---TCTB---Fm---1|55U1|D76|5---I Heard a great voice from Heav[’]n---
+tune_page: pp. 136-137
+tune_title: A Funeral Anthem 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Fm
+tune_melodic_incipit: 1|55U1|D76|5
+tune_text_incipit: I Heard a great voice from Heav[’]n
+*******************
+All Saint’s---TCTB---C---1|1-D76|5U1|2-1D7|U1---
+tune_page: p. 138
+tune_title: All Saint’s
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 1|1-D76|5U1|2-1D7|U1
+tune_text_incipit: null
+*******************
+Wells---TCTB---F---1|35U1|D7U1D6|5---
+tune_page: p. 138
+tune_title: Wells
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: F
+tune_melodic_incipit: 1|35U1|D7U1D6|5
+tune_text_incipit: null
+*******************
+Bridge Watter [by Edson]---TCTB---C---131|221D7|U1---in 3/2 time---
+tune_page: p. 139
+tune_title: Bridge Watter 
+tune_credit: [by Edson]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 131|221D7|U1
+tune_text_incipit: in 3/2 time
+*******************
+An Anthem Exodous [sic] 15th---TCTB---C---11|33|14|22|31|224|31---I will sing will sing unto the Lord for he hath triumphed; final 5-mm. [Ha]llelujah looks quickly sketched in---in contrast to the rest of the score---
+tune_page: pp. 140-146
+tune_title: An Anthem Exodous [sic] 15th
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C
+tune_melodic_incipit: 11|33|14|22|31|224|31
+tune_text_incipit: I will sing will sing unto the Lord for he hath triumphed; final 5-mm. [Ha]llelujah looks quickly sketched in, in contrast to the rest of the score
+*******************
+An Anthem. PS 122---TCTB-*- C---starts with bass + tenor (or treble) duet---melody incipit is 1D7|U12|3-2-1-2-3-4-|5-6-5-4-3|12_|2---I was Glad was Glad was Glad---
+tune_page: pp. 146-150
+tune_title: An Anthem. PS 122
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: null
+tune_key: null
+tune_melodic_incipit: TCTB, C starts with bass + tenor (or treble) duet
+tune_text_incipit: melody incipit is 1D7|U12|3-2-1-2-3-4-|5-6-5-4-3|12_|2, I was Glad was Glad was Glad
+*******************
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 20
+Author: [Law, Andrew.  
+Title: Select Harmony
+Call number: null
+Inscription: null
+Description: .  2nd ed.]  ASMI no. 359A, dated [1782-87].  Lacks all pp. before music, so whether this is ASMI issue J or K can’t be determined.  Printed music, pp. 5-100; then added leaves, bound in and neatly numbered pp. 101-192 (leaves w/ pp. 115-116, 119-120, 151-152, 187-188 are lacking).  	MS. music on pp. 101-150; MS. “A Table of Tunes” (exactly conforming to MS. 
+		musical contents) on pp. 192-191 [sic]  
+	bookplate with printed name “Josiah Gould” pasted inside front cover; in MS. below 
+		printed name is “Chorister / Dane St[.] Choir / in 183[?] 1834”; this is 
+		probably Josiah Gould (1793-1836), student at Exeter Academy in 1809, 
+		merchant in Beverly, Mass., died at sea
+
+----------------end of source-------------
+
+Source: 21
+Author: Mann, Elias.  
+Title: The Massachusetts Collection of Sacred Harmony.
+Call number: null
+Inscription: preliminary leaf recto, “Joseph Condon’s.”
+Description:   Boston: Manning and Loring, 1807.  Lacks pp. 195-198.	no MS. music
+
+
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Dirge---“Bass”---Dm---11|1D#7U1|D55|U1---
+tune_page: a. l. [1] recto
+tune_title: Dirge
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: Dm
+tune_melodic_incipit: 11|1D#7U1|D55|U1
+tune_text_incipit: null
+*******************
+Majesty [by Billings]---“Bass”---F---1|1-D5-U12|D5-U13|45-3|1---
+tune_page: a. l. [1] verso
+tune_title: Majesty 
+tune_credit: [by Billings]
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: F
+tune_melodic_incipit: 1|1-D5-U12|D5-U13|45-3|1
+tune_text_incipit: null
+*******************
+Oundell---“Bass”---C---1153|4231,|2D7U11|4[-]32[-]1D5---
+tune_page: a. l. [1] verso
+tune_title: Oundell
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: C
+tune_melodic_incipit: 1153|4231,|2D7U11|4[-]32[-]1D5
+tune_text_incipit: null
+*******************
+Cambri[d]g[e]---“Bass”---F---11|111|1111|D5-6---
+tune_page: a. l. [2] recto-verso
+tune_title: Cambri[d]g[e]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: F
+tune_melodic_incipit: 11|111|1111|D5-6
+tune_text_incipit: null
+*******************
+Litchfield---“Bass”---C---1|11|34|55|1---
+tune_page: a. l. [2] verso
+tune_title: Litchfield
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: C
+tune_melodic_incipit: 1|11|34|55|1
+tune_text_incipit: null
+*******************
+Deptford---“Bass”---E---1D5|34|55|U1,|1D7|66|5U1|D4,---
+tune_page: a. l. [2] verso
+tune_title: Deptford
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: E
+tune_melodic_incipit: 1D5|34|55|U1,|1D7|66|5U1|D4,
+tune_text_incipit: null
+*******************
+secular instrumental melodies; titles are The Roveing Sailor---Will the Weaver---Ladies Delight---Quick Step to 44 Reg[’]t---No[.] 42---No[.] 51---Shove hur up [?]---Washington March---Green[’]s Mar[c]h---General Washington[’s] March---Lesson by Morilly---Jefferson[’]s March---Capt. David[’]s Quickstep (with “primo” and “Secondo” parts)---No[.] 3---No[.] 5---
+tune_page: a. l. [3] recto-[6] recto
+tune_title: secular instrumental melodies; titles are The Roveing Sailor
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: Will the Weaver
+tune_key: Ladies Delight
+tune_melodic_incipit: Quick Step to 44 Reg[’]t
+tune_text_incipit: No[.] 42, No[.] 51, Shove hur up [?], Washington March, Green[’]s Mar[c]h, General Washington[’s] March, Lesson by Morilly, Jefferson[’]s March, Capt. David[’]s Quickstep (with “primo” and “Secondo” parts), No[.] 3, No[.] 5
+*******************
+fingering charts---
+tune_page: a. l. [6] verso-[7] verso
+tune_title: fingering charts
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: null
+tune_key: null
+tune_melodic_incipit: null
+tune_text_incipit: null
+*******************
+Northampton---bass---if in C---52|5|111|43[-]21D6|U1+U1[,?]|4-662|33|D6---key uncertain---fragmentary (page ripped)---
+tune_page: a. l. [8] recto
+tune_title: Northampton
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: bass
+tune_key: if in C
+tune_melodic_incipit: 52|5|111|43[-]21D6|U1+U1[,?]|4-662|33|D6
+tune_text_incipit: key uncertain, fragmentary (page ripped)
+*******************
+Portuga[ll?]---bass---if in G---1|U1|D56|55|12|5,|3|3-13-4|2-D7U1|1D1|5---key uncertain---fragmentary (page ripped)---
+tune_page: a. l. [8] recto
+tune_title: Portuga[ll?]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: bass
+tune_key: if in G
+tune_melodic_incipit: 1|U1|D56|55|12|5,|3|3-13-4|2-D7U1|1D1|5
+tune_text_incipit: key uncertain, fragmentary (page ripped)
+*******************
+St. Asaph[’]s---bass?---if in Bb---14|55|1|15-4|31|14|11|1[-]23[-]4|55|1---key uncertain---fragmentary (page ripped)---
+tune_page: a. l. [8] recto
+tune_title: St. Asaph[’]s
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: bass?
+tune_key: if in Bb
+tune_melodic_incipit: 14|55|1|15-4|31|14|11|1[-]23[-]4|55|1
+tune_text_incipit: key uncertain, fragmentary (page ripped)
+*******************
+Sunday---“[ba]ss”---fragmentary (page ripped) so beginning not present and key uncertain-*- if in D-*- first notes surviving are 1-32|1-2D5|U1D5|U25|12|D5---
+tune_page: a. l. [8] verso
+tune_title: Sunday
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “[ba]ss”
+tune_key: null
+tune_melodic_incipit: fragmentary (page ripped) so beginning not present and key uncertain, if in D, first notes surviving are 1-32|1-2D5|U1D5|U25|12|D5
+tune_text_incipit: null
+*******************
+Vergennes---“[ba]ss”---fragmentary (page ripped) so beginning not present and key uncertain-*- if in Gm-*- first notes surviving are 3345|1|D7n7U1|D515|355|437U1|D5---
+tune_page: a. l. [8] verso
+tune_title: Vergennes
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “[ba]ss”
+tune_key: null
+tune_melodic_incipit: fragmentary (page ripped) so beginning not present and key uncertain, if in Gm, first notes surviving are 3345|1|D7n7U1|D515|355|437U1|D5
+tune_text_incipit: null
+*******************
+Chockset---“Bass”---Dm---112|342D7|U1---fragmentary (page ripped)---
+tune_page: a. l. [9] recto
+tune_title: Chockset
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: Dm
+tune_melodic_incipit: 112|342D7|U1
+tune_text_incipit: fragmentary (page ripped)
+*******************
+New North---“Bass”---D---1|11|21|12|D5---fragmentary (page ripped)---
+tune_page: a. l. [9] recto
+tune_title: New North
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: D
+tune_melodic_incipit: 1|11|21|12|D5
+tune_text_incipit: fragmentary (page ripped)
+*******************
+[Drnham?]---“Bass”---1|11|11|1D5|U1,|1|42|11|22|D5---fragmentary (page ripped)---
+tune_page: a. l. [9] recto
+tune_title: [Drnham?]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: “Bass”
+tune_key: null
+tune_melodic_incipit: 1|11|11|1D5|U1,|1|42|11|22|D5
+tune_text_incipit: fragmentary (page ripped)
+*******************
+fragmentary (page ripped) so no title survives---meter indication is “10s”---bass?---if in G---first complete phrase of melody is 1|D57U12|6622|6---
+tune_page: a. l. [9] verso
+tune_title: fragmentary (page ripped) so no title survives
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: meter indication is “10s” bass?
+tune_key: if in G
+tune_melodic_incipit: first complete phrase of melody is 1|D57U12|6622|6
+tune_text_incipit: null
+*******************
+fragmentary (page ripped) so no title survives---meter indication is “S. M[.]”---bass?---if in Am---surviving notes are 3U1|D5U1|D41|5,5|U11|D45|1---
+tune_page: a. l. [9] verso
+tune_title: fragmentary (page ripped) so no title survives
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: meter indication is “S. M[.]” bass?
+tune_key: if in Am
+tune_melodic_incipit: surviving notes are 3U1|D5U1|D41|5,5|U11|D45|1
+tune_text_incipit: null
+*******************
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 22
+Author: [
+Title: The Middlesex Collection of Church Music: or, Ancient Psalmody Revived.
+Call number: null
+Inscription: null
+Description:   Boston: Manning and Loring, 1807.]  Lacks pp. [i]-viii, 13-14, 51-54, 129-130, 135-[136].  Pp. 37-38 torn, mostly missing; pp. 59-60 torn, ca. 1/5 missing.	no inscriptions
+	MS. music (bass parts for sacred tunes, + secular instrumental melodies) and 
+		fingering charts for flute (+ other instrument/s?) on 9 additional leaves sewn 
+		together and inserted inside back cover (stubs of 8 more leaves are part of 
+		this booklet)
+
+----------------end of source-------------
+
+
+xxxxxxxxxxxxxxxx Start of Source Entries xxxxxxxxxxxxxxxx
+
+Symphany [sic] “by Morgan”---bass---Eb---111|11|21D76|5---Behold the judge des[c]ends his guards are nigh---
+tune_page: leaf [1] recto
+tune_title: Symphany [sic] “by Morgan”
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: bass
+tune_key: Eb
+tune_melodic_incipit: 111|11|21D76|5
+tune_text_incipit: Behold the judge des[c]ends his guards are nigh
+*******************
+Lena [crossed out] [by Belknap]---bass---F#m---1D5U1D#7|U12D55---
+tune_page: leaf [1] verso-leaf [2] recto
+tune_title: Lena [crossed out] 
+tune_credit: [by Belknap]
+tune_is_secular: false
+tune_vocal_part: bass
+tune_key: F#m
+tune_melodic_incipit: 1D5U1D#7|U12D55
+tune_text_incipit: null
+*******************
+Virginia [by Brownson]---bass---Em---1|1115|4-3-21|D5---Thy words the raging winds Control---
+tune_page: leaf [1] verso-leaf [2] recto
+tune_title: Virginia 
+tune_credit: [by Brownson]
+tune_is_secular: false
+tune_vocal_part: bass
+tune_key: Em
+tune_melodic_incipit: 1|1115|4-3-21|D5
+tune_text_incipit: Thy words the raging winds Control
+*******************
+[Delight] [by Coan]---tenor + bass---Em---1D54|3-214---
+tune_page: leaf [2] verso-leaf [3] recto
+tune_title: [Delight] 
+tune_credit: [by Coan]
+tune_is_secular: false
+tune_vocal_part: tenor + bass
+tune_key: Em
+tune_melodic_incipit: 1D54|3-214
+tune_text_incipit: null
+*******************
+Mear---TCTB---G---1|55|33|1-23|2---O [’]twas a joy ful Sound to hear---
+tune_page: leaf [3] verso
+tune_title: Mear
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: G
+tune_melodic_incipit: 1|55|33|1-23|2
+tune_text_incipit: O [’]twas a joy ful Sound to hear
+*******************
+Devotion---TCTB---Am---1|13|54|35[-]3[-]21_|1---But man weak man is born to die---
+tune_page: leaf [4] recto
+tune_title: Devotion
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Am
+tune_melodic_incipit: 1|13|54|35[-]3[-]21_|1
+tune_text_incipit: But man weak man is born to die
+*******************
+Lementation [sic]---TCTB---Em---1|3-4-57|U1-2-3D5|4-32-1|5---When we our we[a]ried limbs to rest---
+tune_page: leaf [4] verso-leaf [5] verso
+tune_title: Lementation [sic]
+tune_credit: null
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: Em
+tune_melodic_incipit: 1|3-4-57|U1-2-3D5|4-32-1|5
+tune_text_incipit: When we our we[a]ried limbs to rest
+*******************
+Poland [by Swan]---TCTB---C#m---1|D55|7U3|D7[-]U1[-]D75|4---God of my life look [gently] down---
+tune_page: leaf [6] recto
+tune_title: Poland 
+tune_credit: [by Swan]
+tune_is_secular: false
+tune_vocal_part: TCTB
+tune_key: C#m
+tune_melodic_incipit: 1|D55|7U3|D7[-]U1[-]D75|4
+tune_text_incipit: God of my life look [gently] down
+*******************
+untexted secular melodies: Scotch Favorite---My Love She is [a lassie yet]---King Williams or Boyn Water---The Heavenly Union [appears with sacred text in Ingalls 1805]---Half Double Drag---the Duke of Holstine[’]s March---Pen[n]sylvania---Battimore [sic; likely Baltimore]---On the road to Boston---Jackson[’]s Frolick or Fifer[’]s master piece---Yankey doodle---Serenade---Jefferson[’]s Liberty---the Girl I Left behind me---The Double Drag---Single Drag---O Dear What can the matter be---Soldier[’]s return---The Roving Sailor---Flower[s?] of Edinburgh---Capt[.] Ives[’s] Hornpipe---Kiss my Lady---Col[.] Smith[’]s march---Chorus Jigg---[Mc? –crossed out?] [Daniels?] Reel. Quick Step---Fisher[’]s Hornpipe---The Retreat---Mary Dream---Long troop [over morning parade?]---[Durans?] [something crossed out] Hornpipe---Jack on the Green---Devil[’]s Dream---High Pretty [Martin?] Tip To [Fine?]---Grand Spy---Peggy and Moll---[Oppen?] Reel---Nancy Dorson---the Ohio Song---Morgan [Rattleer?]---General Robinson’s March---Canada[’]s Farewell---New Buttonhole---the Four Seasons---Ric[k?]er[’]s Hornpip[e]---Gil[l]ie Crankie---Col[l]ege Hornpipe---King of Prussia[’]s March---New Century Hornpipe---The Merry Girls of Newyork---Sacket[’]s Harbour---The [Pony?] quick Step---
+********Skipped********** + 
+Fremont Quickstep---incomplete untexted secular keyboard piece; “Subscribers for the Journal” crossed out below title---
+tune_page: leaf (now in 2 sections) inside back cover
+tune_title: Fremont Quickstep
+tune_credit: null
+tune_is_secular: true
+tune_vocal_part: incomplete untexted secular keyboard piece; “Subscribers for the Journal” crossed out below title
+tune_key: null
+tune_melodic_incipit: null
+tune_text_incipit: null
+*******************
+
+xxxxxxxxxxxxxxxx End of Source Entries xxxxxxxxxxxxxxxx
+
+Source: 23
+Author: 
+Title: 
+Call number: null
+Inscription: null
+Description: MS. collection of sacred and secular music, undated.  30 unnumbered leaves, the first 21 bearing MS. music; 1 leaf (in 2 pieces, torn along fold) inserted inside back cover.  	inscriptions: inside front cover, pencil: “Betty Bandel / [fr?] Mrs Tudhope / 29 July 		1981” (Betty Bandel lived in South Burlington, VT; Helen Tudhope ran Back 
+		Door Books in Essex Junction, VT); leaf [30] verso: “Salmon M Needham / 
+		Singing Book / of Whiting” (probably Vermont)
+
+----------------end of source-------------
+
+Source: 24
+Author: [Olmsted, T[imothy].  
+Title: The Musical Olio
+Call number: null
+Inscription: inside front cover, “Chester Cornwell”
+Description: .  New London, Conn.: Samuel Green, for Peter B. Gleason and Company, Hartford, 1811.]  Lacks all pp. before p. 7 (i.e., p.l., pp. [1]-6), pp. 57-58, 61-62, all pp. after p. 120 (i.e., pp. 121-[128]).   	no MS. music
+
+
+----------------end of source-------------
+
+Source: 25
+Author: Swan, Timothy.  
+Title: New England Harmony
+Call number: null
+Inscription: null
+Description: .  Northampton, Mass.: Andrew Wright, 1801.  Lacks pp. 37-40, 59-62, 99-[104].	no inscriptions, no MS. music
+
+
+----------------end of source-------------
+
+Source: 26
+Author: 
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Call number: null
+Inscription: inside front cover, “Amos Shelden”
+Description: .  8th ed.  Exeter, N. H.: Norris and Sawyer, 1807.  Lacks final [2] pp. of indexes.	no MS. music
+	bound with nos. 12, 16
+
+
+----------------end of source-------------
+
+Source: 27
+Author: 
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Call number: null
+Inscription: null
+Description: .  9th ed.  Exeter, N. H.: Norris and Sawyer, 1808.  Complete.	inscription, p. [ii] (verso of t. p.), inside printed box with the words “THE / 
+		PROPERTY OF”: “Betsey Spear,s”  
+	no MS. music
+
+
+----------------end of source-------------
+
+Source: 28
+Author: [
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Call number: null
+Inscription: null
+Description: . 10th ed.  Exeter, N. H.: C. Norris and Co., [1810].]  Lacks all pp. before p. 33, all pp. after p. 270; pp. 53-54, 215-216, 263-264 fragmentary.  All attributions check out with those listed for ASMI 514, except Dunkenfield, p. 259, is attributed to Harrison, and Harrison is not listed as an attribution in ASMI 514 (there may be other exceptions; a complete comparison of attributions was not made); also, the ASMI entry says “The first 4 of p. 44 not struck,” and it is here.  	no inscriptions, no MS. music 
+
+
+----------------end of source-------------
+
+Source: 29
+Author: 
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Call number: null
+Inscription: null
+Description: .  11th ed.  Newburyport, Mass.: E. Little and Company, [1813].  Leaf with pp. 19-20 lacks a chunk, and final leaf (pp. [325-326]) is mostly lacking; otherwise, complete.	no inscriptions, no MS. music
+
+
+----------------end of source-------------
+
+Source: 30
+Author: [
+Title: The Village Harmony: or, Youth’s Assistant to Sacred Music
+Call number: null
+Inscription: null
+Description: .  Possibly the second issue of the 12th ed. (Newburyport, Mass.: E. Little and Company, [1815?]).]  Lacks all pp. before p. 9 (though 3 stubs are still extant); pp. 327-330 are fragmentary; lacks all pp. after p. 330.  The pagination shows this to be an edition after the first issue of the 12th ed., which had only 323 pages of music.  See ASMI, p. 601.	no inscriptions (but an ink drawing of a man in profile, inside front cover), no MS. 
+		music
+
+
+----------------end of source-------------
+
+Source: 31
+Author: 
+Title: The Village Harmony: or, New-England Repository of Sacred Musick.
+Call number: null
+Inscription: p. l. [1] recto, pasted-on slip of paper with printed name “E [on tiny 
+Description:   14th ed.  Boston: West and Richardson (Exeter, N. H.: printed by C. Norris), [1817].  Lacks pp. 339-340; otherwise, appears to be complete.		piece of paper further pasted on] GOWING.” followed by, in MS., “March 
+		[1818?] / The singers went before with joy, / On instruments they play’d: / 
+		The damsels with their timbrels then / In beauty were array’d.” / Psalm, 68, 
+		25”
+	no MS. music
+
+
+----------------end of source-------------
+
+Source: 32
+Author: West, Elisha.  
+Title: The Musical Concert
+Call number: null
+Inscription: preliminary leaf recto, “William Wells’s Book”
+Description: .  Northampton, Mass.: Andrew Wright, for Elisha west and John Billings, Jr., 1802.  Complete.  P. vi numbered iv; p. no. for p. 94 printed upside down; p. 103 numbered 203.	no MS. music
+	
+
+----------------end of source-------------
+
+Source: 33
+Author: 
+Title: The Worcester Collection of Sacred Harmony
+Call number: null
+Inscription: null
+Description: .  2nd ed.  Worcester: Isaiah Thomas, 1788.  Lacks 1st preliminary leaf with title page, pp. 3-6, 37-40, 49-56.  Inscription inside front cover, inside hand-drawn oval with curling garland of leaves, text calligraphed in red, black, + green ink: “Sacred Harmony / The Property of / Betsy Curtis of / Windsor Vermont”	no MS. music
+
+
+----------------end of source-------------
+
+Source: 34
+Author: 
+Title: The Worcester Collection of Sacred Harmony
+Call number: null
+Inscription: null
+Description:  [“LAUS DEO!” at head of title].  3rd ed.  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1791.  Lacks pp. 57-64, 67-70, 79-80.  Inscription inside back cover: “Ruth Woodberry Hur Book”	no MS. music
+
+
+----------------end of source-------------
+

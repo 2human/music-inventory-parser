@@ -1,0 +1,494 @@
+Current source: 6, 1
+Current source: 12, 1
+Current source: 15, 1
+Current source: 16, 19
+Current source: 22, 1
+Current source: 28, 7
+Current source: 29, 6
+Current source: 30, 2
+Not incipit: “E[.] Pemberton”
+Current source: 31, 13
+Not incipit: Killingworth
+Current source: 32, 2
+Not incipit: See! he rises
+Current source: 45, 14
+Current source: 46, 2
+Current source: 46, 19
+Current source: 47, 3
+Found
+Found
+Found
+Not incipit: Lord[’]s Day
+Current source: 48, 22
+Current source: 49, 2
+Current source: 61, 38
+Not incipit: Anthem [Ps?] 136th
+Found
+Current source: 62, 32
+Current source: 63, 13
+Current source: 64, 43
+Not incipit: S. music entries:
+Not incipit: Edom 
+Current source: 65, 67
+Current source: 66, 74
+Found
+Found
+Found
+Not incipit: Appleton 
+Not incipit: Pilgrims Rest
+Not incipit: Ross 
+Not incipit: Rome 
+Not incipit: untitled
+Not incipit: Portsmouth
+Not incipit: Verona 
+Not incipit: Immortality 
+Not incipit: Delight 
+Not incipit: incomplete
+Not incipit: [Psalm] 58 
+Not incipit: Mount Vernon 
+Current source: 70, 18
+Not incipit: Sounding Joy 
+Found
+Current source: 75, 1
+Current source: 80, 51
+Not incipit: moves from quarter notes (theme) to eighth notes (variation 1) to triplet eighths + sixteenths (variation 2)
+Current source: 81, 32
+Not incipit: A Song. From Handel’s Oratorio of Saul
+Not incipit: Malmsbury
+Found
+Found
+Found
+Found
+Not incipit: Duetto “by U[ri] K[eeler] Hill”
+Current source: 90, 127
+Not incipit: Hymn First
+Not incipit: Byfield
+Not incipit: Stepney
+Not incipit: Moulins
+Not incipit: Worcester 
+Not incipit: Hymn Third
+Not incipit: Archdale
+Found
+Not incipit: Anthem “by Handel”
+Not incipit: Anthem Ps 24th
+Not incipit: The Seasons
+Found
+Not incipit: untitled beginning of vocal part (loosely crossed out) on top
+Not incipit: treble
+Current source: 101, 4
+Current source: 126, 1
+Not incipit: 1|35|U1D7-6|5_|5
+Current source: 136, 2
+Current source: 138, 1
+Current source: 139, 15
+Not incipit: St
+Current source: 151, 20
+Found
+Not incipit: Anthem (title in ink): appears to be experiments with musical notation rather than an actual piece; key signature of two sharps
+Current source: 154, 1
+Current source: 157, 13
+Not incipit: A Funeral Elegy On The Death Of General Geoe Washington
+Not incipit: 12|344|5|43|22[-]1|1
+Found
+Not incipit: “of Shepards &c”
+Not incipit: only melodic parts written after a certain point
+Current source: 164, 77
+Not incipit: Dover
+Not incipit: St. Thomas
+Not incipit: Sterling
+Not incipit: Dundeee [sic]
+Not incipit: Portugal
+Not incipit: Columbia
+Not incipit: New Cambridge
+Not incipit: Philadelphia
+Not incipit: Braintree
+Not incipit: Falcon Street
+Not incipit: Castle Street
+Not incipit: Brookfield 
+Not incipit: Clifford
+Not incipit: Wareham
+Not incipit: China 
+Not incipit: Newmark
+Not incipit: Colchester
+Not incipit: German Hymn
+Not incipit: Martyrs
+Not incipit: Evening Hymn
+Not incipit: Old Hundred 
+Not incipit: Green[’]s
+Not incipit: Windham 
+Not incipit: Dalston
+Not incipit: Bath
+Not incipit: Doomsday 
+Not incipit: Plymouth
+Not incipit: Wells
+Not incipit: Mear
+Not incipit: Walsal
+Found
+Not incipit: Kingsbridge
+Not incipit: Stafford
+Not incipit: Sutton
+Found
+Not incipit: St. Mary’s
+Not incipit: Florida 
+Found
+Not incipit: Dismission (“or Sicily” added in pencil)
+Found
+Not incipit: Steffani’s
+Not incipit: Tamworth
+Found
+Not incipit: Bermondsey
+Not incipit: London 
+Found
+Not incipit: Aithlone
+Not incipit: St. Michael’s
+Not incipit: Medfield
+Not incipit: Barby
+Not incipit: Vanhall’s Hymn
+Found
+Found
+Not incipit: Shirland
+Found
+Found
+Not incipit: Weymouth
+Not incipit: Remembrance
+Not incipit: Gratitude
+Not incipit: Retirement
+Not incipit: New. 100th
+Not incipit: Old 100
+Not incipit: Peterborough
+Not incipit: Proctor
+Not incipit: Dunchurch
+Not incipit: German
+Not incipit: Fraternity
+Not incipit: Newcourt
+Found
+Found
+Not incipit: Swanwick
+Found
+Found
+Not incipit: Chatham
+Found
+Not incipit: Wirksworth
+Not incipit: Derby
+Not incipit: Windsor
+Found
+Found
+Not incipit: Orange
+Not incipit: Immortality
+Not incipit: Sabbath
+Not incipit: Irish
+Found
+Not incipit: St. Ann[’]s
+Not incipit: Gently
+Found
+Found
+Not incipit: Salvation
+Found
+Found
+Not incipit: New Sabbath
+Not incipit: Richmond
+Not incipit: Plympton
+Not incipit: Park. Street
+Not incipit: Northhampton
+Not incipit: Vesper hymn
+Not incipit: untitled sequence of notes
+Current source: 166, 79
+Found
+Found
+Found
+Not incipit: Exeter
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: The Isle of Wight
+Found
+Found
+Found
+Not incipit: New Sarum
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: and so despise; diamond notation
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: Northampton
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: Cheshire
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: The 132th [sic] Psalm
+Found
+Found
+Found
+Found
+Not incipit: to pra[i]se your King; diamond notation
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: An Hymn on ye Divine use of Musick
+Found
+Found
+Found
+Not incipit: A Morning Hymn in four Parts
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: Bolton
+Current source: 183, 35
+Not incipit: A Song. From Handel[’]s Oratorio of Saul
+Found
+Found
+Found
+Not incipit: G
+Found
+Not incipit: Duetto “by U[ri] K[eeler] Hill”
+Current source: 185, 3
+Not incipit: 149th Psalm Tune
+Not incipit: Littleton
+Current source: 190, 1
+Current source: 192, 66
+Not incipit: D
+Found
+Not incipit: Amherst 
+Not incipit: C
+Not incipit: A Canon of Four in One (secular?)
+Not incipit: “The duke of Holsten[’]s March” in blue ink: D
+Not incipit: G
+Not incipit: D
+Found
+Found
+Found
+Not incipit: D
+Not incipit: if in D
+Not incipit: if in D
+Found
+Found
+Found
+Found
+Not incipit: if in G
+Not incipit: Stockbridge 
+Not incipit: 1|1D76|567|1
+Current source: 194, 10
+Found
+Found
+Found
+Found
+Found
+Found
+Not incipit: p. 52
+Not incipit: S. music entries:
+Found
+Found
+Found
+Found
+Not incipit: 136 Psalm Tune
+Current source: 199, 25
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Current source: 200, 8
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Current source: 203, 28
+Not incipit: Stafford 
+Not incipit: Ely 
+Found
+Not incipit: Brimfield
+Current source: 204, 9
+Total entries dumped: 0
+Total entries recorded: 1009

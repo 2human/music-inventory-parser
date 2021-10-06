@@ -1,0 +1,221 @@
+Pre-1821 American Sacred Music 
+at the Congregational Library and Archives
+November 2019
+
+by Nym Cooke (nymcooke@gmail.com)
+
+5-6 = slurred notes (setting one syllable)
+5_|5 = note tied across a bar line
+“,” in a string of scale degree numbers = end of one line of text, start of the next
+4tr = trill on the 4th degree of the scale
+5+U1 = 2 notes at once in a part
+n4 = natural sign (or sharp) before 4th degree of the scale, 
+signifying that it’s raised a half-step
+b7 = flatted 7th degree of the scale
+(6) = grace note
+C. M. = Common Meter: the 4 lines of text have 8, 6, 8, and 6 syllables
+S. M. = Short Meter: the 4 lines of text have 6, 6, 8, and 6 syllables
+All copied inscriptions are in ink unless otherwise noted.
+Labeled vocal parts are listed here from the top part down.
+ or  = noteworthy
+ASMI = Britton, Lowens, and Crawford, American Sacred Music Imprints, 1698-1810:
+A Bibliography (American Antiquarian Society, 1990)
+HTI = Temperley, The Hymn Tune Index (online: http://hymntune.library.uiuc.edu/)
+
+
+
+***********End of Collection Description********************
+
+
+
+Source: 1
+Author: Albee, Amos.  
+Title: The Norfolk Collection of Sacred Harmony
+Call number: 22.4.1.270
+Description: .  Dedham: Herman Mann, 1805.  160 pp.; lacks 4 unnumbered leaves at end, both covers; corner of leaf bearing t. p. torn off, with no loss of text.	inscription: t. p., “George [C?]ook    No”
+	no MS. music
+
+Bay Psalm Book – SEE
+	The Psalms, Hymns, and Spiritual Songs, of the Old and New-Testament
+
+
+
+----------------end of source-------------
+
+Source: 2
+Author: [[Bayley, Daniel].  
+Title: The American Harmony, or, Royal Melody Compleat…Vol. I.
+Call number: RBR 22.4.1.165
+Description:   8th ed.  “By William Tans’ur.”  Newburyport, Mass.: Daniel Bayley, 1774.]  BOUND WITH [Bayley, Daniel].  The American Harmony, or, Universal Psalmodist. Vol. II.  “By A. Williams.”  Newburyport, Mass.: Daniel Bayley, 1774.  Vol. I lacks all before the 2 leaves numbered (on their facing verso + recto) 7-8; vol. II lacks pp. 79-80, and its pp. 33-40 are printed 37/34, 35/40, 33/38, 39/36. 	inscriptions: inside front cover, “[illegible] […rom oust?],” “Isaac / Book” 
+		(part of this inscription probably covered by pasted-on label); Vol. II, 
+		leaf [2] verso, “Clefford [Po?]rter”; inside back cover, “C. G. Burnham” 
+		(pencil) 
+	bookplate pasted inside front cover has this printed legend: “NEW ENGLAND 
+		/ PSALM, HYMN AND TUNE BOOKS / COLLECTION OF / REV. 
+		COLLINS G. BURNHAM”
+	MS. music entry:
+		Vol. I, leaf 7 recto: Isle of Wight, tenor, bass, Gm, 1|5-43-4|57-6|54|5, 
+			one version of 1st phrase of melody (missing one m.) crossed 
+			out + second version (labeled “correct”) written above it
+
+
+
+----------------end of source-------------
+
+Source: 3
+Author: Bayley, Daniel.  
+Title: The Essex Harmony
+Call number: RBR B72.6 1771
+Description: .  [2nd ed.; ASMI 65.]  Newburyport, Mass.: the author, 1771.  Complete.  BOUND WITH Brady, N[icholas], and N[ahum] Tate.  A New Version of the Psalms of David, fitted to the Tunes used in Churches.  Boston: John Boyles, 1771.  BOUND WITH Appendix, containing a number of Hymns, taken chiefly from Dr. Watts’s Scriptural Collection.  Boston: John Boyles, 1771.	inscriptions: Brady + Tate t. p., “Aaron Green 1787.,” [child’s hand:] “ThOMAS 
+		HO[O?]P/e/RS” [S’s written backwards]; verso of Brady + Tate t. p., 
+		“[Stephen?] Hooper / Book” (pencil); verso of Appendix t. p., [child’s 
+		hand:] “ThOMasHooper Rhis BOOK / 1777  1721” [s’s written 
+		backwards]
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 4
+Author: Bayley, Daniel.  
+Title: The Psalm-Singer’s Assistant
+Call number: RBR B72.6 1765
+Description: .  Newburyport, Mass.: for the author, [1765-66].  ASMI 77A, though with first word of title on t. p. complete (ASMI has it as “Th[e]”).  Lacks leaves 13, 16; t. p. missing one corner, with some loss of text.  BOUND WITH Brady, N[icholas], and N[ahum] Tate.  A New Version of the Psalms of David fitted to the Tunes used in Churches.  Boston: J. Kneeland and S. Adams, for J. Edwards, 1765.  BOUND WITH Appendix, containing a number of Hymns, taken chiefly from Dr. Watts’s Scriptural Collection.  Boston: Kneeland and Adams, for the Company of Stationers, 1765. 	inscriptions: verso of Appendix t. p., “Josiah Bartlett”; Psalm-Singer’s Assistant 
+		leaf 14 verso, “I promise to pay to Thomas / kie[o?]f”
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 5
+Author: Billings, William.  
+Title: The Continental Harmony
+Call number: 22.4.1.180
+Description: .  Boston: Isaiah Thomas and Ebenezer T. Andrews, 1794.  Lacks pp. 51-54, 2/3 of front cover.	inscription: fragmentary preliminary leaf, recto, “Ebenez”
+	bookplates pasted inside front + back covers have this printed legend: “NEW 
+		ENGLAND / PSALM, HYMN AND TUNE BOOKS / COLLECTION OF / 
+		REV. COLLINS G. BURNHAM”
+	no MS. music
+
+Billings, William.  The Psalm-Singer’s Amusement – SEE 
+	Howe, Solomon, probable compiler, and John Howe, probable printer.
+
+
+
+----------------end of source-------------
+
+Source: 6
+Author: 
+Title: The Boston Collection of Sacred and Devotional Hymns.
+Call number: 22.2.2.3
+Description:   Boston: Manning and Loring, 1808.  Complete.	no inscriptions
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 7
+Author: [Boston, Brattle Street Church.]  
+Title: LXXX Psalm and Hymn Tunes
+Call number: 22.4.1.85
+Description: .  Boston: Manning and Loring, 1810.  Complete.	likely owner’s inscription (and other writing) in pencil on 1st preliminary leaf 
+		recto; undecipherable to this reader
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 8
+Author: [Boston, First Church.]  
+Title: Sacred Musick, selected for the use of The First Church in Boston
+Call number: 22.4.2.31
+Description: .  Boston: Joseph T. Buckingham, 1815.  4, [67], [1] pp.  Appears to be complete.  Completely disbound.	no inscriptions
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 9
+Author: [Boston, Trinity Church.]  
+Title: Hymns, selected from the most approved authors, for the use of Trinity Church, Boston
+Call number: 22.4.2.24
+Description: .  Boston: Munroe, Francis, and Parker, 1808.  Complete.	inscription: t. p., “Stephen Codman  1808”
+	no MS. music
+
+Brady, N[icholas], and N[ahum] Tate.  A New Version of the Psalms of David – SEE
+	Bayley, Daniel.  The Essex Harmony
+
+Brady, N[icholas], and N[ahum] Tate.  A New Version of the Psalms of David – SEE
+	Bayley, Daniel.  The Psalm-Singer’s Assistant
+
+
+
+----------------end of source-------------
+
+Source: 10
+Author: Brown, Bartholomew, and others.  
+Title: Bridgewater Collection of Sacred Musick
+Call number: 22.4.4.79
+Description: .  3rd ed.  Boston: J. T. Buckingham for Thomas and Andrews, and J. West and Company, 1810.  Complete.  P. 116 misnumbered 114.  	inscriptions: front cover, “A. Perkins.”; inside front cover, “Presented to the 
+		Congregational Library / by Rev. Israel Ainsworth / Beach [mont?] 
+		Mass. / 1921”; inside back cover, “Ansel Perkins / Worth”
+	no MS. music 
+
+
+
+----------------end of source-------------
+
+Source: 11
+Author: Brown, Bartholomew, and others.  
+Title: Bridgewater Collection of Sacred Musick
+Call number: 22.4.1.187
+Description: .  3rd ed.  Boston: J. T. Buckingham for Thomas and Andrews, and J. West and Company, 1810.  Complete, though last three leaves (pp. 163-164, 165-166, 167-168) appear in reverse order.  P. 116 misnumbered 114.	no inscriptions
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 12
+Author: [Brown, Bartholomew].  
+Title: Templi Carmina. Songs of the Temple, or Bridgewater Collection of Sacred Music
+Call number: 22.4.1.188 
+Description: .  5th ed.  Boston: West and Richardson, 1817.  Lacks pp. 57-58, 81-82, 313-314; otherwise, appears to be complete.	no inscriptions (other than list of tunes + p. nos. inside front cover)
+	bookplate pasted inside front cover has this printed legend: “NEW ENGLAND 
+		/ PSALM, HYMN AND TUNE BOOKS / COLLECTION OF / REV. 
+		COLLINS G. BURNHAM”
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 13
+Author: [[Brown, Bartholomew].  
+Title: Templi Carmina.  Songs of the Temple, or, Bridgewater Collection of Sacred Music
+Call number: 22.4.1.188 1819
+Description: .  7th ed. (Boston, 1819) or later.]  Lacks pp. [1-2] (stub only); pp. [3-4] fragmentary; leaf bearing p. 321 + 1st p. of indexes fragmentary (only ca. 1/3 remains); final leaf, with remaining pp. of indexes, fragmentary (corner frayed, with some loss of text).  Extra unpaged leaf between p. 240 + p. 241.	inscription: final unpaged leaf verso, “Winthr[op?]”
+	no MS. music
+
+
+
+----------------end of source-------------
+
+Source: 14
+Author: 
+Title: 
+Call Number: null
+Description: Cleaveland, Abigail.  MS. music book, undated.  36 leaves.  Last 12 leaves paged 26-49 by original owner.  Several other leaves have p. nos. (e. g., 7-8, 22-23); these leaves have been left in their present positions, even though their numbering doesn’t coordinate with the final pp. 26-49.  All leaves have been renumbered (as leaves) in this inventory.  	inscriptions: leaf [1] recto, “Abigail Cleaveland’s Bo[ok]”; leaf [36] verso, 
+		“Phil[am?] Paine Cantenbury,” “Nabby Cleaveland,” “Phil[une?] / 
+		Paine,” “Canterbury,” “Phil[une?] Paine Hunting,” “Phil[uve?] Paine / 
+		Cantenbury”
+	MS. music entries appear to be all treble or counter parts; mostly sacred, 
+		with a few secular melodies; most entries have no texts
+	many tune titles appear two or three times at different points in the MS.: 
+		e. g., treble part here, counter part there, treble again somewhere else
+
