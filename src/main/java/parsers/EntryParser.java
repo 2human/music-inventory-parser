@@ -411,7 +411,7 @@ public class EntryParser {
 	private void recordEntryVariables() {
 		entry.setLocation(workingEntry[0]);
 		entry.setTitle(workingEntry[1]);
-		entry.setCredit(workingEntry[2]);
+		entry.setComposer(workingEntry[2]);
 		entry.setVocalPart(workingEntry[3]);
 		entry.setMelodicIncipit(workingEntry[5]);
 		entry.setKey(workingEntry[4]);

@@ -88,7 +88,8 @@ public class SpreadsheetWriter {
 	private void writeColumnLabel(String[] columnLabels, int index) {
 		cell = row.createCell(index);					//create cell
 		cell.setCellStyle(style);						//apply cell style
-		cell.setCellValue(columnLabels[index]);			//then write column label		
+		cell.setCellValue(columnLabels[index]);			//then write column label	
+		System.out.println(columnLabels[index]);
 	}
 	
 	private void formatColumn(int[] columnWidths, int index) {

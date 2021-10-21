@@ -20,12 +20,15 @@ import objects.SheetInfo;
 
 public class ParseCollectionApp {
 	public static void main(String[] args) {
+		Collections collections = new Collections(getCurrentCollectionFiles());
+//		//write spreadsheets
 		deleteOldSpreadhsset();		
-		Collections collections = new Collections(getOptimizedFiles());
 		writeSpreadsheet(collections);
 		openSpreadsheet();	
+		//write database
 //		writeDatabase(collections);
-//		System.out.println("Operations complete.");
+		
+		System.out.println("Operations complete.");
 	}
 	
 	private static void deleteOldSpreadhsset() {
@@ -33,7 +36,7 @@ public class ParseCollectionApp {
 		file.delete();
 	} 
 	
-//	@SuppressWarnings("unused")
+	@SuppressWarnings("unused")
 	private static File[] getCurrentCollectionFiles() {
 		File[] files = { 
 			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx"),

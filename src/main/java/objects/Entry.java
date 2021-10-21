@@ -10,7 +10,7 @@ public class Entry {
 					source,				//source number that entry is a part of
 					location,			//entry location within source (page number)
 					title,				//title of entry
-					credit,				//composer entry is accredited to
+					composer,				//composer entry is accredited to
 					vocalPart,			//vocal part of entry
 					key,				//key entry is written in
 					melodicIncipit,		//melodic incipit for entry, which contains its musical notes
@@ -18,7 +18,7 @@ public class Entry {
 
 	
 	private static String[] fields = {"collection_name", "source_number", "entry_location", 	//labels for entry table columns
-			"entry_title", "entry_credit", "entry_vocal_part",
+			"entry_title", "entry_composer", "entry_vocal_part",
 			"entry_key", "entry_melodic_incipit", "entry_text_incipit", "entry_is_secular"};
 	
 	/**
@@ -32,7 +32,7 @@ public class Entry {
 		return "Entry Location: " + location +
 				"\nEntry Title: "  +  title + 
 				"\nSecular Entry: " + isSecular +
-				"\nEntry Credit: "  +  credit +
+				"\nEntry Composer: "  +  composer +
 				"\nEntry Vocal Part: " + vocalPart + 				
 				"\nEntry Key: " + key +
 				"\nEntry Melodic Incipit: "  +  melodicIncipit +
@@ -42,7 +42,7 @@ public class Entry {
 	//---------------------------------------------------------------------------------------
 	//return array containing parsed entries
 	public String[] toArray(){
-		String[] arr = {collection, source, location, title, credit, vocalPart, key, melodicIncipit, textIncipit, Boolean.toString(isSecular)};
+		String[] arr = {collection, source, location, title, composer, vocalPart, key, melodicIncipit, textIncipit, Boolean.toString(isSecular)};
 		return arr;
 	}
 	//---------------------------------------------------------------------------------------
@@ -64,8 +64,8 @@ public class Entry {
 		this.title = title;
 	}
 
-	public void setCredit(String credit) {
-		this.credit = credit;
+	public void setComposer(String composer) {
+		this.composer = composer;
 	}
 
 	public void setLocation(String location) {

@@ -62,6 +62,9 @@ public class Entries {
 	public void toSpreadsheet(SheetInfo sheetInfo) {
 		try {
 			ColumnInfo columnInfo = new ColumnInfo(Entry.getFields(), columnWidths);
+			for(int i = 0; i < Entry.getFields().length; i++) {
+				System.out.println(Entry.getFields()[i]);
+			}
 			SpreadsheetWriter sw = new SpreadsheetWriter(columnInfo, sheetInfo);
 			for(Entry entry: entries) {
 				sw.writeRow(entry.toArray());	//write entry information to spreadsheet
