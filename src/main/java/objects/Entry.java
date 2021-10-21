@@ -14,12 +14,13 @@ public class Entry {
 					vocalPart,			//vocal part of entry
 					key,				//key entry is written in
 					melodicIncipit,		//melodic incipit for entry, which contains its musical notes
-					textIncipit;		//vocal text for entry
+					textIncipit,		//vocal text for entry
+					notes;
 
 	
 	private static String[] fields = {"collection_name", "source_number", "entry_location", 	//labels for entry table columns
 			"entry_title", "entry_composer", "entry_vocal_part",
-			"entry_key", "entry_melodic_incipit", "entry_text_incipit", "entry_is_secular"};
+			"entry_key", "entry_melodic_incipit", "entry_text_incipit", "entry_is_secular", "entry_notes"};
 	
 	/**
 	 * Create music entry object
@@ -42,7 +43,7 @@ public class Entry {
 	//---------------------------------------------------------------------------------------
 	//return array containing parsed entries
 	public String[] toArray(){
-		String[] arr = {collection, source, location, title, composer, vocalPart, key, melodicIncipit, textIncipit, Boolean.toString(isSecular)};
+		String[] arr = {collection, source, location, title, composer, vocalPart, key, melodicIncipit, textIncipit, Boolean.toString(isSecular), notes};
 		return arr;
 	}
 	//---------------------------------------------------------------------------------------
@@ -90,6 +91,10 @@ public class Entry {
 	
 	public void setIsSecular(boolean isSecular) {
 		this.isSecular = isSecular;
+	}
+
+	public void setNotes(String notes) {
+		this.notes = notes;
 	}
 
 	public void setCollection(String collection) {

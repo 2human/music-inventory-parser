@@ -419,6 +419,7 @@ public class EntryParser {
 		entry.setIsSecular(isSecular);
 		entry.setCollection(collection);
 		entry.setSource(source);
+		entry.setNotes("");
 	}
 	
 	/**

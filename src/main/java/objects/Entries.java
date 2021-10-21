@@ -15,7 +15,7 @@ import writers.SpreadsheetWriter;
  */
 public class Entries {
 
-	private static int columnWidths[] = { 25, 10, 20, 20, 35, 30, 10, 75, 75, 15 }; //widths of columns for spreadsheet cells corresponding to field index
+	private static int columnWidths[] = { 25, 10, 20, 20, 35, 30, 10, 75, 75, 15, 60 }; //widths of columns for spreadsheet cells corresponding to field index
 	List<Entry> entries;			//list containing entry objects
 	
 	//default constructor
