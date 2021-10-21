@@ -1,2 +1,0 @@
-git commit -m "Integrated ability to handle pre-parsed files"
-git push -u origin master
