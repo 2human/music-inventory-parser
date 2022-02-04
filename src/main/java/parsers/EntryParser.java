@@ -4,9 +4,6 @@
  */
 package parsers;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import objects.Entry;
 import objects.RoughEntry;
 
@@ -21,8 +18,6 @@ public class EntryParser {
 	private String collection;
 	private int source;
 	String entryStr;
-	private Pattern commaQuotePattern = Pattern.compile("[^,],”");
-	private Matcher commaQuoteMatcher;
 	
 	
 	int indexShift ,			//number of times array fields are shifted, such as there being multipe values for same field in separate indices
@@ -109,10 +104,7 @@ public class EntryParser {
 			entryStr = getTextProceedingTunePage(entryStr);	//remove tunepage from entry string, which occur before colon
 		}
 		
-//		entryStr.replace("[^,],", "”,")		//put commas on outside of quotes	
-		entryStr = commaQuotePattern.matcher(entryStr).replaceAll("”,");
-		
-		return entryStr.replace(", so", "-*- so")			//remove common false delimiter and replace with temporary symbol
+		return entryStr.replace(", so", "-*- so")	//remove common false delimiter and replace with temporary symbol
 				.replace(", but", "-*- but")		//remove common false delimiter and replace with temporary symbol
 				.replace(", by",  "-*- by")			//remove common false delimiter and replace with temporary symbol
 				.trim().replaceAll(" +", " ")		//trim extra spaces
@@ -249,7 +241,8 @@ public class EntryParser {
 		}
 		
 		appendRemainingToTextIncipit();		
-		removeFalseDelimiterReplacementSymbols();		
+		removeFalseDelimiterReplacementSymbols();
+		putCommasOutsideQuotes();
 		detectandTallyNotIncipit();		
 		recordEntryVariables();
 	}	
@@ -406,6 +399,17 @@ public class EntryParser {
 				//melodic incipits that contained commas had commas replaced by -*- 
 				//and colons replaced by **&
 				workingEntry[i] = workingEntry[i].replace("-*-", ",").replace("**&", ":");					
+			}
+		}		
+	}
+	
+	//puts commas outside of quotes
+	private void putCommasOutsideQuotes() {
+		for(int i = 0; i < workingEntry.length; i++) {
+			if(workingEntry[i] != null) {
+				//melodic incipits that contained commas had commas replaced by -*- 
+				//and colons replaced by **&
+				workingEntry[i] = workingEntry[i].replace(",”", "”,");			
 			}
 		}		
 	}
