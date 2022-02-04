@@ -62,6 +62,8 @@ public class CollectionParser {
 	private StringBuilder entryStrBuilder;
 	EntryParser entryParser;
 	
+	boolean preParsed = true;	//determine if document is pre-parsed to optimize parsing operations
+	
 	
 	public CollectionParser() {
 		
@@ -151,9 +153,6 @@ public class CollectionParser {
 			}
 			
 			else {	//miscellaneous text added to description by default
-				if(paragraphText.indexOf("SEE") != -1) {
-					System.out.println(paragraphText);
-				}
 				sourceDescription.append(paragraphText + "\n");
 			}
 			curParIndex++;
@@ -400,8 +399,12 @@ public class CollectionParser {
 	}
 	
 	private boolean isNewEntry(String paragraphText) {
-		return paragraphText.indexOf(":") != -1; //: indicates start of new entry within entry section
-				
+		if(preParsed) {
+			return paragraphText.indexOf("::") != -1; //:: indicates start of new entry within entry section when doc id pre-parsed
+			
+		} else {
+			return paragraphText.indexOf(":") != -1; //: indicates start of new entry within entry section when doc is not pre-parsed
+		}
 	}
 	
 	//determines if first entry of current source
@@ -450,7 +453,6 @@ public class CollectionParser {
 		for(int i = 0; i < paragraphRuns.size(); i++) {
 			System.out.println("Run index: " + i + " Run text: " + paragraphRuns.get(i).toString());
 		}
-	}
-	
+	}	
 }
 	

@@ -4,12 +4,15 @@
  */
 package parsers;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import objects.Entry;
 import objects.RoughEntry;
 
 public class EntryParser {
 	
-	private boolean preParsed = false;	//whether or not file is pre-optimized for parsing
+	private boolean preParsed = true;	//whether or not file is pre-optimized for parsing
 	
 	private Entry entry;				//entry being parsed
 	private String[] splitEntry,
@@ -18,6 +21,8 @@ public class EntryParser {
 	private String collection;
 	private int source;
 	String entryStr;
+	private Pattern commaQuotePattern = Pattern.compile("[^,],”");
+	private Matcher commaQuoteMatcher;
 	
 	
 	int indexShift ,			//number of times array fields are shifted, such as there being multipe values for same field in separate indices
@@ -62,7 +67,11 @@ public class EntryParser {
 	}
 	
 	private boolean hasTunePage(String str) {
-		return str.indexOf(":") != -1;
+		if(preParsed) {
+			return str.indexOf("::") != -1;		//two colons indicates presence of tune page in pre-parsed entry
+		} else{
+			return str.indexOf(":") != -1;		//	otherwise tune page is indicated by one colon
+		}
 	}
 	
 	private String textPrecedingColon(String str) {
@@ -77,6 +86,7 @@ public class EntryParser {
 		if(isThisEntry(source, tunePage)) {
 			for(String field: splitEntry) {
 				System.out.println(field);
+				System.out.println("printing field");
 			}
 			System.out.println("-----" + indexShift + "-------");
 		}
@@ -98,8 +108,11 @@ public class EntryParser {
 		if(hasTunePage(entryStr)){	
 			entryStr = getTextProceedingTunePage(entryStr);	//remove tunepage from entry string, which occur before colon
 		}
-		return entryStr.replace(",”", "”,")		//put commas on outside of quotes
-				.replace(", so", "-*- so")			//remove common false delimiter and replace with temporary symbol
+		
+//		entryStr.replace("[^,],", "”,")		//put commas on outside of quotes	
+		entryStr = commaQuotePattern.matcher(entryStr).replaceAll("”,");
+		
+		return entryStr.replace(", so", "-*- so")			//remove common false delimiter and replace with temporary symbol
 				.replace(", but", "-*- but")		//remove common false delimiter and replace with temporary symbol
 				.replace(", by",  "-*- by")			//remove common false delimiter and replace with temporary symbol
 				.trim().replaceAll(" +", " ")		//trim extra spaces
