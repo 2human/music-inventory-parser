@@ -6,10 +6,11 @@ package parsers;
 
 import objects.Entry;
 import objects.RoughEntry;
+import objects.Source;
 
 public class EntryParser {
 	
-	private boolean preParsed = true;	//whether or not file is pre-optimized for parsing
+	private boolean preParsed;	//whether or not file is pre-optimized for parsing
 	
 	private Entry entry;				//entry being parsed
 	private String[] splitEntry,
@@ -24,19 +25,20 @@ public class EntryParser {
 		splitArrayIndex,				//current split entry splitArrayIndex being analyzed
 		arrLimit;			//number of indices from split entries that will be added to temp entries before rest of 
 							//indices from split entries are dumped into text incipit splitArrayIndex
-	//discrepancy between splitArrayIndex and workingEntry index
-	//
+	
+	//discrepancy between splitArrayIndex and workingEntry index to determine placement
 	private static final int INDEX_DISCREPANCY = 2;
 	
 	//default constructor
 	public EntryParser(){		
 	}
 	
-	public EntryParser(String collection, int source, RoughEntry roughEntry){
+	public EntryParser(Source source, RoughEntry roughEntry, boolean preParsed){
 		
 		entry = new Entry();
-		this.collection = collection;
-		this.source = source;
+		this.collection = source.getCollectionName();
+		this.source = source.getSourceNumber();
+		this.preParsed = preParsed;
 		//prepare data for entry array construction
 		workingEntry = new String[7];
 		entryStr = roughEntry.getNonParsedFields();
@@ -103,6 +105,9 @@ public class EntryParser {
 		if(hasTunePage(entryStr)){	
 			entryStr = getTextProceedingTunePage(entryStr);	//remove tunepage from entry string, which occur before colon
 		}
+		if(!preParsed) {
+			entryStr = entryStr.replace(",”", "”,");			//put commas on outside of quotes
+		}
 		
 		return entryStr.replace(", so", "-*- so")	//remove common false delimiter and replace with temporary symbol
 				.replace(", but", "-*- but")		//remove common false delimiter and replace with temporary symbol
@@ -155,18 +160,18 @@ public class EntryParser {
 			workingEntry[2] = getPolishedCredit(credit);
 		} else{		
 			workingEntry[1] = titleCreditStr;	//if no credit present, record all of text as title
-		}		
+		}
 	}	
 	
 	private int getCreditIndex(String str) {
 		String[] creditIndicators = {"[by", "-by", " by ", "“By", "“by", "att.", "[originally by"};	//strings that indicate presence of author
-		int splitArrayIndex = -1;						//no matches by default
+		int creditIndex = -1;						//no matches by default
 		for(String indicator: creditIndicators) {	//check to see if any author indicators occur in text
 			if(creditIndicatorFound(str, indicator)) {
-				splitArrayIndex = str.indexOf(indicator);		//record splitArrayIndex of match
+				creditIndex = str.indexOf(indicator);		//record splitArrayIndex of match
 			}
 		}
-		return splitArrayIndex;		
+		return creditIndex;		
 	}
 	
 	private boolean creditIndicatorFound(String str, String indicator) {
@@ -242,7 +247,9 @@ public class EntryParser {
 		
 		appendRemainingToTextIncipit();		
 		removeFalseDelimiterReplacementSymbols();
-		putCommasOutsideQuotes();
+		if(preParsed) {
+			putCommasOutsideQuotes();
+		}
 		detectandTallyNotIncipit();		
 		recordEntryVariables();
 	}	

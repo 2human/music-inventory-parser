@@ -62,7 +62,7 @@ public class CollectionParser {
 	private StringBuilder entryStrBuilder;
 	EntryParser entryParser;
 	
-	boolean preParsed = true;	//determine if document is pre-parsed to optimize parsing operations
+	boolean preParsed;	//determine if document is pre-parsed to optimize parsing operations
 	
 	
 	public CollectionParser() {
@@ -71,6 +71,18 @@ public class CollectionParser {
 	
 	public CollectionParser(File file, Collection collection){
 		this.collection = collection;
+		this.preParsed = false;				//not preparsed by default
+		parseAndSaveCollectionName(file);
+		try {
+			initializeInputDocument(file);			
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	
+	public CollectionParser(File file, Collection collection, boolean preParsed){
+		this.collection = collection;
+		this.preParsed = preParsed;
 		parseAndSaveCollectionName(file);
 		try {
 			initializeInputDocument(file);			
@@ -98,6 +110,7 @@ public class CollectionParser {
 		collection.setName(collectionName);
 	}
 	
+	//prepare document for parsing
 	private void initializeInputDocument(File file) throws Exception {
 		fis = new FileInputStream(file);				//Word file being parsed
 		xdoc = new XWPFDocument(OPCPackage.open(fis));	//Apache POI .docx reader
@@ -213,7 +226,7 @@ public class CollectionParser {
 	private boolean isAuthor(XWPFRun run) {
 		return ( source.getTitle() == null 					//title yet to be recorded (author information occurs before title information)
 			&& (!run.isItalic()							//text not italicized (indicator of title)							
-			|| (run.toString().toLowerCase().indexOf("sic") == 0)));	//or if italicized, italicized word is sic, which can occur int itle
+			|| (run.toString().toLowerCase().indexOf("sic") == 0)));	//or if italicized, italicized word is sic, which can occur in title
 	}
 	
 	private boolean isDescription(XWPFRun run) {
@@ -419,7 +432,7 @@ public class CollectionParser {
 	
 	private void parseAndSaveEntries(){	
 		for(RoughEntry roughEntry: roughEntries.toArrayList()) {
-			entryParser = new EntryParser(collectionName, source.getSourceNumber(), roughEntry);
+			entryParser = new EntryParser(source, roughEntry, preParsed);
 			entryParser.parseEntry();	
 			source.addEntry(entryParser.getParsedEntry());	//save parsed entry
 		}

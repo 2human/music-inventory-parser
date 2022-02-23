@@ -42,7 +42,7 @@ public class Collections {
 		collections = new Collection[files.length];
 		long startTime = System.currentTimeMillis();
 		for(int i = 0; i < files.length; i++) {
-			collections[i] = new Collection(files[i]);
+			collections[i] = new Collection(files[i], preParsed);
 		}
 		long endTime = System.currentTimeMillis();
 		System.out.println("It took " + (endTime - startTime) + " milliseconds");

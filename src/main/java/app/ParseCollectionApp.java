@@ -20,7 +20,7 @@ import objects.SheetInfo;
 
 public class ParseCollectionApp {
 	public static void main(String[] args) {
-		Collections collections = new Collections(getCurrentCollectionFiles());
+		Collections collections = new Collections(getCurrentCollectionFiles(), false);
 //		//write spreadsheets
 		deleteOldSpreadhsset();		
 		writeSpreadsheet(collections);
@@ -39,21 +39,22 @@ public class ParseCollectionApp {
 	@SuppressWarnings("unused")
 	private static File[] getCurrentCollectionFiles() {
 		File[] files = {
-				new File("src/main/resources/finalized collections/MA Cambridge, Harvard, Divinity School Library--sacred music INVENTORY.docx"),
+				new File("src/main/resources/finalized collections/CT Hartford, Connecticut Historical Society.docx"),
 			};
 		return files;
-	}
+	}	
 	
 	@SuppressWarnings("unused")
-	private static File[] getOptimizedFiles() {
+	private static File[] getPreParsedFiles() {
 		File[] files = { 				
-			new File("src/main/resources/finalized collections/optimized format/new-format-test.docx"),
+				new File("src/main/resources/finalized collections/MA Cambridge, Harvard, Divinity School Library--sacred music INVENTORY.docx"),
+				new File("src/main/resources/finalized collections/MA Cambridge, Harvard, Harvard University Archives--sacred music INVENTORY.docx"),
+				new File("src/main/resources/finalized collections/MA Cambridge, Harvard, Loeb Music Library--sacred music INVENTORY.docx"),
+				new File("src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library--sacred music INVENTORY.docx"),
 
 			};
 		return files;
 	}
-	
-	
 	
 	//write collection(s) to spreadsheet
 	@SuppressWarnings("unused")
@@ -97,7 +98,8 @@ public class ParseCollectionApp {
 			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx"),
 			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx"),
 			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx"),
-			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx")
+			new File("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx"),
+			new File("src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society--sacred music INVENTORY.docx")
 			};
 		return files;
 	}

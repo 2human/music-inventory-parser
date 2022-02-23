@@ -41,6 +41,10 @@ public class Source {
 		String[] arr = {collection, Integer.toString(sourceNumber), callNumber, author, title, inscription, description};
 		return arr;
 	}
+	
+	public String getCollectionName() {
+		return collection;
+	}
 
 	public int getSourceNumber() {
 		return sourceNumber;
