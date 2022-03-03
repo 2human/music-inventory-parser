@@ -111,7 +111,7 @@ public class CollectionParser {
 	private void parseCollectionDescription() throws Exception{
 		initializeParagraphVariables();
 		//all information prior to source number being found is collection info
-		while(!endOfDocumentReached() && !sourceFound(paragraphObj)) {
+		while(!endOfDocumentReached() && !hasSourceNumber(paragraphObj.getText())) {
 			collectionDescription.append(paragraphText + "\n");	//add current paragraph to collection description			
 			curParIndex++;
 			initializeParagraphVariables();	//prep for next iteration
@@ -123,8 +123,8 @@ public class CollectionParser {
 	}	
 	
 	//determine if source number is found in string, as indicated by a number followed by a period
-	private boolean sourceFound(XWPFParagraph paragraph) {
-		sourceNumberMatcher = sourceNumberPattern.matcher(paragraph.getText());
+	private boolean hasSourceNumber(String text) {
+		sourceNumberMatcher = sourceNumberPattern.matcher(text);
 		return sourceNumberMatcher.find();
 	}
 	
@@ -133,7 +133,7 @@ public class CollectionParser {
 	private void parseSourcesAndEntries() throws Exception{
 		while(!endOfDocumentReached()) {
 			initializeParagraphVariables();					//prepare variables for parsing
-			if(sourceFound(paragraphObj)) {	//indicates end of last source and beginning of new source
+			if(hasSourceNumber(paragraphObj.getText())) {	//indicates end of last source and beginning of new source
 				try {
 					//TODO change to reccordAuthorTitleDescription, change others to same, and then create save source method
 					finalizePreviousSource();
@@ -196,10 +196,10 @@ public class CollectionParser {
 	}
 	
 	private void parseAuthorTitleDescription() {
+		
 		//analyze runs of current paragraph to extract title and author
-		//start at index 1 because first run contains source number and does not need to be analyzed
-		for (int runIndex = 1; runIndex < paragraphRuns.size(); runIndex++) {					
-			curRun = paragraphRuns.get(runIndex);								//get run at current index from list of runs
+		for (int runIndex = getSourceNumberEndingIndex(); runIndex < paragraphRuns.size(); runIndex++) {					
+			curRun = paragraphRuns.get(runIndex);								//get run at current index from list of runs		
 			if(isDescription(curRun)) {
 				sourceDescription.append(curRun.toString());
 			}
@@ -209,8 +209,26 @@ public class CollectionParser {
 			else if(isTitle(curRun)){
 				runIndex = parseTitle(runIndex);
 			}					
+			sourceDescription.append("\n");
 		}
-		sourceDescription.append("\n");
+	}
+	
+	//determines where source number ends as indicated by first occurrence of period in source
+	//this accounts for cases where recorder of inventory changed formatting within source number,
+	//causing source number to span multiple text runs
+	private int getSourceNumberEndingIndex() {
+		String runText;
+		for(int i = 0; i < paragraphRuns.size(); i++) {
+			runText = paragraphRuns.get(i).toString();
+			if(containsEndOfSourceNumber(runText)) {
+				return i + 1;		//run after current will be starting index
+			}
+		}
+		return paragraphRuns.size();	//
+	}
+	
+	private boolean containsEndOfSourceNumber(String runText) {
+		return runText.indexOf(".") != -1;
 	}
 	
 	private boolean isAuthor(XWPFRun run) {
@@ -387,7 +405,7 @@ public class CollectionParser {
 	
 	private boolean isEntry(XWPFParagraph paragraph) {
 		return curParIndex < paragraphList.size() && //end of document not reached
-				!sourceFound(paragraph) 			//new source not found
+				!hasSourceNumber(paragraph.getText()) 			//new source not found
 				&& !hasCallNumber(paragraph);		//call number not found
 	}
 	

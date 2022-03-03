@@ -40,41 +40,41 @@ public class ParseCollectionApp {
 	//TODO: turn collection files into object, containing whether each is true or not!
 	@SuppressWarnings("unused")
 	private static CollectionFile[] getCurrentCollectionFiles() {
-		CollectionFile[] collectionFiles = {	  					
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Divinity School Library--sacred music INVENTORY.docx", true),
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Harvard University Archives--sacred music INVENTORY.docx", true),
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Loeb Music Library--sacred music INVENTORY.docx", true),
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library--sacred music INVENTORY.docx", true),new CollectionFile("src/main/resources/finalized collections/CT Hartford, Connecticut Historical Society.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/CT Hartford, Watkinson Library, Trinity College.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/MA Petersham, Nym Cooke collection.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/MA Boston, Congregational Library and Archives.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/MA Boston, Boston Athenaeum.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/MA Andover, Andover Center for History and Culture.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society--sacred music INVENTORY.docx", false)
+		CollectionFile[] collectionFiles = {	
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", 
+						false
+					),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx",
+						false),
+				new CollectionFile(
+						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx",
+						false),
 		};
 		return collectionFiles;
 	}	
-	
-	@SuppressWarnings("unused")
-	private static CollectionFile[] getPreParsedFiles() {
-		CollectionFile[] collectionFiles = {	  					
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Divinity School Library--sacred music INVENTORY.docx", true),
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Harvard University Archives--sacred music INVENTORY.docx", true),
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Loeb Music Library--sacred music INVENTORY.docx", true),
-			new CollectionFile("src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library--sacred music INVENTORY.docx", true),
-		};
-		return collectionFiles;
-	}
 	
 	//write collection(s) to spreadsheet
 	@SuppressWarnings("unused")
@@ -101,25 +101,72 @@ public class ParseCollectionApp {
 	}
 	
 	@SuppressWarnings("unused")
-	private static CollectionFile[] getFinalizedCollectionFiles() {
-		CollectionFile[] collectionFiles = {
-			new CollectionFile("src/main/resources/finalized collections/CT Hartford, Connecticut Historical Society.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/CT Hartford, Watkinson Library, Trinity College.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/MA Petersham, Nym Cooke collection.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/MA Boston, Congregational Library and Archives.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/MA Boston, Boston Athenaeum.docx", false),
-			new CollectionFile ("src/main/resources/finalized collections/MA Andover, Andover Center for History and Culture.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx", false),
-			new CollectionFile("src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society--sacred music INVENTORY.docx", false)
+	private static CollectionFile[] getAllCollectionFiles() {
+		CollectionFile[] collectionFiles = {				
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Divinity School Library--sacred music INVENTORY.docx",
+					true),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Harvard University Archives--sacred music INVENTORY.docx",
+					true),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Loeb Music Library--sacred music INVENTORY.docx",
+					true),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library--sacred music INVENTORY.docx",
+					true),
+			new CollectionFile(
+					"src/main/resources/finalized collections/CT Hartford, Connecticut Historical Society.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/CT Hartford, Watkinson Library, Trinity College.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Petersham, Nym Cooke collection.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Boston, Congregational Library and Archives.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Boston, Boston Athenaeum.docx",
+					false),
+			new CollectionFile (
+					"src/main/resources/finalized collections/MA Andover, Andover Center for History and Culture.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", 
+					false
+				),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society--sacred music INVENTORY.docx",
+					false)
 			};
 		return collectionFiles;
 	}
