@@ -195,8 +195,7 @@ public class CollectionParser {
 		source = new Source(collectionName, getSourceNumber(paragraphText));		
 	}
 	
-	private void parseAuthorTitleDescription() {
-		
+	private void parseAuthorTitleDescription() {		
 		//analyze runs of current paragraph to extract title and author
 		for (int runIndex = getSourceNumberEndingIndex(); runIndex < paragraphRuns.size(); runIndex++) {					
 			curRun = paragraphRuns.get(runIndex);								//get run at current index from list of runs		
@@ -209,8 +208,9 @@ public class CollectionParser {
 			else if(isTitle(curRun)){
 				runIndex = parseTitle(runIndex);
 			}					
-			sourceDescription.append("\n");
 		}
+		//create new line in description because more misc. info may be added later
+		sourceDescription.append("\n");
 	}
 	
 	//determines where source number ends as indicated by first occurrence of period in source
