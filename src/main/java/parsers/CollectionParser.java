@@ -12,6 +12,7 @@ import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 import objects.Collection;
+import objects.CollectionFile;
 import objects.RoughEntries;
 import objects.RoughEntry;
 import objects.Source;
@@ -69,23 +70,12 @@ public class CollectionParser {
 		
 	}
 	
-	public CollectionParser(File file, Collection collection){
+	public CollectionParser(CollectionFile collectionFile, Collection collection){
 		this.collection = collection;
-		this.preParsed = false;				//not preparsed by default
-		parseAndSaveCollectionName(file);
+		this.preParsed = collectionFile.isPreParsed();
+		parseAndSaveCollectionName(collectionFile.get());
 		try {
-			initializeInputDocument(file);			
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
-	}
-	
-	public CollectionParser(File file, Collection collection, boolean preParsed){
-		this.collection = collection;
-		this.preParsed = preParsed;
-		parseAndSaveCollectionName(file);
-		try {
-			initializeInputDocument(file);			
+			initializeInputDocument(collectionFile.get());			
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}

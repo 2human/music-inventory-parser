@@ -14,35 +14,20 @@ public class Collections {
 	 * Parse music collection file and construct music collection object
 	 * @param file Music collection file to be parsed
 	 */
-	public Collections(File file){
+	public Collections(CollectionFile collectionFile){
 		collections = new Collection[1];
-		collections[0]= new Collection(file);
+		collections[0]= new Collection(collectionFile);
 	}
 	
 	/**
 	 * Parse music collection file and construct music collection object
 	 * @param files Array of music collection files to be parsed
 	 */
-	public Collections(File[] files){
-		collections = new Collection[files.length];
+	public Collections(CollectionFile[] collectionFiles){
+		collections = new Collection[collectionFiles.length];
 		long startTime = System.currentTimeMillis();
-		for(int i = 0; i < files.length; i++) {
-			collections[i] = new Collection(files[i]);
-		}
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " milliseconds");
-	}
-	
-	/**
-	 * Parse music collection files and construct music collection object
-	 * @param files	files to be parsed
-	 * @param preParsed files were recorded in new format optimized for parsing
-	 */
-	public Collections(File[] files, boolean preParsed){
-		collections = new Collection[files.length];
-		long startTime = System.currentTimeMillis();
-		for(int i = 0; i < files.length; i++) {
-			collections[i] = new Collection(files[i], preParsed);
+		for(int i = 0; i < collectionFiles.length; i++) {
+			collections[i] = new Collection(collectionFiles[i]);
 		}
 		long endTime = System.currentTimeMillis();
 		System.out.println("It took " + (endTime - startTime) + " milliseconds");

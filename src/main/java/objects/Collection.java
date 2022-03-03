@@ -27,19 +27,6 @@ public class Collection {
 	public Collection() {										
 		
 	}
-
-	/**
-	 * Construct Collection object with music collection file.
-	 * 
-	 * @param file Music collection file, prepared for parsing.
-	 *
-	 */
-	public Collection(File file){
-		CollectionParser pc = new CollectionParser(file, this);	//constructor for collection parser
-		pc.execute();																//execute collection parser
-		collection[0] = collectionName;							//record collection name to array
-		collection[1] = collectionDescription.trim();			//record collection description to array
-	}
 	
 	/**
 	 * Construct Collection object with music collection file.
@@ -47,8 +34,8 @@ public class Collection {
 	 * @param files	files to be parsed
 	 * @param preParsed files were recorded in new format optimized for parsing
 	 */
-	public Collection(File file, boolean preParsed){
-		CollectionParser pc = new CollectionParser(file, this, preParsed);	//constructor for collection parser
+	public Collection(CollectionFile collectionFile){
+		CollectionParser pc = new CollectionParser(collectionFile, this);	//constructor for collection parser
 		pc.execute();																//execute collection parser
 		collection[0] = collectionName;							//record collection name to array
 		collection[1] = collectionDescription.trim();			//record collection description to array
