@@ -7,6 +7,7 @@ import java.io.IOException;
 import objects.CollectionFile;
 import objects.Collections;
 import objects.SheetInfo;
+import writers.DatabaseWriter;
 
 
 /**
@@ -21,13 +22,17 @@ import objects.SheetInfo;
 
 public class ParseCollectionApp {
 	public static void main(String[] args) {
-		Collections collections = new Collections(getCurrentCollectionFiles());
-//		//write spreadsheets
-		deleteOldSpreadhsset();		
-		writeSpreadsheet(collections);
-		openSpreadsheet();	
+		Collections collections = new Collections(getAllCollectionFiles());
+////		//write spreadsheets
+//		deleteOldSpreadhsset();		
+//		writeSpreadsheet(collections);
+//		openSpreadsheet();
+		
+		
+//		initializeDatabaseTables("music-inventory");
+		
 		//write database
-//		writeDatabase(collections);
+		writeDatabase(collections, "musicinventory");
 		
 		System.out.println("Operations complete.");
 	}
@@ -40,38 +45,37 @@ public class ParseCollectionApp {
 	//TODO: turn collection files into object, containing whether each is true or not!
 	@SuppressWarnings("unused")
 	private static CollectionFile[] getCurrentCollectionFiles() {
-		CollectionFile[] collectionFiles = {	
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", 
-						false
-					),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx",
-						false),
-				new CollectionFile(
-						"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx",
-						false),
+		CollectionFile[] collectionFiles = {
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", 
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx",
+				false),
+		new CollectionFile(
+				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx",
+				false),
 		};
 		return collectionFiles;
 	}	
@@ -150,8 +154,7 @@ public class ParseCollectionApp {
 					false),
 			new CollectionFile(
 					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", 
-					false
-				),
+					false),
 			new CollectionFile(
 					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx",
 					false),
@@ -173,16 +176,24 @@ public class ParseCollectionApp {
 	
 	//write collections to database
 	@SuppressWarnings("unused")
-	private static void writeDatabase(Collections collections) {
+	private static void writeDatabase(Collections collections, String schema) {
 		//write collection data to database		
-		String schema = "testcollections", 						//database 					
-				databasePath = "jdbc:mysql://localhost:3306/",		//information
-				user = "root",
-				password = "password";
+		String databasePath = "jdbc:mysql://musicinventory.cjatxj6dhysn.us-east-2.rds.amazonaws.com:3306/",		//information
+				user = "musicinventory",
+				password = "musicinventory";
 		collections.toDatabase(databasePath, schema, "collections", user, password);
 		collections.getSources().toDatabase(databasePath, schema, "sources", user, password);
 		System.out.println(collections.getEntries().toArrayList().size());
 		collections.getEntries().toDatabase(databasePath, schema, "entries", user, password);
+	}
+	
+	@SuppressWarnings("unused")
+	private static void initializeDatabaseTables(String schema) {
+		String databasePath = "jdbc:mysql://localhost:3306/",		//information
+				user = "root",
+				password = "password";
+		DatabaseWriter db = new DatabaseWriter(databasePath, schema, user, password);
+		db.initializeTables();
 	}
 	
 }
