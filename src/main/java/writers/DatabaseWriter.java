@@ -80,7 +80,7 @@ public class DatabaseWriter {
 	
 	//write entry to database
 	public void writeData(String fields, String data) {
-		sqlStatement = "insert into " + table +" (" + fields +") values (" + data + ");";		//construct full SQL statement
+		sqlStatement = "insert into `" + table +"` (" + fields +") values (" + data + ");";		//construct full SQL statement
 		try {
 			myStatement.executeUpdate(sqlStatement);											//execute SQL statement
 		} catch (SQLException e) {

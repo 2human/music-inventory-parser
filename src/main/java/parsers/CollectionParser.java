@@ -152,6 +152,8 @@ public class CollectionParser {
 				parseAndSaveCallNumber();		
 			}
 			else if(entryFound(paragraphObj)) {	
+				System.out.println(paragraphText);
+				sourceDescription.append(paragraphText + "\n");	//record text before entry
 				parseAndSaveSourceEntries();
 			}
 			
@@ -338,7 +340,7 @@ public class CollectionParser {
 	}
 
 	private boolean hasCrypticEntryIndicator(String parText) {
-		if(isSecondToLastParagraph(curParIndex)) return false;
+		if(isSecondToLastParagraph(curParIndex)) return false;	//when second to last paragraph in document, not entry indicator
 		XWPFParagraph nextParagraph = paragraphList.get(curParIndex + 1);
 		return (isProbableEntryIndicator(parText) && isProbableEntry(nextParagraph));
 	}

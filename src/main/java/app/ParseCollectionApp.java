@@ -23,16 +23,16 @@ import writers.DatabaseWriter;
 public class ParseCollectionApp {
 	public static void main(String[] args) {
 		Collections collections = new Collections(getAllCollectionFiles());
-////		//write spreadsheets
-//		deleteOldSpreadhsset();		
-//		writeSpreadsheet(collections);
-//		openSpreadsheet();
+		//write spreadsheets
+		deleteOldSpreadhsset();		
+		writeSpreadsheet(collections);
+		openSpreadsheet();
 		
 		
-//		initializeDatabaseTables("music-inventory");
+//		initializeDatabaseTables("music-inventory-final");
 		
 		//write database
-		writeDatabase(collections, "musicinventory");
+//		writeDatabase(collections, "music-inventory-final");
 		
 		System.out.println("Operations complete.");
 	}
@@ -45,37 +45,10 @@ public class ParseCollectionApp {
 	//TODO: turn collection files into object, containing whether each is true or not!
 	@SuppressWarnings("unused")
 	private static CollectionFile[] getCurrentCollectionFiles() {
-		CollectionFile[] collectionFiles = {
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", 
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx",
-				false),
-		new CollectionFile(
-				"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx",
-				false),
+		CollectionFile[] collectionFiles = {				
+				new CollectionFile(
+						"src/main/resources/finalized collections/MA Cambridge, Harvard, Houghton Library.docx",
+						true),				
 		};
 		return collectionFiles;
 	}	
@@ -106,19 +79,7 @@ public class ParseCollectionApp {
 	
 	@SuppressWarnings("unused")
 	private static CollectionFile[] getAllCollectionFiles() {
-		CollectionFile[] collectionFiles = {				
-			new CollectionFile(
-					"src/main/resources/finalized collections/MA Cambridge, Harvard, Divinity School Library--sacred music INVENTORY.docx",
-					true),
-			new CollectionFile(
-					"src/main/resources/finalized collections/MA Cambridge, Harvard, Harvard University Archives--sacred music INVENTORY.docx",
-					true),
-			new CollectionFile(
-					"src/main/resources/finalized collections/MA Cambridge, Harvard, Loeb Music Library--sacred music INVENTORY.docx",
-					true),
-			new CollectionFile(
-					"src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library--sacred music INVENTORY.docx",
-					true),
+		CollectionFile[] collectionFiles = {
 			new CollectionFile(
 					"src/main/resources/finalized collections/CT Hartford, Connecticut Historical Society.docx",
 					false),
@@ -138,38 +99,53 @@ public class ParseCollectionApp {
 					"src/main/resources/finalized collections/MA Andover, Andover Center for History and Culture.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 1.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 1.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 2.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 2.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 3.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 3.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 4.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 4.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 5.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 5.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 6.docx", 
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 6.docx", 
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 7.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 7.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 8.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 8.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 9.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 9.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society--sacred music INVENTORY - 10.docx",
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 10.docx",
 					false),
 			new CollectionFile(
-					"src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society--sacred music INVENTORY.docx",
-					false)
+					"src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society.docx",
+					false),						
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Houghton Library.docx",
+					true),		
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Divinity School Library.docx",
+					true),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Harvard University Archives.docx",
+					true),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Loeb Music Library.docx",
+					true),
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library.docx",
+					true),
 			};
 		return collectionFiles;
 	}
@@ -190,7 +166,7 @@ public class ParseCollectionApp {
 	@SuppressWarnings("unused")
 	private static void initializeDatabaseTables(String schema) {
 		String databasePath = "jdbc:mysql://localhost:3306/",		//information
-				user = "root",
+				user = "user",
 				password = "password";
 		DatabaseWriter db = new DatabaseWriter(databasePath, schema, user, password);
 		db.initializeTables();
