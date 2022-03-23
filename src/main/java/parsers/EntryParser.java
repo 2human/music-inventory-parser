@@ -230,8 +230,7 @@ public class EntryParser {
 		if(entryHadNoVocalPart()) {
 			workingEntry = shiftCellsRight(workingEntry, 3);	//shift data out of vocal period
 			indexShift++;	//record shift
-		}	
-		
+		}			
 		
 		if(melodicIncipitIsMisplaced()) {
 			findAndPlaceMelodicIncipit();
@@ -242,10 +241,10 @@ public class EntryParser {
 		if(additionalMelodicIncipitInfoFound()) {
 			appendMelodicIncipit();
 			vacateTextIncipitField();
-			//TODO used to be negative shift here; find out why it had to be removed
 		}
 		
-		appendRemainingToTextIncipit();		
+		appendRemainingToTextIncipit();	
+		
 		removeFalseDelimiterReplacementSymbols();
 		if(preParsed) {
 			putCommasOutsideQuotes();
@@ -315,7 +314,7 @@ public class EntryParser {
 	}
 	
 	private void appendAdditionalVocalPart() {
-		workingEntry[3] += " " + splitEntry[splitArrayIndex];	//add current split array index to vocalPart index in workingEntry		
+		workingEntry[3] += ", " + splitEntry[splitArrayIndex];	//add current split array index to vocalPart index in workingEntry		
 	}
 	
 	private void copySplitEntryToWorkingEntry() {
@@ -410,7 +409,6 @@ public class EntryParser {
 		}		
 	}
 	
-	//puts commas outside of quotes
 	private void putCommasOutsideQuotes() {
 		for(int i = 0; i < workingEntry.length; i++) {
 			if(workingEntry[i] != null) {
@@ -436,14 +434,53 @@ public class EntryParser {
 		entry.setLocation(workingEntry[0]);
 		entry.setTitle(workingEntry[1]);
 		entry.setComposer(workingEntry[2]);
-		entry.setVocalPart(workingEntry[3]);
+		recordVocalPart(workingEntry[3]);
 		entry.setMelodicIncipit(workingEntry[5]);
 		entry.setKey(workingEntry[4]);
 		entry.setTextIncipit(workingEntry[6]);	
 		entry.setIsSecular(isSecular);
 		entry.setCollection(collection);
-		entry.setSource(source);
-		entry.setNotes("");
+		entry.setSource(source);		
+		if(textIncipitContainsNotes()) {
+			moveNotesToNotesField();
+			removeNotesFromTextIncipit();
+		}
+		else {
+			entry.setNotes("");
+		}
+	}
+	
+	private void recordVocalPart(String vocalPartText) {
+		if(vocalPartText == null) {
+			entry.setVocalPart(workingEntry[3]);
+		}
+		else {
+			//insert commas within quotes when quotes are followed by space
+			entry.setVocalPart(workingEntry[3].replace("\", ", ",\" "));
+			entry.setVocalPart(entry.getVocalPart().replace("”, ", ",” "));			
+		}
+	}
+	
+	private boolean textIncipitContainsNotes() {
+		if(entry.getTextIncipit() == null) return false;
+		//semicolon in text incipit is indicator of notes
+		return entry.getTextIncipit().indexOf(";") != -1;
+	}
+	
+	private void moveNotesToNotesField() {
+		try {
+			//notes consist of all text after semi-colon
+			String notes = entry.getTextIncipit().substring(entry.getTextIncipit().indexOf(";") + 2);
+			entry.setNotes(notes);
+		} catch(Exception e) {
+			System.out.println("Semicolon is at end of text incipit");
+		}
+	}
+	
+	private void removeNotesFromTextIncipit() {
+		//text incipit consists of all text leading up to semicolon
+		String trimmedTextIncipit = entry.getTextIncipit().substring(0, entry.getTextIncipit().indexOf(";"));
+		entry.setTextIncipit(trimmedTextIncipit);
 	}
 	
 	/**

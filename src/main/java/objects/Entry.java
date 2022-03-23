@@ -19,8 +19,9 @@ public class Entry {
 
 	
 	private static String[] fields = {"collection_name", "source_number", "entry_location", 	//labels for entry table columns
-			"entry_title", "entry_composer", "entry_vocal_part",
-			"entry_key", "entry_melodic_incipit", "entry_text_incipit", "entry_is_secular", "entry_notes"};
+										"entry_title", "entry_composer", "entry_vocal_part",
+										"entry_key", "entry_melodic_incipit", "entry_text_incipit",
+										"entry_is_secular", "entry_notes"};
 	
 	/**
 	 * Create music entry object
@@ -104,4 +105,50 @@ public class Entry {
 	public void setSource(int source) {
 		this.source = Integer.toString(source);
 	}
+
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+	public String getCollection() {
+		return collection;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public String getComposer() {
+		return composer;
+	}
+
+	public String getVocalPart() {
+		return vocalPart;
+	}
+
+	public String getKey() {
+		return key;
+	}
+
+	public String getMelodicIncipit() {
+		return melodicIncipit;
+	}
+
+	public String getTextIncipit() {
+		return textIncipit;
+	}
+
+	public String getNotes() {
+		return notes;
+	}
+	
+	
 }

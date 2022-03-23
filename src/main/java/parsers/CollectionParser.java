@@ -96,7 +96,6 @@ public class CollectionParser {
 	private void parseAndSaveCollectionName(File file){
 		//collection name derived from file name
 		collectionName = file.getName().substring(0, file.getName().lastIndexOf("."));
-//		collectionName = "MA Worcester, American Antiquarian Society";
 		collection.setName(collectionName);
 	}
 	
@@ -152,7 +151,6 @@ public class CollectionParser {
 				parseAndSaveCallNumber();		
 			}
 			else if(entryFound(paragraphObj)) {	
-				System.out.println(paragraphText);
 				sourceDescription.append(paragraphText + "\n");	//record text before entry
 				parseAndSaveSourceEntries();
 			}

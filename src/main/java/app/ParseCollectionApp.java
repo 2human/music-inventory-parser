@@ -45,10 +45,10 @@ public class ParseCollectionApp {
 	//TODO: turn collection files into object, containing whether each is true or not!
 	@SuppressWarnings("unused")
 	private static CollectionFile[] getCurrentCollectionFiles() {
-		CollectionFile[] collectionFiles = {				
-				new CollectionFile(
-						"src/main/resources/finalized collections/MA Cambridge, Harvard, Houghton Library.docx",
-						true),				
+		CollectionFile[] collectionFiles = {
+			new CollectionFile(
+					"src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society.docx",
+					false),				
 		};
 		return collectionFiles;
 	}	
@@ -172,4 +172,11 @@ public class ParseCollectionApp {
 		db.initializeTables();
 	}
 	
+	private String getLocalDBPath() {
+		return "jdbc:mysql://localhost:3306/";
+	}
+	
+	private String getServerDBPath() {
+		return "jdbc:mysql://musicinventory.cjatxj6dhysn.us-east-2.rds.amazonaws.com:3306/";
+	}
 }
