@@ -93,13 +93,13 @@ public class DatabaseWriter {
 	public void initializeTables() {
 		//create source table
 		String createSourceTable = "CREATE TABLE `" + schema + "`.`sources`(`source_id` INT NOT NULL AUTO_INCREMENT, `collection_name` "
-				+ "TEXT NOT NULL, `source_number` TEXT NOT NULL, `source_call_number` TEXT NOT NULL,"
+				+ "TEXT NOT NULL, `source_number` DECIMAL(10, 3) NOT NULL, `source_call_number` TEXT NOT NULL,"
 				+ " `source_author` TEXT NOT NULL, `source_title` TEXT NOT NULL, `source_inscription` TEXT NOT NULL, "
 				+ "`source_description` TEXT NOT NULL, PRIMARY KEY (`source_id`));";
 		
 		//create entries table
 		String createEntryTable = "CREATE TABLE `" + schema + "`.`entries`(`entry_id` INT NOT NULL AUTO_INCREMENT, `collection_name` "
-				+ "TEXT NOT NULL, `source_number` TEXT NOT NULL, `entry_location` TEXT NOT NULL,"
+				+ "TEXT NOT NULL, `source_number` DECIMAL(10, 3) NOT NULL, `entry_location` TEXT NOT NULL,"
 				+ " `entry_title` TEXT NOT NULL, `entry_composer` TEXT NOT NULL, `entry_vocal_part` TEXT NOT NULL, `entry_key` "
 				+ "TEXT NOT NULL, `entry_melodic_incipit` TEXT NOT NULL,  `entry_text_incipit` TEXT NOT NULL, `entry_is_secular` "
 				+ "TEXT NOT NULL, `entry_notes` TEXT NOT NULL, PRIMARY KEY (`entry_id`));";

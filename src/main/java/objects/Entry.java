@@ -102,8 +102,8 @@ public class Entry {
 		this.collection = collection;
 	}
 
-	public void setSource(int source) {
-		this.source = Integer.toString(source);
+	public void setSource(double source) {
+		this.source = Double.toString(source);
 	}
 
 	public String getSource() {

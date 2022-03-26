@@ -17,7 +17,7 @@ public class EntryParser {
 			workingEntry;
 	private boolean isSecular;
 	private String collection;
-	private int source;
+	private double source;
 	String entryStr;
 	
 	

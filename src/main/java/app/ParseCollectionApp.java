@@ -24,15 +24,15 @@ public class ParseCollectionApp {
 	public static void main(String[] args) {
 		Collections collections = new Collections(getAllCollectionFiles());
 		//write spreadsheets
-		deleteOldSpreadhsset();		
-		writeSpreadsheet(collections);
-		openSpreadsheet();
+//		deleteOldSpreadhsset();		
+//		writeSpreadsheet(collections);
+//		openSpreadsheet();
 		
 		
 //		initializeDatabaseTables("music-inventory-final");
 		
 		//write database
-//		writeDatabase(collections, "music-inventory-final");
+		writeDatabase(collections, "musicinventory");
 		
 		System.out.println("Operations complete.");
 	}
@@ -98,36 +98,36 @@ public class ParseCollectionApp {
 			new CollectionFile (
 					"src/main/resources/finalized collections/MA Andover, Andover Center for History and Culture.docx",
 					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 1.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 2.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 3.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 4.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 5.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 6.docx", 
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 7.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 8.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 9.docx",
-					false),
-			new CollectionFile(
-					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 10.docx",
-					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 1.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 2.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 3.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 4.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 5.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 6.docx", 
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 7.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 8.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 9.docx",
+//					false),
+//			new CollectionFile(
+//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 10.docx",
+//					false),
 			new CollectionFile(
 					"src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society.docx",
 					false),						
@@ -154,7 +154,7 @@ public class ParseCollectionApp {
 	@SuppressWarnings("unused")
 	private static void writeDatabase(Collections collections, String schema) {
 		//write collection data to database		
-		String databasePath = "jdbc:mysql://musicinventory.cjatxj6dhysn.us-east-2.rds.amazonaws.com:3306/",		//information
+		String databasePath = getRemoteDBPath(),		//information
 				user = "musicinventory",
 				password = "musicinventory";
 		collections.toDatabase(databasePath, schema, "collections", user, password);
@@ -165,18 +165,18 @@ public class ParseCollectionApp {
 	
 	@SuppressWarnings("unused")
 	private static void initializeDatabaseTables(String schema) {
-		String databasePath = "jdbc:mysql://localhost:3306/",		//information
-				user = "user",
-				password = "password";
+		String databasePath = getRemoteDBPath(),		//information
+				user = "musicinventory",
+				password = "musicinventory";
 		DatabaseWriter db = new DatabaseWriter(databasePath, schema, user, password);
 		db.initializeTables();
 	}
 	
-	private String getLocalDBPath() {
+	private static String getLocalDBPath() {
 		return "jdbc:mysql://localhost:3306/";
 	}
 	
-	private String getServerDBPath() {
+	private static String getRemoteDBPath() {
 		return "jdbc:mysql://musicinventory.cjatxj6dhysn.us-east-2.rds.amazonaws.com:3306/";
 	}
 }

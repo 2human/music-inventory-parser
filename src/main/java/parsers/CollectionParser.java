@@ -96,6 +96,7 @@ public class CollectionParser {
 	private void parseAndSaveCollectionName(File file){
 		//collection name derived from file name
 		collectionName = file.getName().substring(0, file.getName().lastIndexOf("."));
+//		collectionName = "MA Worcester, American Antiquarian Society";
 		collection.setName(collectionName);
 	}
 	

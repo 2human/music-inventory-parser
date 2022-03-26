@@ -12,7 +12,7 @@ package objects;
 public class Source {
 	//source/entry variables	
 	private String collection;
-	private int sourceNumber;					//current source number
+	private double sourceNumber;					//current source number
 	private String callNumber;					//call number for current source, indicated by bold text
 	private String author;						//source author
 	private String title;						//title of source
@@ -38,7 +38,7 @@ public class Source {
 
 	public String[] toArray() {					//source information in array format
 		//collection, 
-		String[] arr = {collection, Integer.toString(sourceNumber), callNumber, author, title, inscription, description};
+		String[] arr = {collection, Double.toString(sourceNumber), callNumber, author, title, inscription, description};
 		return arr;
 	}
 	
@@ -46,7 +46,7 @@ public class Source {
 		return collection;
 	}
 
-	public int getSourceNumber() {
+	public double getSourceNumber() {
 		return sourceNumber;
 	}
 
