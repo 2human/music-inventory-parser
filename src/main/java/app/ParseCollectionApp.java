@@ -22,19 +22,22 @@ import writers.DatabaseWriter;
 
 public class ParseCollectionApp {
 	public static void main(String[] args) {
-		Collections collections = new Collections(getAllCollectionFiles());
+		Collections collections = new Collections(getCurrentCollectionFiles());
 		//write spreadsheets
-//		deleteOldSpreadhsset();		
-//		writeSpreadsheet(collections);
-//		openSpreadsheet();
+		generateSpreadsheet(collections);
 		
 		
-//		initializeDatabaseTables("music-inventory-final");
-		
+//		initializeDatabaseTables("music-inventory-final");		
 		//write database
-		writeDatabase(collections, "musicinventory");
+//		writeDatabase(collections, "musicinventory");
 		
 		System.out.println("Operations complete.");
+	}
+	
+	private static void generateSpreadsheet(Collections collections) {
+		deleteOldSpreadhsset();		
+		writeSpreadsheet(collections);
+		openSpreadsheet();
 	}
 	
 	private static void deleteOldSpreadhsset() {
@@ -46,9 +49,9 @@ public class ParseCollectionApp {
 	@SuppressWarnings("unused")
 	private static CollectionFile[] getCurrentCollectionFiles() {
 		CollectionFile[] collectionFiles = {
-			new CollectionFile(
-					"src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society.docx",
-					false),				
+				new CollectionFile(
+						"src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library.docx",
+						true),		
 		};
 		return collectionFiles;
 	}	
@@ -98,36 +101,36 @@ public class ParseCollectionApp {
 			new CollectionFile (
 					"src/main/resources/finalized collections/MA Andover, Andover Center for History and Culture.docx",
 					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 1.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 2.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 3.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 4.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 5.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 6.docx", 
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 7.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 8.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 9.docx",
-//					false),
-//			new CollectionFile(
-//					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 10.docx",
-//					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 1.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 2.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 3.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 4.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 5.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 6.docx", 
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 7.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 8.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 9.docx",
+					false),
+			new CollectionFile(
+					"src/main/resources/finalized collections/AAS Split/MA Worcester, American Antiquarian Society - 10.docx",
+					false),
 			new CollectionFile(
 					"src/main/resources/finalized collections/MA Boston, Massachusetts Historical Society.docx",
 					false),						

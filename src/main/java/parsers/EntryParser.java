@@ -470,7 +470,7 @@ public class EntryParser {
 	private void moveNotesToNotesField() {
 		try {
 			//notes consist of all text after semi-colon
-			String notes = entry.getTextIncipit().substring(entry.getTextIncipit().indexOf(";") + 2);
+			String notes = entry.getTextIncipit().substring(entry.getTextIncipit().indexOf(";") + 1).trim();
 			entry.setNotes(notes);
 		} catch(Exception e) {
 			System.out.println("Semicolon is at end of text incipit");
