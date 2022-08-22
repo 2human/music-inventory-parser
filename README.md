@@ -27,7 +27,7 @@ will contain a broad description pertaining to a musical collection as a whole. 
 within which it is contained, the author, its title, inscriptions, call number, and a miscellaneous information about the source known as its description.
 
 * Entries are individual musical pieces contained within musical sources. Sources may contain many entries, or none at all. Data types include the entry's location 
-within its location (e.g, page number), title, author, vocal part, key, melodic incipit (musical nottes), and text incipit (lyrics).
+within its location (e.g., page number), title, author, vocal part, key, melodic incipit (musical notes), and text incipit (lyrics).
 
 ![Source Example](docs/source-example.jpg)
 
@@ -87,17 +87,17 @@ secular: false
 
 The first step is to separate the content of each entry into an array of RoughEntry objects. A RoughEntry object contents the text for an entry as a string, as well as a boolean value for whether the entry is a secular musical piece. The entry text contained within the RoughEntry objects are created by iterating over the entry section using a stringbuilder, appending the text of each paragraph object to the current entry until a new entry is found, and repeating the process until the end of the entries section is found. New entries are detected by the presence of a colon, which occurs after the location of a new entry.
 
-Non-secular entries are indicated by the use of small caps in the the title. So in order to find small caps, each text run is analyzed for the presence of small caps, and if none are present, it is deemed secular. In the example above, 'Pleyel's German Hymn' is in small caps, making it secular.
+Non-secular entries are indicated by the use of small caps in the title. So in order to find small caps, each text run is analyzed for the presence of small caps, and if none are present, it is deemed secular. In the example above, 'Pleyel's German Hymn' is in small caps, making it secular.
 
 After that, each RoughEntry is fully parsed into an Entry object, wherein the data is separated into its appropriate fields.
 
 The location of the entry can be found right away by recording the text that precedes the first colon in the entry text. Then, the rest of the entry text is split into an array using the Array.split() method, with the comma as a delimiter.
 
-The title and author both occor before the first comma. There are various keywords, including 'by' and 'att' which indicate the start of the author. Any text preceding those occurrence of those keywords is parsed as the title.
+The title and author both occur before the first comma. There are various keywords, including 'by' and 'att' which indicate the start of the author. Any text preceding those occurrence of those keywords is parsed as the title.
 
 When the entry text is split according to the occurrence of commas, one of the problems is that commas can act as false delimiters as the fields are concerned. For example, "Treble" and "Air" both belong in 'vocal part' field, but they are still separated by commas. The program solves this problem through the detection of the limited number of keywords which can occur in the vocal part field, shifting the array and combining vocal parts as appropriate. There are also cases where no vocal parts are present in the entry, where the array must also be shifted accordingly.
 
-The piece of data to parse is the key. The key occurs after the vocal part, and before the melodic incipit. There was no reliable way to identify data for the key. There were also cases where no key was present in the entry. However, melodic incipipits, the data which occurs after the 'key', do have distinguishing characteristics. The task then was to detect the occurence of a melodic incipit, and place any data between that and the vocal part into the 'key' field.
+The piece of data to parse is the key. The key occurs after the vocal part, and before the melodic incipit. There was no reliable way to identify data for the key. There were also cases where no key was present in the entry. However, melodic incipits, the data which occurs after the 'key', do have distinguishing characteristics. The task then was to detect the occurrence of a melodic incipit, and place any data between that and the vocal part into the 'key' field.
 
 Melodic incipits consist mostly of a combination of numbers and a handful of different characters (mostly '|' and '-'). The algorithm for detecting a melodic incipit iterates over each character of a given string, counting the total number of digits, the number of consecutive digits, and checking for the occurrence of certain characters. If the string meets any of these conditions, then it is determined to be a melodic incipit.
 
@@ -143,7 +143,7 @@ Spreadsheets are ideal for creating quick snapshots of the data and repeatedly r
 Running the Program
 -------------------
 
-1. Open the app > Parse
+1. Open the app > ParseInventoriesApp.java file.
 2. Construct a Collections object using an array of CollectionFile objects. Pre-established methods can befound below the main() method. 
 	-CollectionFile objects are constructed using the path of a music inventory Word file as the first paramater, and a boolean value declaring whether the file is 'preParsed': that is optimized for parsing, as described above. To determine whether or not a file is pre-parsed, open the file, find an entries section, and look for the presence of double-commas and double-colons. If they exist, then the file is pre-parsed.
 3. Invoke the desired method(s): either generateSpreasheets(), with the Collections object as its parameter, or writeDatabase(), with the Collections object as its first parameter, and the name of the MySQL database schema as the second parameter. Further changes may also be required within the writeDatabase() method, pertaining to the path, username, and password of the database. Additionally, if the tables are yet created within the database schema, the initializeTables() method should also be invoked.
