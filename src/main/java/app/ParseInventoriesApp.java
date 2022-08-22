@@ -20,7 +20,7 @@ import writers.DatabaseWriter;
  * 
  */
 
-public class ParseCollectionApp {
+public class ParseInventoriesApp {
 	public static void main(String[] args) {
 		Collections collections = new Collections(getCurrentCollectionFiles());
 		//write spreadsheets

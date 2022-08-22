@@ -213,7 +213,7 @@ public class EntryParser {
 	//sort  entry so that each piece of data is in its respective field
 	private void parseRemainingEntryFields() {	
 		indexShift = 0;
-		arrLimit = 5;		
+		arrLimit = 5;	//number of remaining fields	
 		//convert split array to full array
 		//TODO create fillWorkingArray
 		for(splitArrayIndex = 1; splitArrayIndex < splitEntry.length && splitArrayIndex < arrLimit; splitArrayIndex++) {			
