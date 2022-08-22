@@ -21,7 +21,7 @@ Overview
 Music inventories are comprised of three types of data: collections, sources, and entries.
 
 * Collections constitute a group of sources at a specific location, e.g. a library or a personal collection of musical sources. This data type 
-will contain a broad description pertaining to a musical collection as a whole. Fields include collection name, and collection description.
+a broad description pertaining to a musical collection as a whole. Fields include collection name, and collection description.
 
 * Sources are individual books of musical information contained within a collection. A collection may contain hundreds of sources. Fields include the collection
 within which it is contained, the author, its title, inscriptions, call number, and a miscellaneous information about the source known as its description.
@@ -29,9 +29,11 @@ within which it is contained, the author, its title, inscriptions, call number, 
 * Entries are individual musical pieces contained within musical sources. Sources may contain many entries, or none at all. Data types include the entry's location 
 within its location (e.g., page number), title, author, vocal part, key, melodic incipit (musical notes), and text incipit (lyrics).
 
+Below is sample of a source which contains entries:
+
 ![Source Example](docs/source-example.jpg)
 
-The bulk of the data parsed consists of sources/entries in the format shown here. The collection information consists of all data concerning the collection which precedes the first source, and is trivial. As such, the primary task of the program is to iterate over data like that above, and parse it based on patterns established by the recorder. These patterns consist of text formatting, delimiters, and keywords.
+The bulk of the data parsed consists of sources/entries in the format shown above. The collection information (not shown) consists of all data pertaining to the collection which precedes the first source, and is trivial. As such, the primary task of the program is to iterate over source data in the format shown above, and parse it based on patterns established by the author. These patterns come in forms of of text formatting, delimiters, and keywords.
 
 The above source would be parsed as such:
 
