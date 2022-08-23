@@ -6,7 +6,7 @@ An application for parsing music inventories recorded with Microsoft Word into c
 Background
 ----------
 
-This project began with a conversation between myself and the author of the music inventory documents, Nym. Nym is a retired music teacher, and a leading scholar in the field of Antiquarian music. He explained how he was visiting numerous libraries and recording information about Antiquarian music. He said he was recording this information into Word documents, and had an interest in sharing the data one day.
+This project began with a conversation between myself and the author of the music inventory documents, Nym Cooke. Nym is a retired music teacher, and a leading scholar in the field of Antiquarian music. He explained how he was visiting numerous libraries and recording information about Antiquarian music. He said he was recording this information into Word documents, and had an interest in sharing the data one day.
 
 At this point, I had been a year and a half into my journey towards becoming a programmer. I explained to Nym that the ideal way to store and share this data would be with a database. I asked Nym to provide me with examples of how he was recording this information to see if we could find a pattern. It turned out that there were reliable patterns to how he was recording his data. This turned out to be the start of my first major learning project as a programmer.
 
@@ -89,7 +89,7 @@ secular: false
 
 The first step is to separate the content of each entry into an array of RoughEntry objects. A RoughEntry object contents the text for an entry as a string, as well as a boolean value for whether the entry is a secular musical piece. The entry text contained within the RoughEntry objects are created by iterating over the entry section using a stringbuilder, appending the text of each paragraph object to the current entry until a new entry is found, and repeating the process until the end of the entries section is found. New entries are detected by the presence of a colon, which occurs after the location of a new entry.
 
-Non-secular entries are indicated by the use of small caps in the title. So in order to find small caps, each text run is analyzed for the presence of small caps, and if none are present, it is deemed secular. In the example above, 'Pleyel's German Hymn' is in small caps, making it secular.
+Non-secular entries are indicated by the use of small caps in the title. So in order to find small caps, each text run is analyzed for the presence of small caps, and if none are present, it is deemed secular. In the example above, 'Pleyel's German Hymn' is in small caps, making it non-secular.
 
 After that, each RoughEntry is fully parsed into an Entry object, wherein the data is separated into its appropriate fields.
 
