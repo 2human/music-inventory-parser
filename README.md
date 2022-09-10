@@ -6,7 +6,7 @@ An application for parsing music inventories recorded with Microsoft Word into c
 Background
 ----------
 
-This project began with a conversation between myself and the author of the music inventory documents, Nym Cooke. Nym is a retired music teacher, and a leading scholar in the field of Antiquarian music. He explained how he was visiting numerous libraries and recording information about Antiquarian music. He said he was recording this information into Word documents, and had an interest in sharing the data one day.
+This project began with a conversation between myself and the author of the music inventory documents, Nym Cooke. Nym is a retired music teacher, and a leading historian in the field of American antiquarian music. He explained how he was visiting numerous libraries and recording information about Antiquarian music. He said he was recording this information into Word documents, and had an interest in sharing the data one day.
 
 At this point, I had been a year and a half into my journey towards becoming a programmer. I explained to Nym that the ideal way to store and share this data would be with a database. I asked Nym to provide me with examples of how he was recording this information to see if we could find a pattern. It turned out that there were reliable patterns to how he was recording his data. This turned out to be the start of my first major learning project as a programmer.
 
