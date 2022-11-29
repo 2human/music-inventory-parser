@@ -230,7 +230,7 @@ public class CollectionParser {
 				if(source.getSourceNumber() == 2) {
 					System.out.println(runText);
 				}
-				return i + 1;		//run after current will be starting index
+				return i;		//run after current will be starting index
 			}
 		}
 		return paragraphRuns.size();	//
