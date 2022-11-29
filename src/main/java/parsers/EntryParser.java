@@ -151,8 +151,9 @@ public class EntryParser {
 				title,
 				credit;
 		int creditIndex = getCreditIndex(titleCreditStr);	//start of credit text
+
 		//separate tune title and author into individual strings
-		if(creditFound(creditIndex)) {
+		if(creditIndicatorFound(creditIndex)) {
 			//record title credit
 			title = getTitle(titleCreditStr, creditIndex);
 			credit = getCredit(titleCreditStr, creditIndex);
@@ -164,7 +165,8 @@ public class EntryParser {
 	}	
 	
 	private int getCreditIndex(String str) {
-		String[] creditIndicators = {"[by", "-by", " by ", "“By", "“by", "att.", "[originally by"};	//strings that indicate presence of author
+		String[] creditIndicators = {"[by", "-by", " by ", "“By", "“by", "att.", "[originally by", "\\"};	//strings that indicate presence of author
+		// "\\", "\"", 
 		int creditIndex = -1;						//no matches by default
 		for(String indicator: creditIndicators) {	//check to see if any author indicators occur in text
 			if(creditIndicatorFound(str, indicator)) {
@@ -178,7 +180,7 @@ public class EntryParser {
 		return str.indexOf(indicator) != -1;
 	}
 	
-	private boolean creditFound(int splitArrayIndex) {
+	private boolean creditIndicatorFound(int splitArrayIndex) {
 		return splitArrayIndex != -1; //-1 means no splitArrayIndex was found
 	}
 	
@@ -217,7 +219,7 @@ public class EntryParser {
 		//convert split array to full array
 		//TODO create fillWorkingArray
 		for(splitArrayIndex = 1; splitArrayIndex < splitEntry.length && splitArrayIndex < arrLimit; splitArrayIndex++) {			
-			if(lastIndexWasVocalPart() && isVocalPart(splitArrayIndex) && !isMelodicIncipit(splitEntry[splitArrayIndex])) {	
+			if(!preParsed && lastIndexWasVocalPart() && isVocalPart(splitArrayIndex) && !isMelodicIncipit(splitEntry[splitArrayIndex])) {	
 				recordLeftwardShift();
 				appendAdditionalVocalPart();
 			}			
@@ -245,11 +247,11 @@ public class EntryParser {
 		
 		appendRemainingToTextIncipit();	
 		
-		removeFalseDelimiterReplacementSymbols();
+		removeTemporarySymbols();
 		if(preParsed) {
 			putCommasOutsideQuotes();
 		}
-		detectandTallyNotIncipit();		
+		detectandTallyNotIncipit();
 		recordEntryVariables();
 	}	
 	
@@ -301,6 +303,7 @@ public class EntryParser {
 		for(String kw: vocalPartKeywords) {				
 			//if current string contains any of the keywords that represent vocal part description
 			if(splitEntry[splitArrayIndex].toLowerCase().indexOf(kw) != -1) {
+				System.out.println(splitEntry[splitArrayIndex]);
 				return true;
 			}
 		}
@@ -399,12 +402,15 @@ public class EntryParser {
 	}
 
 	//replace commas and colons that were substituted in source document that were acting as false delimiters
-	private void removeFalseDelimiterReplacementSymbols() {	
+	// as well as backslashes that indicated start of credit
+	private void removeTemporarySymbols() {	
 		for(int i = 0; i < workingEntry.length; i++) {
 			if(workingEntry[i] != null) {
 				//melodic incipits that contained commas had commas replaced by -*- 
 				//and colons replaced by **&
-				workingEntry[i] = workingEntry[i].replace("-*-", ",").replace("**&", ":");					
+				workingEntry[i] = workingEntry[i].replace("-*-", ",")
+						.replace("**&", ":")
+						.replace("\\", "");		//remove author delimiter and replace with white space;					
 			}
 		}		
 	}
@@ -417,6 +423,21 @@ public class EntryParser {
 				workingEntry[i] = workingEntry[i].replace(",”", "”,");			
 			}
 		}		
+	}
+	
+	private void removeAllCapsFromTitle() {
+		String[] splitCredit = workingEntry[1].toLowerCase().split(" ");
+		
+		for(int i = 0; i < splitCredit.length; i++) {
+			if(splitCredit[i].charAt(0) != '[') {
+				splitCredit[i].replaceFirst(Character.toString(splitCredit[i].charAt(0)), 
+					Character.toString(splitCredit[i].charAt(0)).toUpperCase());			
+			} else {
+				splitCredit[i].replaceFirst(Character.toString(splitCredit[i].charAt(1)), 
+					Character.toString(splitCredit[i].charAt(1)).toUpperCase());
+			}
+		}
+		workingEntry[1] = String.join(" ", splitCredit);
 	}
 	
 	//

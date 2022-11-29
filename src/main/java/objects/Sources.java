@@ -15,7 +15,7 @@ import writers.SpreadsheetWriter;
 
 public class Sources {
 
-	private static int columnWidths[] = { 25, 15, 30, 30, 30, 75, 75 };		//widths of columns for spreadsheet cells corresponding to field index
+	private static int columnWidths[] = { 25, 15, 30, 30, 30, 75, 75, 75 };		//widths of columns for spreadsheet cells corresponding to field index
 	List<Source> sources;		//list containing source objects
 	
 	//default constructor

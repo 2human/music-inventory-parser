@@ -29,7 +29,7 @@ public class ParseInventoriesApp {
 		
 //		initializeDatabaseTables("music-inventory-final");		
 		//write database
-//		writeDatabase(collections, "musicinventory");
+//		writeDatabase(collections, "music-inventory");
 		
 		System.out.println("Operations complete.");
 	}
@@ -48,10 +48,11 @@ public class ParseInventoriesApp {
 	//TODO: turn collection files into object, containing whether each is true or not!
 	@SuppressWarnings("unused")
 	private static CollectionFile[] getCurrentCollectionFiles() {
-		CollectionFile[] collectionFiles = {
+		CollectionFile[] collectionFiles = {				
 				new CollectionFile(
-						"src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library.docx",
-						true),		
+						"src/main/resources/finalized collections/CT Middletown, Olin Library.docx",
+						true
+				)
 		};
 		return collectionFiles;
 	}	
@@ -149,6 +150,38 @@ public class ParseInventoriesApp {
 			new CollectionFile(
 					"src/main/resources/finalized collections/MA Cambridge, Harvard, Widener Library.docx",
 					true),
+			new CollectionFile(
+				"src/main/resources/finalized collections/RI Providence, Brown University, John Carter Brown Library.docx",
+				true
+			),		
+			new CollectionFile(
+					"src/main/resources/finalized collections/CT Hartford, Connecticut Historical Society.docx",
+					true
+			),		
+			new CollectionFile(
+					"src/main/resources/finalized collections/RI Providence, Rhode Island Historical Society.docx",
+					true
+			),					
+			new CollectionFile(
+					"src/main/resources/finalized collections/RI Providence, Brown University, John Hay Library.docx",
+					true
+			),	
+			new CollectionFile(
+					"src/main/resources/finalized collections/RI Providence, Brown University, John Carter Brown Library.docx",
+					true
+			),		
+			new CollectionFile(
+					"src/main/resources/finalized collections/RI Providence, Providence Athenaeum.docx",
+					true
+			),		
+			new CollectionFile(
+					"src/main/resources/finalized collections/RI Providence, Rhode Island Historical Society.docx",
+					true
+			),					
+			new CollectionFile(
+					"src/main/resources/finalized collections/RI Providence, Brown University, John Hay Library.docx",
+					true
+			)
 			};
 		return collectionFiles;
 	}
@@ -157,9 +190,9 @@ public class ParseInventoriesApp {
 	@SuppressWarnings("unused")
 	private static void writeDatabase(Collections collections, String schema) {
 		//write collection data to database		
-		String databasePath = getRemoteDBPath(),		//information
-				user = "musicinventory",
-				password = "musicinventory";
+		String databasePath = getLocalDBPath(),		//information
+				user = "root",
+				password = "password";
 		collections.toDatabase(databasePath, schema, "collections", user, password);
 		collections.getSources().toDatabase(databasePath, schema, "sources", user, password);
 		System.out.println(collections.getEntries().toArrayList().size());

@@ -18,9 +18,18 @@ public class Source {
 	private String title;						//title of source
 	private String inscription;					//source inscription
 	private String description;					//description of current source, containing all details that cannot be parsed
+	private String msEntries;
 	
+	public String getMsEntries() {
+		return msEntries;
+	}
+
+	public void setMsEntries(String msEntries) {
+		this.msEntries = msEntries;
+	}
+
 	private static String[] fields = {"collection_name", "source_number", "source_call_number", //labels for source table columns
-			"source_author", "source_title", "source_inscription", "source_description"};
+			"source_author", "source_title", "source_inscription", "source_description", "source_ms_entries"};
 	
 	Entries entries;								//entries object linked to current source
 	
@@ -38,7 +47,7 @@ public class Source {
 
 	public String[] toArray() {					//source information in array format
 		//collection, 
-		String[] arr = {collection, Double.toString(sourceNumber), callNumber, author, title, inscription, description};
+		String[] arr = {collection, Double.toString(sourceNumber), callNumber, author, title, inscription, description, msEntries};
 		return arr;
 	}
 	

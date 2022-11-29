@@ -16,12 +16,22 @@ public class Entry {
 					melodicIncipit,		//melodic incipit for entry, which contains its musical notes
 					textIncipit,		//vocal text for entry
 					notes;
+	private String pageAdjuster = "0";
+					
 
 	
+	public String getPageAdjuster() {
+		return pageAdjuster;
+	}
+
+	public void setPageAdjuster(String pageAdjuster) {
+		this.pageAdjuster = pageAdjuster;
+	}
+
 	private static String[] fields = {"collection_name", "source_number", "entry_location", 	//labels for entry table columns
 										"entry_title", "entry_composer", "entry_vocal_part",
 										"entry_key", "entry_melodic_incipit", "entry_text_incipit",
-										"entry_is_secular", "entry_notes"};
+										"entry_is_secular", "entry_notes, entry_page_adjuster"};
 	
 	/**
 	 * Create music entry object
@@ -44,7 +54,8 @@ public class Entry {
 	//---------------------------------------------------------------------------------------
 	//return array containing parsed entries
 	public String[] toArray(){
-		String[] arr = {collection, source, location, title, composer, vocalPart, key, melodicIncipit, textIncipit, Boolean.toString(isSecular), notes};
+		String[] arr = {collection, source, location, title, composer, vocalPart, key,
+					melodicIncipit, textIncipit, Boolean.toString(isSecular), notes, pageAdjuster};
 		return arr;
 	}
 	//---------------------------------------------------------------------------------------

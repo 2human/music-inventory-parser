@@ -198,13 +198,18 @@ public class CollectionParser {
 	
 	private void parseAuthorTitleDescription() {		
 		//analyze runs of current paragraph to extract title and author
-		for (int runIndex = getSourceNumberEndingIndex(); runIndex < paragraphRuns.size(); runIndex++) {					
+		int initialIndex = getSourceNumberEndingIndex();
+		for (int runIndex = initialIndex; runIndex < paragraphRuns.size(); runIndex++) {
 			curRun = paragraphRuns.get(runIndex);								//get run at current index from list of runs		
 			if(isDescription(curRun)) {
 				sourceDescription.append(curRun.toString());
 			}
 			else if(isAuthor(curRun)) {				//current run contains author information
-				sourceAuthor.append(curRun.toString());
+				if(runIndex == initialIndex) {
+					
+				} else {
+					sourceAuthor.append(curRun.toString());
+				}
 			}
 			else if(isTitle(curRun)){
 				runIndex = parseTitle(runIndex);
@@ -222,6 +227,9 @@ public class CollectionParser {
 		for(int i = 0; i < paragraphRuns.size(); i++) {
 			runText = paragraphRuns.get(i).toString();
 			if(containsEndOfSourceNumber(runText)) {
+				if(source.getSourceNumber() == 2) {
+					System.out.println(runText);
+				}
 				return i + 1;		//run after current will be starting index
 			}
 		}
@@ -455,6 +463,7 @@ public class CollectionParser {
 	boolean isSecular(XWPFParagraph paragraph) {
 		for(XWPFRun run: paragraph.getRuns()) {	
 			if(run.isSmallCaps()) 			//presence of small caps denotes nonsecular entry
+//			if(run.isSmallCaps() || (run.toString().length() > 1 && Character.isUpperCase(run.toString().charAt(1)))) 			//presence of small caps denotes nonsecular entry
 				return false;
 			}		
 		return true;	//if no small caps found
